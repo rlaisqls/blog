@@ -5,6 +5,7 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://blog.rlaisqls.site',
+	favicon: '/public/favicon.png',
 	integrations: [
 		starlight({
 			title: 'Binary Thoughts',
