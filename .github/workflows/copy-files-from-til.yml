@@ -8,13 +8,17 @@ on:
 
 jobs:
   copy_files:
+    env:
+      destination: src/content/docs/TIL
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clone repository
+      - name: Checkout repository
         uses: actions/checkout@v2
-        with:
-          repository: rlaisqls/TIL
+
+      - name: Clone repository
+        run: |
+          git clone --branch main https://github.com/rlaisqls/TIL.git
 
       - name: Add labels
         run: |
@@ -35,26 +39,33 @@ jobs:
                   mv tmpfile "$file"
                 
                 elif [ -d "$file" ]; then
-                  add_text_to_files "$dir/$file"
+                  add_labels_to_files "$dir/$file"
                   cd "$dir"
                 fi
               done
           }
           
-          add_labels_to_files TIL
+          add_labels_to_files $(pwd)/TIL
 
       - name: Copy files
         run: |
-          cp -r TIL/* src/content/docs/TIL
-          rm src/content/docs/TIL/README.md
+          rm -rf ${{ env.destination }}
+          mkdir ${{ env.destination }}
+          cp -r TIL/* ${{ env.destination }}
+          rm ${{ env.destination }}/README.md
           rm -rf TIL
-
-      - name: Checkout repository
-        uses: actions/checkout@v2
 
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Copy files from TIL"
+          repository: .
+          branch: main
+          file_pattern: '.'
+          push_options: '--force'
+          commit_options: '--no-verify --signoff'
+          commit_user_name: rlaisqls
+          commit_user_email: rlaisqls@gmail.com
+          commit_author: rlaisqls <rlaisqls@gmail.com>
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
