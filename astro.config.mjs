@@ -4,6 +4,8 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://rlaisqls.github.io',
+	base: '/blog',
 	integrations: [
 		starlight({
 			title: 'Binary Thoughts',
@@ -16,14 +18,13 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: '글',
+					autogenerate: { directory: 'thoughts', collapsed: true },
 				},
 				{
-					label: 'TIL Git',
-					collapsed: true,
-					autogenerate: { directory: 'TIL' },
-				},
+					label: 'TIL',
+					autogenerate: { directory: 'TIL/개발', collapsed: true },
+				}
 			],
 			customCss: ['./src/tailwind.css'],
 		}),
