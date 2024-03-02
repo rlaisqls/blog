@@ -1,6 +1,6 @@
 ---
-title: 'Network Troubleshooting'
-lastUpdated: '2024-03-02'
+title: Network Troubleshooting
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Troubleshooting network0related issues with Linux is a complex topic and could easily fill its own book. we will introduce some key troubleshooting tools and the basics of their use.

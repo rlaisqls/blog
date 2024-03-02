@@ -1,6 +1,6 @@
 ---
-title: 'Block I／O'
-lastUpdated: '2024-03-02'
+title: Block I／O
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ## 1. 버퍼 헤드

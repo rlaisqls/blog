@@ -1,6 +1,6 @@
 ---
-title: 'chattr과 chown'
-lastUpdated: '2023-12-19'
+title: chattr과 chown
+lastUpdated: 2023-12-19T23:45:21
 ---
 # chattr
 

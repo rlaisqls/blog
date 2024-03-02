@@ -1,6 +1,6 @@
 ---
-title: 'Docker로 Kafka 실행'
-lastUpdated: '2024-03-02'
+title: Docker로 Kafka 실행
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 kafka는 보통 zookeeper라는 모듈과 함꼐 실행된다. 최근엔 의존성을 분리해나가고 있다고는 하지만, 우선은 zookeeper와 함께 구성해보자.

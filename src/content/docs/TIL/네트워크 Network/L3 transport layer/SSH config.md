@@ -1,6 +1,6 @@
 ---
-title: 'SSH config'
-lastUpdated: '2024-03-02'
+title: SSH config
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ssh 명령어로 항상 같은 서버에 접속할 때, 매번 pem, host를 지정하는 것이 귀찮다면 설정에 등록해서 사용해보자

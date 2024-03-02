@@ -1,6 +1,6 @@
 ---
-title: 'JDKProxy와 CGLibProxy'
-lastUpdated: '2024-03-02'
+title: JDKProxy와 CGLibProxy
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Proxy를 구현한 것 중 가장 많이 쓰이는 종류로는 **JDK Proxy와 CGLib Proxy**가 있다.

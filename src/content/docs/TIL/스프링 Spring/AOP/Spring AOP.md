@@ -1,6 +1,6 @@
 ---
-title: 'Spring AOP'
-lastUpdated: '2024-03-02'
+title: Spring AOP
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 AOP란 Aspect Oriented Programming의 약자로 관점 지향 프로그래밍이라고 한다. 여기서 Aspect(관점)이란 흩어진 관심사들을 하나로 모듈화 한 것을 의미한다.

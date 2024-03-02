@@ -1,6 +1,6 @@
 ---
-title: 'Pointcut'
-lastUpdated: '2024-03-02'
+title: Pointcut
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Pointcut은 Advice가 부가 기능을 제공할 대상을 특정하는 정규표현식이다. 즉, AOP를 적용할 대상을 정한다.

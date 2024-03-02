@@ -1,6 +1,6 @@
 ---
-title: 'SAA 오답노트 4~6'
-lastUpdated: '2023-11-27'
+title: SAA 오답노트 4~6
+lastUpdated: 2023-11-27T23:00:05
 ---
 - A CRM web application was written as a monolith in PHP and is facing scaling issues because of performance bottlenecks. The CTO wants to re-engineer towards microservices architecture and expose their application from the same load balancer, linked to different target groups with different URLs: checkout.mycorp.com, www.mycorp.com, yourcorp.com/profile and yourcorp.com/search. The CTO would like to expose all these URLs as HTTPS endpoints for security purposes.
     As a solutions architect, which of the following would you recommend as a solution that requires MINIMAL configuration effort?

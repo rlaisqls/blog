@@ -1,6 +1,6 @@
 ---
-title: 'CoreDNS'
-lastUpdated: '2024-03-02'
+title: CoreDNS
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 CoreDNS는 일반적으로 Kubernetes Cluster 내부에서 이용되는 DNS Server이다. Kubernetes Cluster 내부에서 Domain을 통해서 Service나 Pod의 IP를 찾기 위한 용도로 많이 이용된다. 

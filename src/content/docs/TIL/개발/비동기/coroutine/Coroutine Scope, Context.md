@@ -1,6 +1,6 @@
 ---
-title: 'Coroutine Scope, Context'
-lastUpdated: '2024-03-02'
+title: Coroutine Scope, Context
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 To launch a coroutine, we need to use a coroutine builder like launch or async. These builder functions are actually extensions of the `CoroutineScope` interface. So, whenever we want to launch a coroutine, we need to start it in some scope.

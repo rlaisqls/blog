@@ -1,6 +1,6 @@
 ---
-title: 'fork와 exec'
-lastUpdated: '2024-03-02'
+title: fork와 exec
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ## fork

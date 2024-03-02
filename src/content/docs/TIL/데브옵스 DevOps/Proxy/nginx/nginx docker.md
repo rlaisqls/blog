@@ -1,6 +1,6 @@
 ---
-title: 'nginx docker'
-lastUpdated: '2023-07-03'
+title: nginx docker
+lastUpdated: 2023-07-03T23:41:23
 ---
 1. nginx 컨테이너 실행
 

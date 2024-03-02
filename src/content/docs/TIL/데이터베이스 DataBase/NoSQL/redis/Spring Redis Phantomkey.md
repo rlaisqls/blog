@@ -1,6 +1,6 @@
 ---
-title: 'Spring Redis Phantomkey'
-lastUpdated: '2024-03-02'
+title: Spring Redis Phantomkey
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 **spring**에서 @RedisHash로 refreshToken 등을 저장하면, 일반 키와 `phantom`키가 함께 저장되는 것을 볼 수 있다.

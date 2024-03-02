@@ -1,6 +1,6 @@
 ---
-title: 'StatefulSets'
-lastUpdated: '2024-03-02'
+title: StatefulSets
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ![image](https://github.com/rlaisqls/rlaisqls/assets/81006587/4ad965a1-a37c-427b-a0af-36c650186c81)

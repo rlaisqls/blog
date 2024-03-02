@@ -1,6 +1,6 @@
 ---
-title: 'ApplicationSets'
-lastUpdated: '2024-03-02'
+title: ApplicationSets
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Applications deployed and managed using the GitOps philosophy are often made of many files. There’s Kubernetes manifests for Deployments, Services, Secrets, ConfigMaps, and many more which all go into a Git repository to be revision controlled. Argo CD, the engine behind the OpenShift GitOps Operator, then uses that Git repository as the source for the application. So, how do we define all that to Argo CD? Using the Application CRD.

@@ -1,6 +1,6 @@
 ---
-title: 'DML'
-lastUpdated: '2024-03-02'
+title: DML
+lastUpdated: 2024-03-02T21:22:36
 ---
 <p>
 DML은 데이터 조작어를 뜻한다. 테이블의 데이터를 입력/수정/삭제/조회하는 데 사용한다.

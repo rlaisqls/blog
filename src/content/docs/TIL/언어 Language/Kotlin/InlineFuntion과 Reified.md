@@ -1,6 +1,6 @@
 ---
-title: 'InlineFuntion과 Reified'
-lastUpdated: '2024-03-02'
+title: InlineFuntion과 Reified
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 `inline` 키워드는 자바에서는 제공하지 않는 코틀린만의 키워드이다.

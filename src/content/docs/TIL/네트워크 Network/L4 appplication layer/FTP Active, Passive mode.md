@@ -1,6 +1,6 @@
 ---
-title: 'FTP Active, Passive mode'
-lastUpdated: '2024-03-02'
+title: FTP Active, Passive mode
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 <img width="588" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/01d6ac8e-6944-4a9e-8bd1-8637104ccb43">

@@ -1,6 +1,6 @@
 ---
-title: 'fetchResults가 deprecated된 이유'
-lastUpdated: '2024-03-02'
+title: fetchResults가 deprecated된 이유
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ### <a href="http://querydsl.com/static/querydsl/5.0.0/apidocs/com/querydsl/jpa/impl/AbstractJPAQuery.html#fetchResults--">#</a> 공식 Docs 설명

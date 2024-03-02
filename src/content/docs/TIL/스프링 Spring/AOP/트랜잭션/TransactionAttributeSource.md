@@ -1,6 +1,6 @@
 ---
-title: 'TransactionAttributeSource'
-lastUpdated: '2024-03-02'
+title: TransactionAttributeSource
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 위 두개의 클래스는 모두 `TransactionAttributeSource` 인터페이스의 구현체이다

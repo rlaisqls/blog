@@ -1,6 +1,6 @@
 ---
-title: 'IPAM'
-lastUpdated: '2024-03-02'
+title: IPAM
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 **IP Address Management (IPAM)** is an integrated suite of tools to enable end-to-end planning, deploying, managing and monitoring of your IP address infrastructure, with a rich user experience. IPAM automatically discovers IP address infrastructure servers and Domain Name System (DNS) servers on your network and enables you to manage them from a central interface.

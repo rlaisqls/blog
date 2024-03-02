@@ -1,6 +1,6 @@
 ---
-title: 'SNI'
-lastUpdated: '2024-03-02'
+title: SNI
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 - SNI is somewhat like mailing a package to an apartment building instead of to a house. When mailing something to someone's house, the street address alone is enough to get the package to the right person. 

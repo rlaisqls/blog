@@ -1,6 +1,6 @@
 ---
-title: 'TLAB과 PLAB'
-lastUpdated: '2024-03-02'
+title: TLAB과 PLAB
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ## 1. TLAB(Thread Local Allocation Buffers)

@@ -1,6 +1,6 @@
 ---
-title: 'Kubernetes'
-lastUpdated: '2024-03-02'
+title: Kubernetes
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 쿠버네티스(Kubernetes)는 컨테이너화 된 애플리케이션의 대규모 배포, 스케일링 및 관리를 간편하게 만들어주는 오픈 소스 기반 <a href="https://github.com/rlaisqls/TIL/blob/main/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4%20DevOps/Container%20Orchestration.md">컨테이너 오케스트레이션</a> 도구이다. 

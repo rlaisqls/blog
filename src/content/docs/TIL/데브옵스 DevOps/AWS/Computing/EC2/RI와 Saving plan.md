@@ -1,6 +1,6 @@
 ---
-title: 'RI와 Saving plan'
-lastUpdated: '2024-03-02'
+title: RI와 Saving plan
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 <img width="839" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/d6216964-7b4a-4eab-8c34-f21af466f893">

@@ -1,6 +1,6 @@
 ---
-title: 'Makefile'
-lastUpdated: '2024-03-02'
+title: Makefile
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Makefiles are a simple way to organize code compilation. This tutorial does not even scratch the surface of what is possible using _make_, but is intended as a starters guide so that you can quickly and easily create your own makefiles for small to medium-sized projects.

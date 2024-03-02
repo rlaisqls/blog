@@ -1,6 +1,6 @@
 ---
-title: 'defer와 panic'
-lastUpdated: '2024-03-02'
+title: defer와 panic
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ## 1. 지연실행 defer

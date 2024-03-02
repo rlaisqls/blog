@@ -1,6 +1,6 @@
 ---
-title: 'Memory Mapping'
-lastUpdated: '2024-03-02'
+title: Memory Mapping
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 프로세스에 전달한 데이터를 저장한 파일을 직접 프로세스의 가상 주소 공간으로 매핑하는 것

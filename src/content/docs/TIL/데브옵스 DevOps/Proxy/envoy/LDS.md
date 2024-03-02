@@ -1,6 +1,6 @@
 ---
-title: 'LDS'
-lastUpdated: '2024-03-02'
+title: LDS
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 The listener discovery service (LDS) is an optional API that Envoy will call to dynamically fetch listeners. Envoy will reconcile the API response and add, modify, or remove known listeners depending on that is required.

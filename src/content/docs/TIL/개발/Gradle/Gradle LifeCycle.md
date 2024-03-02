@@ -1,6 +1,6 @@
 ---
-title: 'Gradle LifeCycle'
-lastUpdated: '2024-03-02'
+title: Gradle LifeCycle
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Gradle은 의존성 기반의 프로그래밍용 언어이다. 이 말은 태스크를 정의하고 또한 태스크들 사이의 의존성도 정의 할 수 있다는 뜻이다.

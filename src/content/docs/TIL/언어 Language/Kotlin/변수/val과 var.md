@@ -1,6 +1,6 @@
 ---
-title: 'val과 var'
-lastUpdated: '2024-03-02'
+title: val과 var
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 코틀린을 사용할 때 변수를 선언하려면 아래와 같이 한다.

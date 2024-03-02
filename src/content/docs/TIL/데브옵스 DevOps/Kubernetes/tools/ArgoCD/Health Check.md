@@ -1,6 +1,6 @@
 ---
-title: 'Health Check'
-lastUpdated: '2023-08-17'
+title: Health Check
+lastUpdated: 2023-08-17T23:00:01
 ---
 Here are some common indicators and states you might encounter while working with ArgoCD:
 

@@ -1,6 +1,6 @@
 ---
-title: 'Collections'
-lastUpdated: '2024-03-02'
+title: Collections
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 코틀린에서 아래와 같은 방식으로 컬렉션을 사용할 수 있다.

@@ -1,6 +1,6 @@
 ---
-title: '직렬화 serialVersionUID'
-lastUpdated: '2024-03-02'
+title: 직렬화 serialVersionUID
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 가끔 자바코드에서 이런 코드를 발견할 때가 있다.

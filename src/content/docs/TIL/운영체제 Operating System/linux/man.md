@@ -1,6 +1,6 @@
 ---
-title: 'man'
-lastUpdated: '2024-03-02'
+title: man
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 man은 manual을 의미하며, 설명서 페이지를 볼 수 있는 명령어이다.

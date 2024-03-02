@@ -1,6 +1,6 @@
 ---
-title: 'NoSQL 데이터유형'
-lastUpdated: '2024-03-02'
+title: NoSQL 데이터유형
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 NoSQL이라는 용어는 관계형 데이터베이스(RDBMS) 유형에서 벗어난 경량 DBMS류를 부르게 위한 용어이다.

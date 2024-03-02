@@ -1,6 +1,6 @@
 ---
-title: 'Id로 연관관계 객체 저장'
-lastUpdated: '2022-12-29'
+title: Id로 연관관계 객체 저장
+lastUpdated: 2022-12-29T23:37:12
 ---
 다대일 연관관계를 맺고 있는 Member와 Team이라는 엔티티가 있다고 하자.
 

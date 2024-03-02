@@ -1,6 +1,6 @@
 ---
-title: 'mail'
-lastUpdated: '2024-03-02'
+title: mail
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 linux에서 mail 서비스를 운영할 수 있다.

@@ -1,6 +1,6 @@
 ---
-title: 'nginx 설정'
-lastUpdated: '2024-03-02'
+title: nginx 설정
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Nginx를 설치한다. 원하면 이미지로 띄울 수도 있다.

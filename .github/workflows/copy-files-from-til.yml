@@ -3,8 +3,8 @@ name: Copy Files from TIL
 on:
   push:
     branches: [ main ]
-#  schedule:
-#    - cron: '0 15 * * *' # 매일 15:00에 실행 (UTC 기준, KST 기준 자정)
+  schedule:
+    - cron: '0 15 * * *' # 매일 15:00에 실행 (UTC 기준, KST 기준 자정)
 
 jobs:
   copy_files:
@@ -33,7 +33,7 @@ jobs:
                   # title, lastUpdated 속성 추가
                   echo "---" > tmpfile
                   echo "title: '${file%.*}'" >> tmpfile
-                  echo "lastUpdated: '$(git log -1 --format=%cd --date=format:%Y-%m-%d $file)'" >> tmpfile
+                  echo "lastUpdated: $(git log -1 --format=%cd --date=format:%Y-%m-%dT%H:%M:%S $file)" >> tmpfile
                   echo "---" >> tmpfile
                   cat "$file" >> tmpfile
                   mv tmpfile "$file"
@@ -69,5 +69,6 @@ jobs:
           commit_options: '--no-verify --signoff'
           commit_user_name: rlaisqls
           commit_user_email: rlaisqls@gmail.com
+          commit_author: rlaisqls <rlaisqls@gmail.com>
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}

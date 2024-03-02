@@ -1,6 +1,6 @@
 ---
-title: 'NLB IP mode'
-lastUpdated: '2024-03-02'
+title: NLB IP mode
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 AWS Load Balancer Controller supports Network Load Balancer (NLB) with IP tergets for pods runing on Amazon EC2 instances and AWS Fargate through Kubernetes service of type `LoadBalancer` with proper annotation. In this mode, the AWS NLB targets traffic directly to the Kubernetes pods behind the service, aliminationg the need for an extra network hop through the worker nodes in the Kubernetes cluster.

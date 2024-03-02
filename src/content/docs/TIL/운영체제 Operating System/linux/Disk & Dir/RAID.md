@@ -1,6 +1,6 @@
 ---
-title: 'RAID'
-lastUpdated: '2023-12-15'
+title: RAID
+lastUpdated: 2023-12-15T23:03:36
 ---
 ## RAID(Redundant Array of Independent Disks)
 

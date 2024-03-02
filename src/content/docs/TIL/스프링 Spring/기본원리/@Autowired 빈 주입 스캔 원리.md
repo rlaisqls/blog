@@ -1,6 +1,6 @@
 ---
-title: '@Autowired 빈 주입 스캔 원리'
-lastUpdated: '2024-03-02'
+title: @Autowired 빈 주입 스캔 원리
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ```java

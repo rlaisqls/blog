@@ -1,6 +1,6 @@
 ---
-title: 'Tasks that require root user credentials'
-lastUpdated: '2024-03-02'
+title: Tasks that require root user credentials
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 - **Change your account settings.** This includes the account name, email address, root user password, and root user access keys. Other account settings, such as contact information, payment currency preference, and AWS Regions, don't require root user credentials.

@@ -1,6 +1,6 @@
 ---
-title: 'prometheus storage'
-lastUpdated: '2024-03-02'
+title: prometheus storage
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Prometheus includes a local on-disk time series database, but also optionally integrates with remote storage systems.

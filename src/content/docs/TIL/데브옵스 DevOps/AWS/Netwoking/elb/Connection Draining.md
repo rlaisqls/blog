@@ -1,6 +1,6 @@
 ---
-title: 'Connection Draining'
-lastUpdated: '2024-03-02'
+title: Connection Draining
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Connection Draining is a feature provided by Elastic Load Balancer that allows in-flight requests to complete before terminating an unhealthy instance.

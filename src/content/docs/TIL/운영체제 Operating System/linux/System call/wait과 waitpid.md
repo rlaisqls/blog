@@ -1,6 +1,6 @@
 ---
-title: 'wait과 waitpid'
-lastUpdated: '2023-12-19'
+title: wait과 waitpid
+lastUpdated: 2023-12-19T23:45:21
 ---
 ## wait
 

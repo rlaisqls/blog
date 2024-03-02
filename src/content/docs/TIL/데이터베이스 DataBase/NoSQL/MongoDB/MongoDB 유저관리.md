@@ -1,6 +1,6 @@
 ---
-title: 'MongoDB 유저관리'
-lastUpdated: '2023-12-20'
+title: MongoDB 유저관리
+lastUpdated: 2023-12-20T11:08:00
 ---
 ## 계정 관리
 사용자 계정은 MongoDB 내부에 생성 된 Database마다 별도로 관리된다.

@@ -1,6 +1,6 @@
 ---
-title: 'Iterator'
-lastUpdated: '2023-12-30'
+title: Iterator
+lastUpdated: 2023-12-30T23:00:02
 ---
 ```js
 const curry = f =>

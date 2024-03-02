@@ -1,6 +1,6 @@
 ---
-title: 'Fail over와 서버 이중화'
-lastUpdated: '2023-07-24'
+title: Fail over와 서버 이중화
+lastUpdated: 2023-07-24T08:31:34
 ---
 ## Fail over
 

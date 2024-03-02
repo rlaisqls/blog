@@ -1,6 +1,6 @@
 ---
-title: 'SAA 요약'
-lastUpdated: '2023-09-27'
+title: SAA 요약
+lastUpdated: 2023-09-27T20:33:02
 ---
 ## Analytics
 - QuickSight: Visualization

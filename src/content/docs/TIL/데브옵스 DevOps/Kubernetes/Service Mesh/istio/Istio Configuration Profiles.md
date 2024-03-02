@@ -1,6 +1,6 @@
 ---
-title: 'Istio Configuration Profiles'
-lastUpdated: '2024-03-02'
+title: Istio Configuration Profiles
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 - **default**: enables components according to the default settings of the IstioOperator API. This profile is recommended for production deployments and for primary clusters in a multicluster mesh. You can display the default settings by running the istioctl profile dump command.

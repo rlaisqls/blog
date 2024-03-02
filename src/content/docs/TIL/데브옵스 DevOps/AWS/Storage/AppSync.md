@@ -1,6 +1,6 @@
 ---
-title: 'AppSync'
-lastUpdated: '2024-03-02'
+title: AppSync
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 <img width="649" alt="image" src="https://github.com/rlaisqls/rlaisqls/assets/81006587/cd94639f-0937-4141-a540-b7e3acf6cd2e">

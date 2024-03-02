@@ -1,6 +1,6 @@
 ---
-title: 'Java Bytecode'
-lastUpdated: '2024-03-02'
+title: Java Bytecode
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Java는 **JVM** 이라는 가상머신을 거쳐서 OS에 도달하기 때문에 OS가 인식할 수 있는 기계어로 바로 컴파일 되는게 아니라 JVM이 인식할 수 있는 Java bytecode(`*.class`)로 먼저 변환된다.

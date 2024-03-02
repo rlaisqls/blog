@@ -1,6 +1,6 @@
 ---
-title: 'Pulling images from ECR on Kubernetes'
-lastUpdated: '2024-03-02'
+title: Pulling images from ECR on Kubernetes
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 If you are getting the HTTP 403 (Forbidden) error or the error message no basic auth credentials when trying to pull an image from ECR you are most likely doing so without logging into it first.

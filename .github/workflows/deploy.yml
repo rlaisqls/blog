@@ -1,9 +1,13 @@
 name: Deploy to GitHub Pages
 
 on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: [Copy Files from TIL]
+    types:
+      - completed
   push:
     branches: [ main ]
-  workflow_dispatch:
 
 permissions:
   contents: read

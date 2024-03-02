@@ -1,6 +1,6 @@
 ---
-title: 'Linux 부팅 과정'
-lastUpdated: '2024-03-02'
+title: Linux 부팅 과정
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ## 1단계: 하드웨어 단계

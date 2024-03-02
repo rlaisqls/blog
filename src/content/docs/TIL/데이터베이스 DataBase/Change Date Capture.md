@@ -1,6 +1,6 @@
 ---
-title: 'Change Date Capture'
-lastUpdated: '2024-03-02'
+title: Change Date Capture
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Traditionally, businesses used batch-based approaches to move data once or several times a day, However, vaych movement introduces latency and reduces the operational value to the organization.

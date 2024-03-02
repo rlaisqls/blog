@@ -1,6 +1,6 @@
 ---
-title: 'Clium'
-lastUpdated: '2024-03-02'
+title: Clium
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 - Cilium is open source software for **transparently securing** the network connectivity between application services deployed using Linux container management platforms like Docker and Kubernetes.

@@ -1,6 +1,6 @@
 ---
-title: 'thread 관련 systemcall'
-lastUpdated: '2024-03-02'
+title: thread 관련 systemcall
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 - 우선 스레드란, 프로세스 내에 실행되는 흐름의 단위이다.

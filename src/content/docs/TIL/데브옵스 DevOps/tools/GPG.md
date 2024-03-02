@@ -1,6 +1,6 @@
 ---
-title: 'GPG'
-lastUpdated: '2024-03-02'
+title: GPG
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 GPG(GNU Privacy Cuard)는 GNU에서 제공하는 OpenPGP(RFC4880)의 오픈소스 구현이다.

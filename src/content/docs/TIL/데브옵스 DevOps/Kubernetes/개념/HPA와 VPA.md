@@ -1,6 +1,6 @@
 ---
-title: 'HPA와 VPA'
-lastUpdated: '2024-03-02'
+title: HPA와 VPA
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ## HPA(Horizontal Pod Autoscaler)

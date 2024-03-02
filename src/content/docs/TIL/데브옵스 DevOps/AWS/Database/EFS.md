@@ -1,6 +1,6 @@
 ---
-title: 'EFS'
-lastUpdated: '2024-03-02'
+title: EFS
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 EFS provides a simple and fully managed elastic NFS file system for use within AWS. EFS automatically and instantly scales your file system storage capacity up or down as you add or remove files withour disrupting you application.

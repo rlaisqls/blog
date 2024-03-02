@@ -1,6 +1,6 @@
 ---
-title: 'ifconfig'
-lastUpdated: '2024-03-02'
+title: ifconfig
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ifconfig는 시스템에 설치된 네트워크 인터페이스 정보를 확인하거나 수정하는 명령어이다.

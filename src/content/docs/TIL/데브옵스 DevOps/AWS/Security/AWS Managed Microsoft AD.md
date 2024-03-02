@@ -1,6 +1,6 @@
 ---
-title: 'AWS Managed Microsoft AD'
-lastUpdated: '2024-03-02'
+title: AWS Managed Microsoft AD
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 AWS offers [AWS Directory Service for Microsoft Active Directory](https://aws.amazon.com/directoryservice/), also known as AWS Managed Microsoft AD, to provide a highly available and resilient Active Directory service.

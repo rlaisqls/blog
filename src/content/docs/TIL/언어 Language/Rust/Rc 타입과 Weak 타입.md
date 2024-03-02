@@ -1,6 +1,6 @@
 ---
-title: 'Rc 타입과 Weak 타입'
-lastUpdated: '2024-03-02'
+title: Rc 타입과 Weak 타입
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 - 소유권 규칙에 따라 Rust에서 어떤 값은 여러 소유자를 가질 수 없다. 

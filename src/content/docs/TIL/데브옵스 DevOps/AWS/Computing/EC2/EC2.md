@@ -1,6 +1,6 @@
 ---
-title: 'EC2'
-lastUpdated: '2024-03-02'
+title: EC2
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 EC2 spins up resizable server instances that can sacle up an down quickly. An instance is a virtual server in the cloud. With Amazon EC2, you can set up and configure the operating system and appplications that run on your instance.

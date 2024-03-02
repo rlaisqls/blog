@@ -1,6 +1,6 @@
 ---
-title: 'Auto Scaling'
-lastUpdated: '2024-03-02'
+title: Auto Scaling
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 AWS Auto Scaling lets you build scaling plans that automate how groups of different resources respond the changes in demand. You can optimize availability, costs, or a balance of both. AWS Auto Scaling automatically creates all of the scaling policies and sets targets for you based on your prefenence.

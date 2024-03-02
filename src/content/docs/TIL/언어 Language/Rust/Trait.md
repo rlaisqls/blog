@@ -1,6 +1,6 @@
 ---
-title: 'Trait'
-lastUpdated: '2024-03-02'
+title: Trait
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 - 여러 타입(type)의 공통된 행위/특성을 표시한 것을 Trait이라고 한다. Rust에서의 Trait는 (약간의 차이는 있지만) 다른 프로그래밍 언어에서의 인터페이스(interface)와 비슷한 개념이다.

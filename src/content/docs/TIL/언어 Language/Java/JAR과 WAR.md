@@ -1,6 +1,6 @@
 ---
-title: 'JAR과 WAR'
-lastUpdated: '2023-12-02'
+title: JAR과 WAR
+lastUpdated: 2023-12-02T23:00:02
 ---
 ## JAR
 

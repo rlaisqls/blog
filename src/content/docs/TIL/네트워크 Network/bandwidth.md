@@ -1,6 +1,6 @@
 ---
-title: 'bandwidth'
-lastUpdated: '2024-03-02'
+title: bandwidth
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 > Bandwidth is the amount of data that can be transmitted in a specified amount of time.

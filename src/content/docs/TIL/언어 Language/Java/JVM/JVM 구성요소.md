@@ -1,6 +1,6 @@
 ---
-title: 'JVM 구성요소'
-lastUpdated: '2024-03-02'
+title: JVM 구성요소
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 <img src="https://user-images.githubusercontent.com/81006587/208055622-f52c1340-dfc4-4dfa-9d9b-fd347c27a215.png" height=400px>

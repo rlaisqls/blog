@@ -1,6 +1,6 @@
 ---
-title: 'IP masquerading'
-lastUpdated: '2024-03-02'
+title: IP masquerading
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 `IP masquerading` **is a process where one computer acts as an IP gateway for a network.** All computers on the network send their IP packets through the gateway, which replaces the source IP address with its own address and then forwards it to the internet. Perhaps the **source IP port number is also replaced** with another port number, although that is less interesting.  All hosts on the internet see the packet as originating from the gateway.

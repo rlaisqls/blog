@@ -1,6 +1,6 @@
 ---
-title: 'Deployments'
-lastUpdated: '2024-03-02'
+title: Deployments
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 > Deplotment는 Pod와 ReplicaSets를 위한 선언적 업데이트를 제공한다.

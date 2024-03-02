@@ -1,6 +1,6 @@
 ---
-title: 'VPC endpoint'
-lastUpdated: '2024-03-02'
+title: VPC endpoint
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 A VPC endpoint enables customers to privately connect to supported AWS services and VPC endpoint services powered by AWS PrivateLink. Amazon VPC instances do not require public IP addresses to communicate with resources of the service. Traffic between an Amazon VPC and a service does not leave the Amazon network.

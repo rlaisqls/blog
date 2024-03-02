@@ -1,6 +1,6 @@
 ---
-title: 'EC2 Instance Connect Endpoint'
-lastUpdated: '2024-03-02'
+title: EC2 Instance Connect Endpoint
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Imagine trying to connect to an EC2 instance within your VPC over the Internet. Typically, you’d first have to connect to a bastion host with a public IP address that your administrator set up over an IGW in your VPC, and then use port forwarding to reach your destination.

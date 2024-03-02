@@ -1,6 +1,6 @@
 ---
-title: '웹서버와 WAS'
-lastUpdated: '2023-04-26'
+title: 웹서버와 WAS
+lastUpdated: 2023-04-26T08:33:34
 ---
 ## 웹 서버(Web Server)
 

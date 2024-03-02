@@ -1,6 +1,6 @@
 ---
-title: 'Spring 6.0과 Spring Boot 3.0'
-lastUpdated: '2024-03-02'
+title: Spring 6.0과 Spring Boot 3.0
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ## Spring 6.0에서 달라지는 점

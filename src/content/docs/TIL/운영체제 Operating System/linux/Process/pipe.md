@@ -1,6 +1,6 @@
 ---
-title: 'pipe'
-lastUpdated: '2024-03-02'
+title: pipe
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Linux에서 pipe는 한 프로세스에서 다른 프로세스로 정보를 넘겨주는 방법 중 하나이다.

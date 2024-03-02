@@ -1,6 +1,6 @@
 ---
-title: 'HTTPProxy'
-lastUpdated: '2024-03-02'
+title: HTTPProxy
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 The Ingress object was added to Kubernetes in version `1.1` to describe properties of a cluster-wide reverse HTTP proxy. Since that time, the Ingress API has remained relatively unchanged, and the need to express implementation-specific capabilities has inspired an explosion of annotations.

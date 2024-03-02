@@ -1,6 +1,6 @@
 ---
-title: 'secondary IP'
-lastUpdated: '2024-03-02'
+title: secondary IP
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ![image](https://github.com/rlaisqls/TIL/assets/81006587/d6e7d951-3092-4281-8661-65bcd7206e92)

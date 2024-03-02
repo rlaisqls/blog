@@ -1,6 +1,6 @@
 ---
-title: 'Karpenter best practices'
-lastUpdated: '2024-03-02'
+title: Karpenter best practices
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ### Use Karpenter for workloads with changing capacity needs

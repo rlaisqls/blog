@@ -1,6 +1,6 @@
 ---
-title: 'Token Webhook with Guard'
-lastUpdated: '2024-03-02'
+title: Token Webhook with Guard
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Webhook 서버에 인증 데이터를 전달한 뒤, 클라이언트가 유효한지 인증하여 Third party에 권한을 부여하는 Webhook Token 인증 방법에 대해 알아보자.

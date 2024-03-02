@@ -1,6 +1,6 @@
 ---
-title: 'NAT gateway & NAT instance'
-lastUpdated: '2024-03-02'
+title: NAT gateway & NAT instance
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 |속성|	NAT 게이트웨이|NAT 인스턴스|

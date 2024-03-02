@@ -1,6 +1,6 @@
 ---
-title: 'SO_REUSEADDR'
-lastUpdated: '2024-03-02'
+title: SO_REUSEADDR
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 > SO_REUSEADDR Specifies that the rules used in validating addresses supplied to bind() should allow reuse of local addresses, if this is supported by the protocol. This option takes an int value. This is a Boolean option

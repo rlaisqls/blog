@@ -1,6 +1,6 @@
 ---
-title: 'minukube 시작하기'
-lastUpdated: '2024-03-02'
+title: minukube 시작하기
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ### 1. kubectl을 설치한다.

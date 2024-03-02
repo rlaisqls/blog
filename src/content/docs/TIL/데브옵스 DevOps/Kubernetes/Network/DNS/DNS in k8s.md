@@ -1,6 +1,6 @@
 ---
-title: 'DNS in k8s'
-lastUpdated: '2024-03-02'
+title: DNS in k8s
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 두개의 포드와 서비스가 있다고 해보자. 각 포드의 이름은 test와 web이고, 가상 IP를 하나씩 할당받았다.

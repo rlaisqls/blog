@@ -1,6 +1,6 @@
 ---
-title: 'signal'
-lastUpdated: '2024-03-02'
+title: signal
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 리눅스에서는 프로세스끼리 서로 통신할 때 정해진 signal을 사용한다.

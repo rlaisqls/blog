@@ -1,6 +1,6 @@
 ---
-title: 'top'
-lastUpdated: '2024-03-02'
+title: top
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 - top 명령어를 사용하면 시스템의 상태를 전반적으로 가장 빠르게 파악할 수 있다. (CPU, Memory, Process)

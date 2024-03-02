@@ -1,6 +1,6 @@
 ---
-title: '@JvmStatic'
-lastUpdated: '2024-03-02'
+title: @JvmStatic
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 함수와 프로퍼티에 static 하게 접근할 수 있도록 추가적인 메서드 또는 getter / setter 를 생성한다.

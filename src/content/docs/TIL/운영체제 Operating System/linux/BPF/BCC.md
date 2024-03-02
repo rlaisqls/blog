@@ -1,6 +1,6 @@
 ---
-title: 'BCC'
-lastUpdated: '2024-03-02'
+title: BCC
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 BPF는 c언어로 작성할 수 있고, LLVM의 clang과 같은 컴파일러를 활용해 C언어로 된 BPF 프로그램 코드를 eBPF 바이트코드로 컴파일할 수 있다. 

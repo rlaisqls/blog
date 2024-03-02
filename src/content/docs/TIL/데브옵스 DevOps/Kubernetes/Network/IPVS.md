@@ -1,6 +1,6 @@
 ---
-title: 'IPVS'
-lastUpdated: '2024-03-02'
+title: IPVS
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 IP Virtual Server (IPVS) is a Linux connection (L4) load balancer. 

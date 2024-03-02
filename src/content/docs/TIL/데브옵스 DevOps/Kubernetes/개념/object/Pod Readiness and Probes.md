@@ -1,6 +1,6 @@
 ---
-title: 'Pod Readiness and Probes'
-lastUpdated: '2024-03-02'
+title: Pod Readiness and Probes
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Pord readiness is and additional indication of whether the pod is ready to serve traffic. Pod readiness determines whether the pod address shows up in the `Endpoints` object from an external source. Other Kubernetes resources that manage pods, like depolyments, take pod readiness into account for decision-making, such as advancing during a rolling update.

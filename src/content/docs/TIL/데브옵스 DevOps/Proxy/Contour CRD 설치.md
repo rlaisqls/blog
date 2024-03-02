@@ -1,6 +1,6 @@
 ---
-title: 'Contour CRD 설치'
-lastUpdated: '2023-08-10'
+title: Contour CRD 설치
+lastUpdated: 2023-08-10T23:00:01
 ---
 - Install Contour:
     - Use the appropriate command for your cluster manager to install Contour. For example, using kubectl for Kubernetes:

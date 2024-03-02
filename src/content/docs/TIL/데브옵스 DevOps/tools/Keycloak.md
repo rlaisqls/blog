@@ -1,6 +1,6 @@
 ---
-title: 'Keycloak'
-lastUpdated: '2024-03-02'
+title: Keycloak
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 [Keycloak](https://www.keycloak.org/)은 ID 및 액세스 관리 솔루션을 제공하고, 인증(Authentication)과 인가(Authorization)을 쉽게 해주고 SSO(Single-Sign-On)을 가능하게 해주는 오픈소스이다.

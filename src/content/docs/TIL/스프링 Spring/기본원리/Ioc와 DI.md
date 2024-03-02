@@ -1,6 +1,6 @@
 ---
-title: 'Ioc와 DI'
-lastUpdated: '2023-12-13'
+title: Ioc와 DI
+lastUpdated: 2023-12-13T23:00:02
 ---
 ## 🍃 제어의 역전
 

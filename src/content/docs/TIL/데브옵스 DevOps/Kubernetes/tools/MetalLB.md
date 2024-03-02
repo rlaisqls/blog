@@ -1,6 +1,6 @@
 ---
-title: 'MetalLB'
-lastUpdated: '2024-03-02'
+title: MetalLB
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 K8s에서 LB를 사용하기 위해선 AWS, GCP, Azure 등 플랫폼에서 제공해주는 서비스를 사용해야하고, 온프레미스 클러스터에서는 추가 모듈 설치가 필요하다.

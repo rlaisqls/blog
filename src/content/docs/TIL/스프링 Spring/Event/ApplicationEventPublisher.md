@@ -1,6 +1,6 @@
 ---
-title: 'ApplicationEventPublisher'
-lastUpdated: '2024-03-02'
+title: ApplicationEventPublisher
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ApplicationEventPublisher는 Spring의 ApplicationContext가 상속하는 인터페이스 중 하나이다.

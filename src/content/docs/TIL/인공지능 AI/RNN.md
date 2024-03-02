@@ -1,6 +1,6 @@
 ---
-title: 'RNN'
-lastUpdated: '2024-03-02'
+title: RNN
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 - 은닉층 안에 하나 이상의 순환 계층을 갖는 신경망

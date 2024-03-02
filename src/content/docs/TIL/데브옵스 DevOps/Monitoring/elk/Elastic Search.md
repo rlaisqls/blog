@@ -1,6 +1,6 @@
 ---
-title: 'Elastic Search'
-lastUpdated: '2024-03-02'
+title: Elastic Search
+lastUpdated: 2024-03-02T21:22:36
 ---
 - 확장성이 뛰어난 오픈 소스 전체 텍스트 검색 및 분석 엔진
 - 대량의 데이터를 신속하고 거의 실시간으로 저장, 검색 및 분석

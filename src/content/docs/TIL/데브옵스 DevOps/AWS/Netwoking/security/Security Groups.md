@@ -1,6 +1,6 @@
 ---
-title: 'Security Groups'
-lastUpdated: '2024-03-02'
+title: Security Groups
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Security Groups are used to control access (SSH, HTTP, RDP, ect.) with EC2.

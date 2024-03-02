@@ -1,6 +1,6 @@
 ---
-title: 'telemetry'
-lastUpdated: '2024-03-02'
+title: telemetry
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Telemetry automatically **collects**, **transmits** **and measures data from remote sources**, using sensors and other devices to collect data. It uses communication systems to transmit the data back to a central location. Subsequently, the data is analyzed to monitor and control the remote system.

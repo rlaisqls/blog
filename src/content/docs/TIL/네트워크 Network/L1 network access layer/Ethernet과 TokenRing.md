@@ -1,6 +1,6 @@
 ---
-title: 'Ethernet과 TokenRing'
-lastUpdated: '2023-09-20'
+title: Ethernet과 TokenRing
+lastUpdated: 2023-09-20T23:00:02
 ---
 
 # 📡 Ethernet

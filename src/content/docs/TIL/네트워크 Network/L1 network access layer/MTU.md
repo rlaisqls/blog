@@ -1,6 +1,6 @@
 ---
-title: 'MTU'
-lastUpdated: '2024-03-02'
+title: MTU
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 - 데이터링크에서 하나의 프레임 또는 패킷에 담아 운반 가능한 최대 크기

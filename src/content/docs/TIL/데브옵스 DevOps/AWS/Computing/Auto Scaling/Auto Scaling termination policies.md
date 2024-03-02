@@ -1,6 +1,6 @@
 ---
-title: 'Auto Scaling termination policies'
-lastUpdated: '2024-03-02'
+title: Auto Scaling termination policies
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 When Amazon EC2 Auto Scaling terminates instances, it attempts to maintain balance across the Availability Zones that are used by your Auto Scaling group. Maintaining balance across Availability Zones takes precedence over termination policies.

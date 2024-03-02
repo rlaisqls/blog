@@ -1,6 +1,6 @@
 ---
-title: 'RabbitMQ'
-lastUpdated: '2024-03-02'
+title: RabbitMQ
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 래빗MQ(RabbitMQ)는 오픈소스인 범용 메시지 브로커 소프트웨어이다.

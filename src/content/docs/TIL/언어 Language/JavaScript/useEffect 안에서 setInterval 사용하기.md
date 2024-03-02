@@ -1,6 +1,6 @@
 ---
-title: 'useEffect 안에서 setInterval 사용하기'
-lastUpdated: '2024-03-02'
+title: useEffect 안에서 setInterval 사용하기
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 - setInterval은 일정 시간마다 작업을 수행하는 메서드다. 

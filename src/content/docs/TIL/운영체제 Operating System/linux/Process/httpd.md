@@ -1,6 +1,6 @@
 ---
-title: 'httpd'
-lastUpdated: '2024-03-02'
+title: httpd
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 - HTTPD(HyperText Transfer Protocol Daemon) is a software program or service that runs on a web server and handles the processing of HTTP requests and responses.

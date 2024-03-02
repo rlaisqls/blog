@@ -1,6 +1,6 @@
 ---
-title: 'Terraform import와 Terraforming'
-lastUpdated: '2024-03-02'
+title: Terraform import와 Terraforming
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 이미 사용하고 있는 인프라를 Terraform으로 가져오려면 import 명령어를 사용해야한다.

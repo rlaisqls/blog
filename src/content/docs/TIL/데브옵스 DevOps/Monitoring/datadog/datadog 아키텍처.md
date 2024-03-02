@@ -1,6 +1,6 @@
 ---
-title: 'datadog 아키텍처'
-lastUpdated: '2024-03-02'
+title: datadog 아키텍처
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ## 1. Datedog Agent가 하는 일 (Application에서 서버로)

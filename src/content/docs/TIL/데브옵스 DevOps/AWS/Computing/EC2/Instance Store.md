@@ -1,6 +1,6 @@
 ---
-title: 'Instance Store'
-lastUpdated: '2024-03-02'
+title: Instance Store
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 AWS Instance Store는 Amazon Elastic Compute Cloud (EC2)에서 제공하는 임시 블록 수준 스토리지 서비스이다. EC2 인스턴스에 직접 연결된 로컬 디스크로, EC2 인스턴스가 실행 중인 동안에만 데이터를 유지한다.

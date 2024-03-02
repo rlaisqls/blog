@@ -1,6 +1,6 @@
 ---
-title: 'MongoDB Document로 POJO 상속받기'
-lastUpdated: '2024-03-02'
+title: MongoDB Document로 POJO 상속받기
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 REPO 코드를 짜던중, Document로 설정할 객체가 POJO를 상속받는 구조가 필요해졌다.

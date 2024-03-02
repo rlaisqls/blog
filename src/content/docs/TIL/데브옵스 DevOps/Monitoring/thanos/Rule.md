@@ -1,6 +1,6 @@
 ---
-title: 'Rule'
-lastUpdated: '2024-03-02'
+title: Rule
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 > **NOTE:** It is recommended to keep deploying rules inside the relevant Prometheus servers locally. Use ruler only on specific cases. Read details below why.

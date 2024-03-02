@@ -1,6 +1,6 @@
 ---
-title: 'DBMS와 RDBMS'
-lastUpdated: '2022-11-22'
+title: DBMS와 RDBMS
+lastUpdated: 2022-11-22T10:00:50
 ---
 ## 💾 DBMS(Database Management System)
 <p>

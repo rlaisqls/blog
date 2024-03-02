@@ -1,6 +1,6 @@
 ---
-title: 'ServiceDNS'
-lastUpdated: '2024-03-02'
+title: ServiceDNS
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 생성된 서비스의 IP는 어떻게 알 수 있을까? 서비스가 생성된 후 kubectl get svc를 이용하면 생성된 서비스와 IP를 받아올 수 있지만, 이는 서비스가 생성된 후이고, 계속해서 변경되는 임시 IP이다.

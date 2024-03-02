@@ -1,6 +1,6 @@
 ---
-title: 'aws 서버 네트워크 구축'
-lastUpdated: '2024-03-02'
+title: aws 서버 네트워크 구축
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ### 1. 네트워크 구성

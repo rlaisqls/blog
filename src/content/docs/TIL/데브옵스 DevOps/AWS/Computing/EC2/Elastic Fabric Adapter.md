@@ -1,6 +1,6 @@
 ---
-title: 'Elastic Fabric Adapter'
-lastUpdated: '2024-03-02'
+title: Elastic Fabric Adapter
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 An Elastic Fabric Adapter (EFA) is a network device that you can attach to your Amazon EC2 instance to accelerate High Performance Computing (HPC) and machine learning applications. EFA enables you to achieve the application performance of an on-premises HPC cluster, with the scalability, flexibility, and elasticity provided by the AWS Cloud.

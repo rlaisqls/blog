@@ -1,6 +1,6 @@
 ---
-title: 'MySQL Replication'
-lastUpdated: '2024-03-02'
+title: MySQL Replication
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 데이터베이스에서 데이터를 복제하는 방식은 크게 동기 방식과 비동기 방식이 있다.

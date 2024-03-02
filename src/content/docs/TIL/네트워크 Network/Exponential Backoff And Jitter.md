@@ -1,6 +1,6 @@
 ---
-title: 'Exponential Backoff And Jitter'
-lastUpdated: '2024-03-02'
+title: Exponential Backoff And Jitter
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ### Introducing OCC

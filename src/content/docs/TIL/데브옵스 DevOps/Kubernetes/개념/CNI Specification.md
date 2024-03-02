@@ -1,6 +1,6 @@
 ---
-title: 'CNI Specification'
-lastUpdated: '2024-03-02'
+title: CNI Specification
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 The CNI specification itself is quite simple. According to the specification, there are four operations that a CNI plugin must support:

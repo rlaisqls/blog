@@ -1,6 +1,6 @@
 ---
-title: 'Well Architected'
-lastUpdated: '2024-03-02'
+title: Well Architected
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 AWS provide [Well-Architecture Framework](https://aws.amazon.com/ko/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=desc) to build a secure, high-performance, resilient and efficient infrastructure for a wide variety of applications and workloads. AWS Well-Architected provides a consistent approach to helping customers and partners evaluate architectures and implement scalable designs.

@@ -1,6 +1,6 @@
 ---
-title: 'EKS 인증과정'
-lastUpdated: '2024-03-02'
+title: EKS 인증과정
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 <img src="https://github.com/rlaisqls/TIL/assets/81006587/94ff313b-6e46-4aa4-81cc-15f4cb2c8e20" height=300px>

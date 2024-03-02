@@ -1,6 +1,6 @@
 ---
-title: 'record'
-lastUpdated: '2024-03-02'
+title: record
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 record란?

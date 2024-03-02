@@ -1,6 +1,6 @@
 ---
-title: 'Cert manager'
-lastUpdated: '2024-03-02'
+title: Cert manager
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 kubernetes 에서 ingress 상에서 https를 서비스하는데 지원을 해주는 모듈이다.

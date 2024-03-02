@@ -1,6 +1,6 @@
 ---
-title: 'od'
-lastUpdated: '2024-03-02'
+title: od
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 `od` is a command that dumps binary files to eight digits.

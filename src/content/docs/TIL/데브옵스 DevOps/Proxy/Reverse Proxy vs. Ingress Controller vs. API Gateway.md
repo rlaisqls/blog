@@ -1,6 +1,6 @@
 ---
-title: 'Reverse Proxy vs. Ingress Controller vs. API Gateway'
-lastUpdated: '2023-07-09'
+title: Reverse Proxy vs. Ingress Controller vs. API Gateway
+lastUpdated: 2023-07-09T08:42:14
 ---
 ## Reverse Proxy
 

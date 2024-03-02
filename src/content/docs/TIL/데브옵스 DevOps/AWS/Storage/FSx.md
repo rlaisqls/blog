@@ -1,6 +1,6 @@
 ---
-title: 'FSx'
-lastUpdated: '2024-03-02'
+title: FSx
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Amazon FSx for windows File Server provides a fully managed native Microsoft File System. 

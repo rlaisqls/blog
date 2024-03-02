@@ -1,6 +1,6 @@
 ---
-title: 'MSA의 장단점'
-lastUpdated: '2023-12-20'
+title: MSA의 장단점
+lastUpdated: 2023-12-20T11:08:00
 ---
 ## 마이크로서비스 아키텍처의 장점
 

@@ -1,6 +1,6 @@
 ---
-title: 'wait()과 notifyAll()'
-lastUpdated: '2024-03-02'
+title: wait()과 notifyAll()
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 `wait()`과 `notifyAll()`을 사용하면 스레드의 순서를 제어할 수 있다.

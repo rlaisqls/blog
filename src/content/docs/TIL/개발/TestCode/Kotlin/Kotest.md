@@ -1,6 +1,6 @@
 ---
-title: 'Kotest'
-lastUpdated: '2024-03-02'
+title: Kotest
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 코틀린에서는 아래와 형태와 같은 DSL(Domain Specific Language) 스타일의 중괄호를 활용한 코드 스타일을 제공한다. 코틀린 내부에서 제공하는 Standard library 대부분도 DSL을 이용해 작성된 것을 볼 수 있다.

@@ -1,6 +1,6 @@
 ---
-title: 'Spot Instance'
-lastUpdated: '2023-09-26'
+title: Spot Instance
+lastUpdated: 2023-09-26T23:00:02
 ---
 <img width="839" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/d6216964-7b4a-4eab-8c34-f21af466f893">
 

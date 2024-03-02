@@ -1,6 +1,6 @@
 ---
-title: 'Athena'
-lastUpdated: '2024-03-02'
+title: Athena
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 - Amazon Athena is a serverless, interactive analytics service built on open-source frameworks, supporting open-table and file formats.

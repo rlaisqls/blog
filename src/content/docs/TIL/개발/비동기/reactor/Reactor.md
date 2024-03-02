@@ -1,6 +1,6 @@
 ---
-title: 'Reactor'
-lastUpdated: '2024-03-02'
+title: Reactor
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Reactor란 Pivotal의 오픈소스 프로젝트로, JVM 환경에서 동작하는 non-blocking reactive 라이브러리로서 non-blocking IPC(Inter-Process Commumication)을 지원한다.

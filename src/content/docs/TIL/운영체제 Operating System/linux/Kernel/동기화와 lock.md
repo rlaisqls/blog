@@ -1,6 +1,6 @@
 ---
-title: '동기화와 lock'
-lastUpdated: '2024-03-02'
+title: 동기화와 lock
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 ## 1. Critical section과 Race condition

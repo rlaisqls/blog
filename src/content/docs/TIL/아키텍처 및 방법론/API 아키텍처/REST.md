@@ -1,6 +1,6 @@
 ---
-title: 'REST'
-lastUpdated: '2024-03-02'
+title: REST
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 REST는 설계적 제약 조건으로 API 스스로에 대한 설명이 가능하여 수 많은 API 소비자에게 채택될 수 있도록 정의된 API 아키텍처 스타일이다.

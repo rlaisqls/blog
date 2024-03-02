@@ -1,6 +1,6 @@
 ---
-title: 'Thanos'
-lastUpdated: '2024-03-02'
+title: Thanos
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 Thanos is a set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments that included in CNCF Incubating project.

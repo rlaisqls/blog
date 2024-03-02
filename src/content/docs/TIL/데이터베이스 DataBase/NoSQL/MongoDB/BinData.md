@@ -1,6 +1,6 @@
 ---
-title: 'BinData'
-lastUpdated: '2024-03-02'
+title: BinData
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 BinData is binary data object that use in mongoDB. BinData consists of `subType` and `base64str`.
