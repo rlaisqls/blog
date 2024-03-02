@@ -1,0 +1,60 @@
+name: Copy Files from TIL
+
+on:
+  push:
+    branches: [ main ]
+#  schedule:
+#    - cron: '0 15 * * *' # 매일 15:00에 실행 (UTC 기준, KST 기준 자정)
+
+jobs:
+  copy_files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          repository: rlaisqls/TIL
+
+      - name: Add labels
+        run: |
+          add_labels_to_files() {
+              local dir="$1"
+              echo "$dir"
+              cd "$dir" || exit
+          
+              for file in *; do
+                if [ -f "$file" ]; then
+                
+                  # title, lastUpdated 속성 추가
+                  echo "---" > tmpfile
+                  echo "title: '${file%.*}'" >> tmpfile
+                  echo "lastUpdated: '$(git log -1 --format=%cd --date=format:%Y-%m-%d $file)'" >> tmpfile
+                  echo "---" >> tmpfile
+                  cat "$file" >> tmpfile
+                  mv tmpfile "$file"
+                
+                elif [ -d "$file" ]; then
+                  add_text_to_files "$dir/$file"
+                  cd "$dir"
+                fi
+              done
+          }
+          
+          add_labels_to_files TIL
+
+      - name: Copy files
+        run: |
+          cp -r TIL/* src/content/docs/TIL
+          rm src/content/docs/TIL/README.md
+          rm -rf TIL
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Copy files from TIL"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
