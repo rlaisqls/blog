@@ -1,6 +1,6 @@
 ---
 title: 말테의 수기
-date: 2022-11-15T19:27:16
+lastUpdated: 2022-11-15T19:27:16
 ---
 
 https://search.shopping.naver.com/book/catalog/32490758943

@@ -1,6 +1,6 @@
 ---
 title: 인간실격
-date: 2022-03-06T15:39:16
+lastUpdated: 2022-03-06T15:39:16
 ---
 
 https://search.shopping.naver.com/book/catalog/32473290161

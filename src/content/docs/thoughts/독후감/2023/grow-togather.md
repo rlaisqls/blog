@@ -1,6 +1,6 @@
 ---
 title: 홀로 성장하는 시대는 끝났다
-date: 2023-09-08T11:13:16
+lastUpdated: 2023-09-08T11:13:16
 ---
 
 https://search.shopping.naver.com/book/catalog/32466682728

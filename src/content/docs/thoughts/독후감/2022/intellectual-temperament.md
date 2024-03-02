@@ -1,6 +1,6 @@
 ---
 title: 지성적 회심
-date: 2022-02-10T22:10:16
+lastUpdated: 2022-02-10T22:10:16
 ---
 
 https://search.shopping.naver.com/book/catalog/32457244109

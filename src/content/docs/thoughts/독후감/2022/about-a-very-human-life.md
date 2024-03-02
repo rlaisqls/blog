@@ -1,6 +1,6 @@
 ---
 title: 지극히 인간적인 삶에 대하여
-date: 2022-02-07T20:27:16
+lastUpdated: 2022-02-07T20:27:16
 ---
 
 https://search.shopping.naver.com/book/catalog/32489638746

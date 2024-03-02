@@ -1,6 +1,6 @@
 ---
 title: 능력주의와 불평등
-date: 2022-02-14T15:03:16
+lastUpdated: 2022-02-14T15:03:16
 ---
 
 https://search.shopping.naver.com/book/catalog/32443012298

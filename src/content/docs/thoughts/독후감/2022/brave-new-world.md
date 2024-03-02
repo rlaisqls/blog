@@ -1,6 +1,6 @@
 ---
 title: 멋진 신세계
-date: 2022-02-14T02:38:16
+lastUpdated: 2022-02-14T02:38:16
 ---
 
 https://search.shopping.naver.com/book/catalog/32482025744

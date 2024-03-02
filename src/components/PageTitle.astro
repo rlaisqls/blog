@@ -1,0 +1,19 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+
+import LastUpdated from 'virtual:starlight/components/LastUpdated';
+---
+
+
+<h1 id='_top'>{Astro.props.entry.data.title}</h1>
+<LastUpdated {...Astro.props} />
+
+<style>
+    h1 {
+        margin-top: 1rem;
+        font-size: var(--sl-text-h1);
+        line-height: var(--sl-line-height-headings);
+        font-weight: 600;
+        color: var(--sl-color-white);
+    }
+</style>

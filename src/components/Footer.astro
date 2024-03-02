@@ -1,8 +1,12 @@
 ---
 import type { Props } from '@astrojs/starlight/props';
+import LastUpdated from 'virtual:starlight/components/LastUpdated';
 ---
 
 <footer>
+    <div class="meta sl-flex">
+        <LastUpdated {...Astro.props} />
+    </div>
 </footer>
 
 <style>

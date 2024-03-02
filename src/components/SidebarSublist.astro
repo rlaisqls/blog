@@ -43,7 +43,7 @@ const { sublist, nested } = Astro.props;
 					>
 						<summary>
 							<div class="group-label">
-								<span class="large">{entry.label}</span>
+								<span class="font-medium">{entry.label}</span>
 								{entry.badge && (
 									<>
 										{' '}
@@ -140,7 +140,7 @@ const { sublist, nested } = Astro.props;
 		margin-inline-end: 0.25em;
 	}
 
-	@media (min-width: 50rem) {
+	@media (min-width: 60rem) {
 		.top-level > li + li {
 			margin-top: 0.5rem;
 		}

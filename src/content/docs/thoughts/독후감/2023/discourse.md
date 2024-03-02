@@ -1,6 +1,6 @@
 ---
 title: 담론
-date: 2023-09-11T15:39:16
+lastUpdated: 2023-09-11T15:39:16
 ---
 
 https://search.shopping.naver.com/book/catalog/32443020987

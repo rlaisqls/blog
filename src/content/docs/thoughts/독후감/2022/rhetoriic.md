@@ -1,6 +1,6 @@
 ---
 title: 아리스토텔레스 수사학
-date: 2022-12-10T19:27:16
+lastUpdated: 2022-12-10T19:27:16
 ---
 
 https://search.shopping.naver.com/book/catalog/32478411557

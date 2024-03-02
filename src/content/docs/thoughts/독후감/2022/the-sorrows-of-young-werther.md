@@ -1,6 +1,6 @@
 ---
 title: 젊은 베르테르의 슬픔
-date: 2022-08-29T19:27:16
+lastUpdated: 2022-08-29T19:27:16
 ---
 
 https://search.shopping.naver.com/book/catalog/32467499152

@@ -1,6 +1,6 @@
 ---
 title: 구토
-date: 2022-11-26T11:03:16
+lastUpdated: 2022-11-26T11:03:16
 ---
 
 https://search.shopping.naver.com/book/catalog/32436124586
