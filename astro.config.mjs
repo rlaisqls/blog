@@ -23,7 +23,7 @@ export default defineConfig({
 				},
 				{
 					label: 'TIL',
-					autogenerate: { directory: 'TIL/개발', collapsed: true },
+					autogenerate: { directory: 'TIL', collapsed: true },
 				}
 			],
 			customCss: ['./src/tailwind.css'],
