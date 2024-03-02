@@ -55,10 +55,13 @@ jobs:
           rm ${{ env.destination }}/README.md
           rm -rf TIL
 
+      - name: Set current date as env
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Copy files from TIL"
+          commit_message: "${{ env.date }} TIL 문서 복사"
           repository: .
           branch: main
           file_pattern: '.'
@@ -66,6 +69,5 @@ jobs:
           commit_options: '--no-verify --signoff'
           commit_user_name: rlaisqls
           commit_user_email: rlaisqls@gmail.com
-          commit_author: rlaisqls <rlaisqls@gmail.com>
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
