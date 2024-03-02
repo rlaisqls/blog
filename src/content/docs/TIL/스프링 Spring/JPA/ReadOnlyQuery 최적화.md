@@ -1,5 +1,5 @@
 ---
-title: ReadOnlyQuery 최적화
+title: 'ReadOnlyQuery 최적화'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

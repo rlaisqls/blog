@@ -1,5 +1,5 @@
 ---
-title: Auto Scaling termination policies
+title: 'Auto Scaling termination policies'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

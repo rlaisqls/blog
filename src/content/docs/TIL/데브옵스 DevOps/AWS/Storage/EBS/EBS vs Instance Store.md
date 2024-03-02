@@ -1,5 +1,5 @@
 ---
-title: EBS vs Instance Store
+title: 'EBS vs Instance Store'
 lastUpdated: 2023-09-26T23:00:02
 ---
 ## Characteristics

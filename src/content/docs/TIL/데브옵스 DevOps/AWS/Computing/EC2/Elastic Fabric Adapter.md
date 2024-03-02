@@ -1,5 +1,5 @@
 ---
-title: Elastic Fabric Adapter
+title: 'Elastic Fabric Adapter'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

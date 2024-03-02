@@ -1,5 +1,5 @@
 ---
-title: cold stream과 hot stream
+title: 'cold stream과 hot stream'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

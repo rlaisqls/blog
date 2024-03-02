@@ -1,5 +1,5 @@
 ---
-title: Inner static class
+title: 'Inner static class'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

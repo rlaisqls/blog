@@ -1,5 +1,5 @@
 ---
-title: Cloud Agnostic Design
+title: 'Cloud Agnostic Design'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

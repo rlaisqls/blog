@@ -1,5 +1,5 @@
 ---
-title: fetchResults가 deprecated된 이유
+title: 'fetchResults가 deprecated된 이유'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

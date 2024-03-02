@@ -1,5 +1,5 @@
 ---
-title: Understanding Ansible, Terraform, Puppet, Chef, and Salt
+title: 'Understanding Ansible, Terraform, Puppet, Chef, and Salt'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

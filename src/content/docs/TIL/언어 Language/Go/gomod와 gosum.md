@@ -1,5 +1,5 @@
 ---
-title: gomod와 gosum
+title: 'gomod와 gosum'
 lastUpdated: 2023-12-14T23:00:02
 ---
 ## go.mod

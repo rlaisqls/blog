@@ -1,5 +1,5 @@
 ---
-title: mermaid 문법
+title: 'mermaid 문법'
 lastUpdated: 2024-03-02T21:22:36
 ---
 mermaid로 그릴 수 있는 다이어그램은 아래와 같은 것들이 있다.

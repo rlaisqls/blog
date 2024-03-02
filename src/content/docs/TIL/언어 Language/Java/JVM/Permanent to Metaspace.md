@@ -1,5 +1,5 @@
 ---
-title: Permanent to Metaspace
+title: 'Permanent to Metaspace'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

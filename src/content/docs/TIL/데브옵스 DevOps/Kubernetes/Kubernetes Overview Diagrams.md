@@ -1,5 +1,5 @@
 ---
-title: Kubernetes Overview Diagrams
+title: 'Kubernetes Overview Diagrams'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: L2 스위치와 STP
+title: 'L2 스위치와 STP'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

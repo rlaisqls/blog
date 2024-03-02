@@ -1,5 +1,5 @@
 ---
-title: EC2 Fleet
+title: 'EC2 Fleet'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

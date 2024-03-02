@@ -1,5 +1,5 @@
 ---
-title: Dex K8s Authenticator
+title: 'Dex K8s Authenticator'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

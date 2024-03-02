@@ -1,5 +1,5 @@
 ---
-title: Rc 타입과 Weak 타입
+title: 'Rc 타입과 Weak 타입'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

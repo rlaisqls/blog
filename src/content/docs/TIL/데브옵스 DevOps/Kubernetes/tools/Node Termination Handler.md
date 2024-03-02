@@ -1,5 +1,5 @@
 ---
-title: Node Termination Handler
+title: 'Node Termination Handler'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

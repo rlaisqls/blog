@@ -1,5 +1,5 @@
 ---
-title: authn과 authz
+title: 'authn과 authz'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

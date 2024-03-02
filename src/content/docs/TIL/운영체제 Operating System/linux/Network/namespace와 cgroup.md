@@ -1,5 +1,5 @@
 ---
-title: namespace와 cgroup
+title: 'namespace와 cgroup'
 lastUpdated: 2023-12-15T23:03:36
 ---
 ## namespace

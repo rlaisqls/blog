@@ -1,5 +1,5 @@
 ---
-title: Iterator
+title: 'Iterator'
 lastUpdated: 2023-12-30T23:00:02
 ---
 ```js

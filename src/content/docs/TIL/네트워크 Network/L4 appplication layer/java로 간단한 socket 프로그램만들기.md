@@ -1,5 +1,5 @@
 ---
-title: java로 간단한 socket 프로그램만들기
+title: 'java로 간단한 socket 프로그램만들기'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

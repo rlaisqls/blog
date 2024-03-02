@@ -1,5 +1,5 @@
 ---
-title: Programmatic과 Declarative
+title: 'Programmatic과 Declarative'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

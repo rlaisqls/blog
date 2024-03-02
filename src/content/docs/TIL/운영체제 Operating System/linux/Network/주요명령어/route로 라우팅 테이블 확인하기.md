@@ -1,5 +1,5 @@
 ---
-title: route로 라우팅 테이블 확인하기
+title: 'route로 라우팅 테이블 확인하기'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

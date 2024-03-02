@@ -1,5 +1,5 @@
 ---
-title: Amazon VPC CNI
+title: 'Amazon VPC CNI'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

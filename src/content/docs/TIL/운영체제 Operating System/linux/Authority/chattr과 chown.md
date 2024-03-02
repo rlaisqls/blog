@@ -1,5 +1,5 @@
 ---
-title: chattr과 chown
+title: 'chattr과 chown'
 lastUpdated: 2023-12-19T23:45:21
 ---
 # chattr

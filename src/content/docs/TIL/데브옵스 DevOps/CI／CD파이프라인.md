@@ -1,5 +1,5 @@
 ---
-title: CI／CD파이프라인
+title: 'CI／CD파이프라인'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

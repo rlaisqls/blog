@@ -1,5 +1,5 @@
 ---
-title: Direct Connect Gateway
+title: 'Direct Connect Gateway'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

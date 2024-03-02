@@ -1,5 +1,5 @@
 ---
-title: 소유권과 Lifetime
+title: '소유권과 Lifetime'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: EKS Spot Instances with Karpenter
+title: 'EKS Spot Instances with Karpenter'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

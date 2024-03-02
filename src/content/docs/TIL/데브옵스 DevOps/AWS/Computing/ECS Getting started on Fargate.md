@@ -1,5 +1,5 @@
 ---
-title: ECS Getting started on Fargate
+title: 'ECS Getting started on Fargate'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

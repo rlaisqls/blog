@@ -1,5 +1,5 @@
 ---
-title: Mock과 Spy
+title: 'Mock과 Spy'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

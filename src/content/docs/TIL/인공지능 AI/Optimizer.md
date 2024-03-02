@@ -1,5 +1,5 @@
 ---
-title: Optimizer
+title: 'Optimizer'
 lastUpdated: 2024-03-02T21:22:36
 ---
   손실함수를 줄여나가면서 학습하는 방법은 여러가지가 있는데, 이를 최적화 하는 방법들을 Optimizer라고 부른다.

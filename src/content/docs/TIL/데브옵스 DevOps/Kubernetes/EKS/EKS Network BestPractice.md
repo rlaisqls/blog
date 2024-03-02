@@ -1,5 +1,5 @@
 ---
-title: EKS Network BestPractice
+title: 'EKS Network BestPractice'
 lastUpdated: 2023-07-24T23:00:02
 ---
 It is critical to understand Kubernetes networking to operate you cluster and applications efficiently. Pod networkin, also called the cluster networking, is the center of Kubernetes networkin. Kubernetes supports [Container Network Interface](https://github.com/containernetworking/cni)(CNI) plugins for cluster networking.

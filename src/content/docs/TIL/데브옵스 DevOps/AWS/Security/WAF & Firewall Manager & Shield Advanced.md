@@ -1,5 +1,5 @@
 ---
-title: WAF & Firewall Manager & Shield Advanced
+title: 'WAF & Firewall Manager & Shield Advanced'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

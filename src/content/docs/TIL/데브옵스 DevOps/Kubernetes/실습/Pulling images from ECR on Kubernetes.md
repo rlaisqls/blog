@@ -1,5 +1,5 @@
 ---
-title: Pulling images from ECR on Kubernetes
+title: 'Pulling images from ECR on Kubernetes'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

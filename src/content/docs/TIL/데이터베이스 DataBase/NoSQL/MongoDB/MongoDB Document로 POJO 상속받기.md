@@ -1,5 +1,5 @@
 ---
-title: MongoDB Document로 POJO 상속받기
+title: 'MongoDB Document로 POJO 상속받기'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

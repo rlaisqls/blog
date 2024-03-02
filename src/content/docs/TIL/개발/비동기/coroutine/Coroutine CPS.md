@@ -1,5 +1,5 @@
 ---
-title: Coroutine CPS
+title: 'Coroutine CPS'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

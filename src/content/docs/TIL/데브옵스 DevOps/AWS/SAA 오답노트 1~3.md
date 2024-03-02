@@ -1,5 +1,5 @@
 ---
-title: SAA 오답노트 1~3
+title: 'SAA 오답노트 1~3'
 lastUpdated: 2023-10-12T23:00:03
 ---
 - The founder has provisioned an EC2 instance 1A which is running in region A. Later, he takes a snapshot of the instance 1A and then creates a new AMI in region A from this snapshot. This AMI is then copied into another region B. The founder provisions an instance 1B in region B using this new AMI in region B.

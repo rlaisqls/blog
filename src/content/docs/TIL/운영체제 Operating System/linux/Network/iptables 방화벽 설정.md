@@ -1,5 +1,5 @@
 ---
-title: iptables 방화벽 설정
+title: 'iptables 방화벽 설정'
 lastUpdated: 2024-03-02T21:22:36
 ---
  

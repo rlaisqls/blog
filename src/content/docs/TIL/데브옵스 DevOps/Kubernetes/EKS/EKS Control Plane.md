@@ -1,5 +1,5 @@
 ---
-title: EKS Control Plane
+title: 'EKS Control Plane'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

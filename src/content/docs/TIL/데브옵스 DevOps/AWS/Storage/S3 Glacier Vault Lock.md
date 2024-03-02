@@ -1,5 +1,5 @@
 ---
-title: S3 Glacier Vault Lock
+title: 'S3 Glacier Vault Lock'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

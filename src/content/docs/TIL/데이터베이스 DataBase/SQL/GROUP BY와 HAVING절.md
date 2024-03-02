@@ -1,5 +1,5 @@
 ---
-title: GROUP BY와 HAVING절
+title: 'GROUP BY와 HAVING절'
 lastUpdated: 2024-03-02T21:22:36
 ---
 # GROUP BY

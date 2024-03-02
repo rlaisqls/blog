@@ -1,5 +1,5 @@
 ---
-title: kubectl context
+title: 'kubectl context'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

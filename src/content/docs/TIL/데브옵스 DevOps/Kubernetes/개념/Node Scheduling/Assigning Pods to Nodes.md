@@ -1,5 +1,5 @@
 ---
-title: Assigning Pods to Nodes
+title: 'Assigning Pods to Nodes'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

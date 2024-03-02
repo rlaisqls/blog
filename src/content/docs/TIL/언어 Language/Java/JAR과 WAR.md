@@ -1,5 +1,5 @@
 ---
-title: JAR과 WAR
+title: 'JAR과 WAR'
 lastUpdated: 2023-12-02T23:00:02
 ---
 ## JAR

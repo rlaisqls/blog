@@ -1,5 +1,5 @@
 ---
-title: EBS gp2 vs gp3
+title: 'EBS gp2 vs gp3'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

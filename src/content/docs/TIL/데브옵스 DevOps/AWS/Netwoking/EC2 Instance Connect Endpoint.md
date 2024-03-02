@@ -1,5 +1,5 @@
 ---
-title: EC2 Instance Connect Endpoint
+title: 'EC2 Instance Connect Endpoint'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

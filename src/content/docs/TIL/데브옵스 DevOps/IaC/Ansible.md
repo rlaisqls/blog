@@ -1,5 +1,5 @@
 ---
-title: Ansible
+title: 'Ansible'
 lastUpdated: 2023-07-03T23:41:23
 ---
 ## Ansible

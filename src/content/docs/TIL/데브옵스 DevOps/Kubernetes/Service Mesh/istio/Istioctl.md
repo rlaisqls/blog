@@ -1,5 +1,5 @@
 ---
-title: Istioctl
+title: 'Istioctl'
 lastUpdated: 2023-08-24T23:00:01
 ---
 ```bash

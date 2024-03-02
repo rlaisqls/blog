@@ -1,5 +1,5 @@
 ---
-title: module.exports와 exports
+title: 'module.exports와 exports'
 lastUpdated: 2024-03-02T21:22:36
 ---
 

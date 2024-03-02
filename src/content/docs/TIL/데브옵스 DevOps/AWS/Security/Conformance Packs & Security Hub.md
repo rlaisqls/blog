@@ -1,5 +1,5 @@
 ---
-title: Conformance Packs & Security Hub
+title: 'Conformance Packs & Security Hub'
 lastUpdated: 2023-09-23T23:00:01
 ---
 ## Conformance Packs

@@ -1,5 +1,5 @@
 ---
-title: netty의 thread 모델
+title: 'netty의 thread 모델'
 lastUpdated: 2024-03-02T21:22:36
 ---
 
