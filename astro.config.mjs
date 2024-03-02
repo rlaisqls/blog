@@ -10,15 +10,19 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/rlaisqls',
 			},
+			components: {
+				Sidebar: './src/components/Sidebar.astro',
+				Footer: './src/components/Footer.astro'
+			},
 			sidebar: [
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
 				},
 				{
-					label: 'TIL',
+					label: 'TIL Git',
 					collapsed: true,
-					autogenerate: { directory: 'TIL', collapsed: true },
+					autogenerate: { directory: 'TIL' },
 				},
 			],
 			customCss: ['./src/tailwind.css'],

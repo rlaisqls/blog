@@ -1,0 +1,20 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+---
+
+<footer>
+</footer>
+
+<style>
+    .meta {
+        gap: 0.75rem 3rem;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-block: 3rem 1.5rem;
+        font-size: var(--sl-text-sm);
+        color: var(--sl-color-gray-3);
+    }
+    .meta > :global(p:only-child) {
+        margin-inline-start: auto;
+    }
+</style>
