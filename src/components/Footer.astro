@@ -1,12 +1,13 @@
 ---
 import type { Props } from '@astrojs/starlight/props';
+
+import EditLink from 'virtual:starlight/components/EditLink';
 import LastUpdated from 'virtual:starlight/components/LastUpdated';
+import Pagination from './Pagination.astro';
 ---
 
 <footer>
-    <div class="meta sl-flex">
-        <LastUpdated {...Astro.props} />
-    </div>
+    <Pagination {...Astro.props} />
 </footer>
 
 <style>
