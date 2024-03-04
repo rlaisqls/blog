@@ -14,7 +14,8 @@ export default defineConfig({
 			components: {
 				Sidebar: './src/components/Sidebar.astro',
 				Footer: './src/components/Footer.astro',
-				PageTitle: './src/components/PageTitle.astro'
+				PageTitle: './src/components/PageTitle.astro',
+				ThemeSelect: './src/components/ThemeSelect.astro'
 			},
 			sidebar: [
 				{

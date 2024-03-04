@@ -1,25 +1,126 @@
 ---
 import type { Props } from '@astrojs/starlight/props';
 
-import EditLink from 'virtual:starlight/components/EditLink';
-import LastUpdated from 'virtual:starlight/components/LastUpdated';
-import Pagination from './Pagination.astro';
+function flatten(data) {
+    return data
+        .sort((a, b) => {
+            return a.type === 'group' && b.type === 'link' ? -1 : 0;
+        })
+        .reduce((acc, curr) => {
+            if (curr.type === 'group') {
+                acc.push(...flatten(curr.entries));
+            } else {
+                acc.push(curr);
+            }
+            return acc;
+        }, []);
+}
+
+// 목록에서 앞 순서인 문서 반, 뒷 순서인 문서 반을 가져와서 반환하는 함수
+// 앞 순서인 문서의 갯수가 총 갯수의 반보다 적은 경우
+// 뒷 순서인 문서에서 부족한 갯수만큼 더 가져오며, 역 또한 동일하다.
+function getSurroundingElements(arr, index) {
+    const count = 6
+    const half = count / 2
+
+    let start, end
+    const length = arr.length
+    if (index < half) {
+        start = 0
+        end = index + (count - index)
+    } else if (index + half >= length) {
+        start = index - (count - (length - index)) - 1
+        end = length
+    } else {
+        start = index - half
+        end = index + half
+    }
+    return [...arr.slice(start, index), ...arr.slice(index + 1, end + 1)];
+}
+const allDocuments = flatten(Astro.props.sidebar)
+const currentIndex = allDocuments
+    .findIndex((e) => Astro.props.entry.data.title === e.label)
+const documents = getSurroundingElements(allDocuments, currentIndex)
+
+const getParentFolder = (fullPath) => fullPath.split('/').reverse()[2]
 ---
 
-<footer>
-    <Pagination {...Astro.props} />
-</footer>
+{
+    currentIndex != -1 &&
+    <div class="mt-[75px]">
+        <span>관련글</span>
+        <div class="line"/>
+        {
+            documents.map((entry) => (
+                    <a
+                            class="links"
+                            href={entry.href}
+                            {...entry.attrs}
+                    >
+                        <span style="color: var(--sl-color-gray-4)">{getParentFolder(entry.href)} </span>
+                        <span>{entry.label}</span>
+                    </a>
+            ))
+        }
+    </div>
+    <script src="https://giscus.app/client.js"
+            data-repo="rlaisqls/blog-comments"
+            data-repo-id="R_kgDOLbAcAA"
+            data-category="Announcements"
+            data-category-id="DIC_kwDOLbAcAM4Cdrwc"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="noborder_dark"
+            data-lang="ko"
+            crossorigin="anonymous"
+            async>
+    </script>
+    <script>
+        document.querySelector('script[data-repo="rlaisqls/blog-comments"]').dataset.theme =
+            document.documentElement.dataset.theme === 'light' ? 'noborder_light' : 'noborder_dark'
+    </script>
+    }
 
 <style>
-    .meta {
-        gap: 0.75rem 3rem;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin-block: 3rem 1.5rem;
-        font-size: var(--sl-text-sm);
-        color: var(--sl-color-gray-3);
+    .line {
+        margin-top: 0.5rem;
+        height: 0.1rem;
+        background: var(--sl-color-gray-3);
     }
-    .meta > :global(p:only-child) {
-        margin-inline-start: auto;
+
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0.5rem;
+        width: 100%;
+        flex-basis: calc(50% - 0.5rem);
+        flex-grow: 1;
+        border-bottom: 1px solid var(--sl-color-gray-6);
+        padding: 0.3rem 1rem;
+        text-decoration: none;
+        color: var(--sl-color-gray-2);
+        overflow-wrap: anywhere;
+    }
+    [rel='next'] {
+        justify-content: end;
+        text-align: end;
+        flex-direction: row-reverse;
+    }
+    a:hover {
+        font-weight: 500;
+    }
+
+    .link-title {
+        color: var(--sl-color-white);
+        font-size: var(--sl-text-md);
+        line-height: var(--sl-line-height-headings);
+    }
+
+    svg {
+        flex-shrink: 0;
     }
 </style>

@@ -194,7 +194,6 @@ Current JWT to login: TOKENSTRING
 Open your browser to the provided address and use the JWT token to log in
 to the Operator Console.
 
-![Operator Console](docs/images/operator-console.png)
 
 Click **+ Create Tenant** to open the Tenant Creation workflow.
 
