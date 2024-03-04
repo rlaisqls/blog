@@ -1,5 +1,10 @@
 ---
+import Icon from '../user-components/Icon.astro';
 import type { Props } from '@astrojs/starlight/props';
+
+const { dir, labels, pagination, sublist } = Astro.props;
+const { prev, next } = pagination;
+const isRtl = dir === 'rtl';
 
 function flatten(data) {
     return data
@@ -63,26 +68,8 @@ const getParentFolder = (fullPath) => fullPath.split('/').reverse()[2]
             ))
         }
     </div>
-    <script src="https://giscus.app/client.js"
-            data-repo="rlaisqls/blog-comments"
-            data-repo-id="R_kgDOLbAcAA"
-            data-category="Announcements"
-            data-category-id="DIC_kwDOLbAcAM4Cdrwc"
-            data-mapping="pathname"
-            data-strict="0"
-            data-reactions-enabled="1"
-            data-emit-metadata="0"
-            data-input-position="top"
-            data-theme="noborder_dark"
-            data-lang="ko"
-            crossorigin="anonymous"
-            async>
-    </script>
-    <script>
-        document.querySelector('script[data-repo="rlaisqls/blog-comments"]').dataset.theme =
-            document.documentElement.dataset.theme === 'light' ? 'noborder_light' : 'noborder_dark'
-    </script>
-    }
+
+}
 
 <style>
     .line {
