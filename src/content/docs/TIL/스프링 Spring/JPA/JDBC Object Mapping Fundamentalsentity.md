@@ -1,6 +1,6 @@
 ---
 title: 'JDBC Object Mapping Fundamentalsentity'
-lastUpdated: 2024-03-02T21:22:36
+lastUpdated: 2024-03-03T20:50:28
 ---
 
 스프링 데이터가 객체를 매핑할 떄 담당하는 핵심 역할은 도메인 객체 인스턴스를 생성하고, 여기에 저장소 네이티브 데이터 구조를 매핑하는 일이다. 여기에는 두 가지의 핵심적인 단계가 있다.
@@ -52,7 +52,7 @@ setter가 존재하지 않으면 java.lang.IllegalArgumentException: No setter a
 
 withMethod를 정의하는 경우는 final예약어가 있는 immutable한 멤버변수가 존재 할 때이다. 이때 주의해야할 점이 있다.
 
-만약 immutable한 멤버변수가 n개라면 witherMethod또한 n개 작성해 주어야 합니다. 단순히 witherMethod 한개의 매개변수에 여러개의 immutable 필드를 주입한다면 `java.lang.UnsupportedOperationException: Cannot set immutable property`를 보게 된다.
+만약 immutable한 멤버변수가 n개라면 witherMethod또한 n개 작성해 주어야 한다. 단순히 witherMethod 한개의 매개변수에 여러개의 immutable 필드를 주입한다면 `java.lang.UnsupportedOperationException: Cannot set immutable property`를 보게 된다.
 
 또한 witherMethod의 이름을 잘못 작성해서는 안된다. 멤버변수의 이름이 createdAt 이라면 witherMethod의 이름은 멤버변수의 이름을 뒤에 붙힌 withCreatedAt으로 작성해야 한다. 테이블 컬럼 이름이 아닌 멤버 변수명을 따라서 작성해야한다.
 

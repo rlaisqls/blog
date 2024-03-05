@@ -1,6 +1,6 @@
 ---
 title: 'minio'
-lastUpdated: 2024-03-02T21:22:36
+lastUpdated: 2024-03-03T01:04:49
 ---
 
 ![image](https://github.com/rlaisqls/TIL/assets/81006587/e22783af-abce-40a5-9b35-2d40adc17425)
@@ -193,7 +193,6 @@ Current JWT to login: TOKENSTRING
 
 Open your browser to the provided address and use the JWT token to log in
 to the Operator Console.
-
 
 Click **+ Create Tenant** to open the Tenant Creation workflow.
 

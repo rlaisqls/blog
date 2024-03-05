@@ -1,6 +1,6 @@
 ---
 title: 'Spring with Kafka'
-lastUpdated: 2024-03-02T21:22:36
+lastUpdated: 2024-03-03T01:04:49
 ---
 
 Kafka를 설치하여 실행한 뒤([예시](https://github.com/rlaisqls/TIL/blob/984bd2b023d378b4d5879592fbd6115508613072/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%E2%80%85DataBase/MQ/Docker%EB%A1%9C%E2%80%85Kafka%E2%80%85%EC%8B%A4%ED%96%89.md)) Spring과 연동하여 애플리케이션을 만들어보자.
@@ -114,7 +114,7 @@ class KafkaConsumer {
 
 클래스 형태 그대로 잘 받아지는 것을 확인할 수 있다.
 
-```log
+```
 2023-01-23T12:32:31.018+09:00  INFO 59221 --- [ad | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Resetting the last seen epoch of partition test-0 to 0 since the associated topicId changed from null to _zuSLWdTRK2uv0vul3nAxw
 TestPayload(name=hello, age=18, data=TestData(address=earth, phone=12345678))
 ```

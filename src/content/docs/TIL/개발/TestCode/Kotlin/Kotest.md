@@ -1,6 +1,6 @@
 ---
 title: 'Kotest'
-lastUpdated: 2024-03-02T21:22:36
+lastUpdated: 2024-03-03T20:50:28
 ---
 
 코틀린에서는 아래와 형태와 같은 DSL(Domain Specific Language) 스타일의 중괄호를 활용한 코드 스타일을 제공한다. 코틀린 내부에서 제공하는 Standard library 대부분도 DSL을 이용해 작성된 것을 볼 수 있다.
@@ -287,7 +287,7 @@ Kotest는 테스트 간 격리에 대한 설정을 제공하고 있다.
 - InstancePerTest
 - InstancePerLeaf
 
-Kotest에서는 테스트 간 격리 레벨에 대해 디폴트로 SingleInstance를 설정하고 있는데, 이 경우 Mocking 등의 이유로 테스트 간 충돌이 발생할 수 있다. 따라서 테스트간 완전한 격리를 위해서는 아래와 같이 IsolationMode를 InstancePerLeaf로 지정해 사용해야 합니다.
+Kotest에서는 테스트 간 격리 레벨에 대해 디폴트로 SingleInstance를 설정하고 있는데, 이 경우 Mocking 등의 이유로 테스트 간 충돌이 발생할 수 있다. 따라서 테스트간 완전한 격리를 위해서는 아래와 같이 IsolationMode를 InstancePerLeaf로 지정해 사용해야 한다.
 
 ```kotlin
 internal class CalculatorDescribeSpec : DescribeSpec({
