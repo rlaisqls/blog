@@ -1,12 +1,24 @@
 ---
 import type { Props } from '@astrojs/starlight/props';
 
-import LastUpdated from 'virtual:starlight/components/LastUpdated';
+const { labels, lang, lastUpdated } = Astro.props;
 ---
 
 
 <h1 id='_top'>{Astro.props.entry.data.title}</h1>
-<LastUpdated {...Astro.props} />
+{
+    lastUpdated && (
+    <p>
+        <time>
+            {lastUpdated.toISOString()
+                .replace(/T|Z/g, ' ')
+                .slice(0, 16)
+                .replace(/-/g, '.')
+            }
+        </time>
+    </p>
+    )
+}
 
 <style>
     h1 {
