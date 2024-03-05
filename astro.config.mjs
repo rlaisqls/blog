@@ -1,11 +1,17 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import tailwind from '@astrojs/tailwind';
+import remarkDescription from 'astro-remark-description'
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://blog.rlaisqls.site',
 	favicon: '/public/favicon.png',
+	markdown: {
+		remarkPlugins: [
+			[remarkDescription, {}]
+		]
+	},
 	integrations: [
 		starlight({
 			title: 'Binary Thoughts',

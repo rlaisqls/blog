@@ -17,6 +17,9 @@ dependencies:
   astro:
     specifier: ^4.3.5
     version: 4.4.8
+  astro-remark-description:
+    specifier: ^1.1.2
+    version: 1.1.2
   fetch-meta-tags:
     specifier: ^1.0.12
     version: 1.0.12
@@ -971,6 +974,12 @@ packages:
       '@types/unist': 3.0.2
     dev: false
 
+  /@types/mdast@3.0.15:
+    resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
+    dependencies:
+      '@types/unist': 2.0.10
+    dev: false
+
   /@types/mdast@4.0.3:
     resolution: {integrity: sha512-LsjtqsyF+d2/yFOYaN22dHZI1Cpwkrj+g06G8+qtUKlhovPW89YhqSnfKtMbkgmEtYpH2gydRNULd6y8mciAFg==}
     dependencies:
@@ -1115,6 +1124,15 @@ packages:
       astro: 4.4.8
       hast-util-to-html: 8.0.4
       remark-expressive-code: 0.33.4
+    dev: false
+
+  /astro-remark-description@1.1.2:
+    resolution: {integrity: sha512-Zp0QGCW2Sx4XdlZLGKFehrLSKtqqUg974okR23C5j5i8ILRq4Wy3bRYRNyeqK7i2sD/CsBOWuqolDpiIvSMCUw==}
+    dependencies:
+      hast-util-to-html: 9.0.0
+      mdast-util-to-hast: 13.1.0
+      mdast-util-to-string: 3.2.0
+      unist-util-visit: 4.1.2
     dev: false
 
   /astro@4.4.8:
@@ -2814,6 +2832,12 @@ packages:
       zwitch: 2.0.4
     dev: false
 
+  /mdast-util-to-string@3.2.0:
+    resolution: {integrity: sha512-V4Zn/ncyN1QNSqSBxTrMOLpjr+IKdHl2v3KVLoWmDPscP4r9GcCi71gjgvUV1SFSKh92AjAG4peFuBl2/YgCJg==}
+    dependencies:
+      '@types/mdast': 3.0.15
+    dev: false
+
   /mdast-util-to-string@4.0.0:
     resolution: {integrity: sha512-0H44vDimn51F0YwvxSJSm0eCDOJTRlmN0R1yBh4HLj9wiV1Dn0QoXGbvFAWj2hSItVTlCmBF1hqKlIyUBVFLPg==}
     dependencies:
@@ -3779,7 +3803,7 @@ packages:
     dependencies:
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.3
-      mdast-util-to-hast: 13.0.2
+      mdast-util-to-hast: 13.1.0
       unified: 11.0.4
       vfile: 6.0.1
     dev: false

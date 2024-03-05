@@ -15,6 +15,7 @@
     "@astrojs/starlight-tailwind": "^2.0.1",
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.3.5",
+    "astro-remark-description": "^1.1.2",
     "fetch-meta-tags": "^1.0.12",
     "sharp": "^0.32.5",
     "tailwindcss": "^3.4.1"
