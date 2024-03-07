@@ -1,6 +1,6 @@
 ---
 title: 'Ethernet과 TokenRing'
-lastUpdated: 2024-03-04T13:38:23
+lastUpdated: 2024-03-07T22:32:51
 ---
 
 # 📡 Ethernet

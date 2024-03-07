@@ -1,6 +1,6 @@
 ---
 title: 'GithubFlow'
-lastUpdated: 2024-03-03T20:50:28
+lastUpdated: 2024-03-07T22:32:51
 ---
 
 GitFlow의 브랜치 전략의 복잡한 부분을 생략하여 간략화한 브랜치 전략이다. github flow는 master 브랜치 하나만을 가지고 진행하는 방식이다.
