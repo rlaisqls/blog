@@ -1,10 +1,8 @@
 name: Copy Files from TIL
 
 on:
-  push:
-    branches: [ main ]
   schedule:
-    - cron: '0 15 * * *' # 매일 15:00에 실행 (UTC 기준, KST 기준 자정)
+    - cron: '0 15 * * *' # 매일 KST 기준 자정에 실행 (UTC 기준 15:00)
 
 jobs:
   copy_files:
