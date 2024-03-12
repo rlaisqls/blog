@@ -9,6 +9,29 @@ interface Props {
 const { url, description } = Astro.props;
 
 const result = await fetchMeta(url)
+const fetchHead = async (url) => {
+    const read = async (body) =>
+        new Promise(async (resolve) => {
+            let head = ''
+            for await (const chunk of body) {
+                head += Buffer.from(chunk).toString()
+
+                if (head.toString().split('</head>')[1] !== undefined) {
+                    head += `${head.toString().split('</head>')[0]}</head></html>`
+                    resolve(head)
+                }
+            }
+
+            resolve(head)
+        })
+
+    /*if (!global.fetch) {
+      global.fetch = await import('node-fetch')
+    }*/
+    const res = await fetch(url)
+    return read(res.body)
+}
+console.log(await fetchHead(url))
 ---
 
 <div class="mb-10">
