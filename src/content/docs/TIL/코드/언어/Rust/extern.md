@@ -1,6 +1,6 @@
 ---
 title: 'extern'
-lastUpdated: 2024-03-19T23:07:00
+lastUpdated: 2024-03-21T23:07:00
 ---
 
 - Using extern keyword, you can link to or import external code.
@@ -31,3 +31,7 @@ lastUpdated: 2024-03-19T23:07:00
 
 - If compiled as a dylib, the resulting .so could then be linked to from a C library, and the function could be used as if it was from any other library.
 
+---
+reference
+- https://doc.rust-lang.org/std/keyword.extern.html
+- https://www.reddit.com/r/rust/comments/17f78mb/what_is_extern_system/
