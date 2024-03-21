@@ -3,49 +3,26 @@
 import fetchMeta from 'fetch-meta-tags';
 
 interface Props {
+    title: string;
+    image: string;
     url: string;
     description: string;
 }
-const { url, description } = Astro.props;
+const { title, image, url, description } = Astro.props;
 
 const result = await fetchMeta(url)
-const fetchHead = async (url) => {
-    const read = async (body) =>
-        new Promise(async (resolve) => {
-            let head = ''
-            for await (const chunk of body) {
-                head += Buffer.from(chunk).toString()
-
-                if (head.toString().split('</head>')[1] !== undefined) {
-                    head += `${head.toString().split('</head>')[0]}</head></html>`
-                    resolve(head)
-                }
-            }
-
-            resolve(head)
-        })
-
-    /*if (!global.fetch) {
-      global.fetch = await import('node-fetch')
-    }*/
-    const res = await fetch(url)
-    return read(res.body)
-}
-console.log(await fetchHead(url))
 ---
-
 <div class="mb-10">
-    <a href={result.url} class="no-underline mx-4 my-4 not-prose text-inherit flex gap-10 border-[1px] px-8 py-4 border-[var(--sl-color-gray-6)] rounded-lg">
-        <img class="md:block hidden drop-shadow-md object-contain w-32 rounded-lg" src={result.image ?? result.icon} alt={result.image}/>
+    <a id="url" href={url} class="no-underline mx-4 my-4 not-prose text-inherit flex gap-10 border-[1px] px-8 py-4 border-[var(--sl-color-gray-6)]">
+        <img class="md:block hidden drop-shadow-md object-contain w-32 rounded-lg" src={image} alt="bookcover"/>
         <div class="prose gap-y-0.5 overflow-hidden flex flex-col">
-            <strong class="">{result.title}</strong>
+            <strong class="">{title}</strong>
             <div className="">
                 <p className="truncate line-clamp-[3]">
                     {description}
                 </p>
             </div>
             <div class="flex items-center gap-2 w-fit">
-                <img class="object-cover w-4 h-4 rounded" src={result.icon} alt={result.icon}/>
                 <div class="mb-5 h-4 underline text-sm">{result.url}</div>
             </div>
         </div>

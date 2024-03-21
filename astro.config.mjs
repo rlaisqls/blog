@@ -6,7 +6,6 @@ import remarkDescription from 'astro-remark-description'
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://blog.rlaisqls.site',
-	favicon: '/public/favicon.png',
 	markdown: {
 		remarkPlugins: [
 			[remarkDescription, {}]
@@ -15,6 +14,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Binary Thoughts',
+			favicon: 'favicon.png',
 			social: {
 				github: 'https://github.com/rlaisqls',
 			},
