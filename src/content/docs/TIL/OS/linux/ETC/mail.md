@@ -1,6 +1,6 @@
 ---
 title: 'mail'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 2024-03-25T23:34:05
 ---
 
 linux에서 mail 서비스를 운영할 수 있다.
@@ -82,7 +82,8 @@ linux에서 mail 서비스를 운영할 수 있다.
     - **550** : 지정된 도메인과 관련된 모든 메일 수신 거부ㅋ
 
 - access 파일 예제
-  - ```c
+    
+    ```c
         Connect:192.168.10.9   OK        /* 192.168.10.9 호스트로 접속하는 클라이언트의 메일 허용 */
         Connect:localhost      RELAY     /* localhost로 접속하는 클라이언트의 RELAY 허용 */
         From:add@spam.com      REJECT    /* add@spam.com에서(발신) 오는 메일을 거절하고 거절 답신 보냄 */

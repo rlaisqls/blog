@@ -1,6 +1,6 @@
 ---
 title: 'Runlevel'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 2024-03-25T23:34:05
 ---
 
 ![image](https://github.com/rlaisqls/rlaisqls/assets/81006587/db6af408-ed8e-45bc-882c-789ae5c112d5)
@@ -9,7 +9,7 @@ lastUpdated: 2024-03-13T15:17:56
 
 ### Runlevel 확인
 
-런레벨은 아래 경로에 runlevel로 검색하면 시스템에 등록된 Runlevel을 직접 확인할 수 있다.
+아래 경로에 runlevel로 검색하면 시스템에 등록된 Runlevel을 직접 확인할 수 있다.
 
 - 경로 : `/lib/systemd/system`
 - 파일명 : `runlevel*.target`

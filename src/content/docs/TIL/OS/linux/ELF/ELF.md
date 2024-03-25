@@ -1,6 +1,6 @@
 ---
 title: 'ELF'
-lastUpdated: 2024-03-18T23:07:00
+lastUpdated: 2024-03-25T23:34:05
 ---
 - ELF는 Executable and Linking Format의 약어로, UNIX / LINUX 기반에서 사용되는 실행 및 링킹 파일 포맷이다. 
 - 사용하는 운영체제는 유닉스, BSD, 솔라리스, 리눅스가 있다. (같은 바이너리 포멧이어도 각 운영체제간에는 호환이 되지 않는다.)

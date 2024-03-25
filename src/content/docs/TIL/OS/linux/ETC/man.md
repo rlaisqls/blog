@@ -1,6 +1,6 @@
 ---
 title: 'man'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 2024-03-25T23:34:05
 ---
 
 man은 manual을 의미하며, 설명서 페이지를 볼 수 있는 명령어이다.

@@ -1,6 +1,6 @@
 ---
 title: 'vTAP'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 2024-03-25T23:34:05
 ---
 Being able to capture network packets from inside a network at strategic points is invaluable, whether it is done to troubleshoot or for security monitoring.
 
@@ -29,7 +29,7 @@ It's also possible to use an intrusion detection system (IDS) that listens to a 
 
 - This diagram shows a sample implementation of a VTAP.
 
-<img width="588" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/ec65abd1-1f12-4850-bb60-0fab0ce241e8">
+  <img width="588" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/ec65abd1-1f12-4850-bb60-0fab0ce241e8">
 
 ### TAPs in the cloud
 

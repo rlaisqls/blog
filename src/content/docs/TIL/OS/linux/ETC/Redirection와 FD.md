@@ -1,6 +1,6 @@
 ---
 title: 'Redirection와 FD'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 2024-03-25T23:34:05
 ---
 
 - `>`는 overwrite를 뜻한다.
