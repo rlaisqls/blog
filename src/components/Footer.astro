@@ -41,48 +41,82 @@ const allDocuments = flatten(Astro.props.sidebar)
 const currentIndex = allDocuments
     .findIndex((e) => Astro.props.entry.data.title === e.label)
 const documents = getSurroundingElements(allDocuments, currentIndex)
-
 const getParentFolder = (fullPath) => fullPath.split('/').reverse()[2]
 ---
 
+<!--<script>-->
+<!--    const encodedPath = encodeURIComponent(window.location.pathname);-->
+<!--    let pageViews-->
+<!--    try {-->
+<!--        const response = await fetch(`/api/pageViews?path=${encodedPath}`, {-->
+<!--            method: 'GET',-->
+<!--            headers: {-->
+<!--                'Content-Type': 'application/json',-->
+<!--            },-->
+<!--        });-->
+<!--        if (!response.ok) {-->
+<!--            pageViews = 1;-->
+<!--        } else {-->
+<!--            const { count } = await response.json();-->
+<!--            pageViews = Number(count) + 1;-->
+<!--        }-->
+<!--    } catch (err) {-->
+<!--        pageViews = 1;-->
+<!--    }-->
+
+<!--    fetch('/api/pageViews', {-->
+<!--        method: 'PUT',-->
+<!--        referrerPolicy: 'same-origin',-->
+<!--        body: JSON.stringify({-->
+<!--            path: encodedPath,-->
+<!--        }),-->
+<!--        headers: {-->
+<!--            'Content-Type': 'application/json',-->
+<!--        },-->
+<!--    });-->
+<!--</script>-->
+
+
 {
     currentIndex != -1 &&
-    <div class="mt-[75px]">
-        <span>관련글</span>
-        <div class="line"/>
-        {
-            documents.map((entry) => (
-                    <a
-                            class="links"
-                            href={entry.href}
-                            {...entry.attrs}
-                    >
-                        <span style="color: var(--sl-color-gray-4)">{getParentFolder(entry.href)} </span>
-                        <span>{entry.label}</span>
-                    </a>
-            ))
-        }
-    </div>
-    <script src="https://giscus.app/client.js"
-            data-repo="rlaisqls/blog-comments"
-            data-repo-id="R_kgDOLbAcAA"
-            data-category="Announcements"
-            data-category-id="DIC_kwDOLbAcAM4Cdrwc"
-            data-mapping="pathname"
-            data-strict="0"
-            data-reactions-enabled="1"
-            data-emit-metadata="0"
-            data-input-position="top"
-            data-theme="noborder_dark"
-            data-lang="ko"
-            crossorigin="anonymous"
-            async>
-    </script>
-    <script>
-        document.querySelector('script[data-repo="rlaisqls/blog-comments"]').dataset.theme =
-            document.documentElement.dataset.theme === 'light' ? 'noborder_light' : 'noborder_dark'
-    </script>
-    }
+    <>
+        <div class="mt-[75px]">
+            <span>관련글</span>
+            <div class="line"/>
+            {
+                documents.map((entry) => (
+                        <a
+                                class="links"
+                                href={entry.href}
+                                {...entry.attrs}
+                        >
+                            <span style="color: var(--sl-color-gray-4)">{getParentFolder(entry.href)} </span>
+                            <span>{entry.label}</span>
+                        </a>
+                ))
+            }
+        </div>
+        <script src="https://giscus.app/client.js"
+                data-repo="rlaisqls/blog-comments"
+                data-repo-id="R_kgDOLbAcAA"
+                data-category="Announcements"
+                data-category-id="DIC_kwDOLbAcAM4Cdrwc"
+                data-mapping="pathname"
+                data-strict="0"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="top"
+                data-theme="noborder_dark"
+                data-lang="ko"
+                crossorigin="anonymous"
+                async>
+        </script>
+        <script>
+            document.querySelector('script[data-repo="rlaisqls/blog-comments"]').dataset.theme =
+                document.documentElement.dataset.theme === 'light' ? 'noborder_light' : 'noborder_dark'
+        </script>
+    </>
+}
 
 <style>
     .line {

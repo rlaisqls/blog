@@ -1,0 +1,76 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import FormattedDate from "./FormattedDate.astro";
+
+export type StarlightDocsEntry = Omit<CollectionEntry<"docs">, "slug"> & {
+  slug: string;
+};
+const docs: StarlightDocsEntry[] = ((await getCollection("docs")) ?? [])
+  .filter((d) => d.data.lastUpdated)
+  .sort((a, b) => b.data.lastUpdated - a.data.lastUpdated)
+  .slice(0, 7);
+
+console.log(docs);
+
+const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
+---
+
+<>
+  <div class="mt-[75px]">
+    <span>최신글</span>
+    <div class="line"></div>
+    <div class="flex flex-col gap-3">
+      {
+        docs.map((post) => {
+          let content = post.body
+            .replace(/>\s|#|-|import.*?;|<[^>]*>?/g, "")
+            .slice(0, 200)
+            .replace(/\`\`\`/g, "")
+            .replace(/https:\/\/\S+/g, "")
+            .replace(/\[([^\]]+)\]\([^\)]+\)/g, "$1");
+
+          function convertToCodeTag(content: string) {
+            const regex = /\`([^\`]+)\`/g;
+            const parts = [];
+            let lastIndex = 0;
+            content.replace(regex, (match, p1, offset) => {
+              parts.push(content.slice(lastIndex, offset));
+              parts.push(<code>{p1}</code>);
+              lastIndex = offset + match.length;
+            });
+            parts.push(content.slice(lastIndex));
+            return parts;
+          }
+          return (
+            <div>
+              <a class="no-underline" href={`/${post.slug}/`}>
+                <div class="flex flex-row gap-2">
+                  <span class="text-lg title font-bold">{post.data.title}</span>
+                  <div
+                    style="background-color: var(--sl-color-gray-4)"
+                    class="w-[1px] h-[20px] my-auto"
+                  />
+                  <span style="color: var(--sl-color-gray-3)">
+                    {getParentFolder(post.slug)}{" "}
+                  </span>
+                </div>
+                <FormattedDate date={post.data.lastUpdated} />
+                <span class="line-clamp-2 overflow-hidden bg-blue m-0 btext-ellipsis">
+                  {convertToCodeTag(content)}
+                </span>
+              </a>
+            </div>
+          );
+        })
+      }
+    </div>
+  </div>
+</>
+
+<style>
+  .line {
+    margin-top: 0.5rem;
+    height: 0.07rem;
+    background: var(--sl-color-gray-3);
+  }
+</style>

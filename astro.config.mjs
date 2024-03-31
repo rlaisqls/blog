@@ -17,6 +17,7 @@ export default defineConfig({
 			favicon: 'favicon.png',
 			social: {
 				github: 'https://github.com/rlaisqls',
+				linkedin: 'https://www.linkedin.com/in/%EC%9D%80%EB%B9%88-%EA%B9%80-248452250/',
 			},
 			components: {
 				Sidebar: './src/components/Sidebar.astro',
