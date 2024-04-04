@@ -1,5 +1,5 @@
 ---
-title: 고가용성 Spot Instance 클러스터 구축기
+title: Downtime 없는 Spot Instance 클러스터 구축 과정
 lastUpdated: 2023-12-20T11:17:10
 ---
 
