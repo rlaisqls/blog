@@ -1,6 +1,6 @@
 ---
 title: 'PacketTracer 네트워크 구성'
-lastUpdated: 2024-03-25T23:34:05
+lastUpdated: 2024-04-08T23:07:00
 ---
 
 <img width="397" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/0ce55d7c-8a8b-4099-bf5d-e54079978a95">
@@ -143,3 +143,7 @@ net 100.30.0.0
 
 
 
+```sh
+do show cdp ne de
+ip route 0.0.0.0 0.0.0.0 100.100.100.30
+```

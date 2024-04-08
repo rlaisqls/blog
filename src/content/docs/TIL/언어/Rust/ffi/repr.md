@@ -1,6 +1,6 @@
 ---
 title: 'repr'
-lastUpdated: 2024-03-23T23:07:01
+lastUpdated: 2024-04-08T23:07:00
 ---
 ## repr(Rust)
 
