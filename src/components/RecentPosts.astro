@@ -10,7 +10,7 @@ const docs: StarlightDocsEntry[] = ((await getCollection("docs")) ?? [])
   .sort((a, b) => b.data.lastUpdated - a.data.lastUpdated)
   .slice(0, 7);
 
-console.log(docs);
+// console.log(docs);
 
 const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
 ---

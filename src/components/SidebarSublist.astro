@@ -9,6 +9,26 @@ interface Props {
 }
 
 const { sublist, nested } = Astro.props;
+
+function countNestedObjects(objList) {
+    function countNested(obj) {
+		let count = 0;
+        if (obj?.type === 'link') {
+			return 1;
+		}
+		if (obj?.type === 'group') {
+			obj.entries?.forEach(o => {
+				count += countNested(o);
+			});
+		}
+		return count;
+    }
+	let count = 0;
+    objList.forEach(obj => {
+        count += countNested(obj);
+    });
+    return count;
+}
 ---
 
 <ul class:list={{ 'top-level': !nested }}>
@@ -44,6 +64,7 @@ const { sublist, nested } = Astro.props;
 						<summary>
 							<div class="group-label">
 								<span class="font-medium">{entry.label}</span>
+                                <span  class="text-gray-400">{"(" +  countNestedObjects(entry.entries) + ")"}</span>
 								{entry.badge && (
 									<>
 										{' '}
