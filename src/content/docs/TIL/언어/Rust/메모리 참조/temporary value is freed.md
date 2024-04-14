@@ -1,5 +1,5 @@
 ---
-title: 'temporary value is freed 에러'
+title: 'temporary value is freed'
 lastUpdated: 
 ---
 - In Rust, the error `temporary value is freed` occurs when a temporary value is deallocated before it is expected to be used. 
