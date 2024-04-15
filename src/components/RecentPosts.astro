@@ -8,7 +8,7 @@ export type StarlightDocsEntry = Omit<CollectionEntry<"docs">, "slug"> & {
 const docs: StarlightDocsEntry[] = ((await getCollection("docs")) ?? [])
   .filter((d) => d.data.lastUpdated)
   .sort((a, b) => b.data.lastUpdated - a.data.lastUpdated)
-  .slice(0, 7);
+  .slice(0, 30);
 
 // console.log(docs);
 
@@ -26,6 +26,7 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
             .replace(/>\s|#|-|import.*?;|<[^>]*>?/g, "")
             .slice(0, 200)
             .replace(/\`\`\`/g, "")
+            .replace(/\*\*/g, "")
             .replace(/https:\/\/\S+/g, "")
             .replace(/\[([^\]]+)\]\([^\)]+\)/g, "$1");
 
