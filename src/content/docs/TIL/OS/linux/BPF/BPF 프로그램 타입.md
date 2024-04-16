@@ -1,6 +1,6 @@
 ---
 title: 'BPF 프로그램 타입'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 2024-04-16T23:07:02
 ---
 
 BPF 프로그램의 종류는 다양하다. BPF 프로그램은 이벤트를 중심으로 작성되는데, 프로그램 타입에 따라 사용할 수 있는 이벤트가 제한적이므로 작성하고자 하는 프로그램이 어떤 범주에 속하는지 잘 알고 있어야 한다.
@@ -61,7 +61,7 @@ enum bpf_prog_type {
 |소켓 관련|`SOCKET_FILTER`<br>`SK_SKB`<br>`SOCK_OPS`|
 |TC 관련|`BPF_PROG_SCHED_CLS`<br>`BPF_PROG_SCHED_ACT`|
 |XDP 관련|`BPF_PROG_TYPE_XDP`|
-|트레이싱 관련|`BPF_PROG_TYPE_KPROBE`<br>`BPF_PROG_TYPE_TRACEPOINT`<br>`BPF_PROG_TYPE_RERF_EVENT`|
+|트레이싱 관련|`BPF_PROG_TYPE_KPROBE`<br>`BPF_PROG_TYPE_TRACEPOINT`<br>`BPF_PROG_TYPE_PERF_EVENT`|
 |CGROUP 관련|`BPF_PROG_TYPE_CGROUP_SKB`<br>`BPF_PROG_TYPE_CGROUP_SOCK`<br>`BPF_PROG_TYPE_CGROUP_DEVICE`|
 |터널링 관련|`BPF_PROG_TYPE_LWT_IN`<br>`BPF_PROG_TYPE_LWT_OUT`<br>`BPF_PROG_TYPE_LWT_XMIT`<br>`BPF_PROG_TYPE_LWT_SEGGLOCAL`|
 
