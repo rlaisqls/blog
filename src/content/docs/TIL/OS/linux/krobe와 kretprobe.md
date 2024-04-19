@@ -1,6 +1,6 @@
 ---
 title: 'krobe와 kretprobe'
-lastUpdated: 2024-04-16T23:07:02
+lastUpdated: 2024-04-19T07:46:03
 ---
 kprobe와 kretprobe는 **커널 코드에 동적으로 중단점을 삽입하여 사용자가 정의하는 핸들러 함수가 실행되도록 하는** 강력한 도구이다.  kprobe는 함수 또는 함수에서 특정 오프셋만큼 떨어진 곳에서 핸들러 함수를 실행해주고, kretprobe는 함수가 끝난 후에 핸들러 함수를 실행하게 한다.
 

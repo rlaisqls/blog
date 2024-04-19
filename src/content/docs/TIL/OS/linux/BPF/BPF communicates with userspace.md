@@ -1,6 +1,6 @@
 ---
 title: 'BPF communicates with userspace'
-lastUpdated: 2024-04-18T23:13:54
+lastUpdated: 2024-04-19T07:46:03
 ---
 once a program is attached and running, how do we gather information from it? There are three ways to do do this; using BPF maps, perf events and bpf_trace_printk.
 
