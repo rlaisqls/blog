@@ -1,6 +1,6 @@
 ---
 title: 'file 관련 systemcall'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 2024-04-21T23:33:56
 ---
 
 ### open
@@ -308,9 +308,3 @@ int main(int argc, char *argv[]) {
   printf("File system : %s \n", finfo.st_fstype);
 }
 ```
-
-### 과제
-
-a.txt에 대해 b.txt라는 심링크 생성
-a.txt 삭제
-b.txt 존재 여부 검사
