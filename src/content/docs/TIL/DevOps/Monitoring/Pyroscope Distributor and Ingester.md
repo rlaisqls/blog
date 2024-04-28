@@ -1,6 +1,6 @@
 ---
 title: 'Pyroscope Distributor and Ingester'
-lastUpdated: 2024-04-28T11:40:06
+lastUpdated: 2024-04-28T11:46:58
 ---
 <img width="330" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/37fb9cc1-8767-4f68-aa27-77b46583650b">
 
