@@ -24,7 +24,7 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
         docs.map((post) => {
           let content = post.body
             .replace(/>\s|#|-|import.*?;|<[^>]*>?/g, "")
-            .slice(0, 200)
+            .slice(0, 400)
             .replace(/\`\`\`/g, "")
             .replace(/\*\*/g, "")
             .replace(/https:\/\/\S+/g, "")
