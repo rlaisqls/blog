@@ -1,6 +1,6 @@
 ---
 title: 'Cassandra'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
  
 아파치 카산드라(Apache Cassandra)는 자유 오픈 소스 분산형 NoSQL 데이터베이스 관리 시스템(DBMS)의 하나로, 단일 장애점 없이 고성능을 제공하면서 수많은 서버 간의 대용량의 데이터를 관리하기 위해 설계되었다.

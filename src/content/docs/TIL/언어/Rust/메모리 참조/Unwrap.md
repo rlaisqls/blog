@@ -1,6 +1,6 @@
 ---
 title: 'Unwrap'
-lastUpdated: 2024-03-23T23:07:01
+lastUpdated: 
 ---
 unwrap을 호출한 객체는 기본적으로 복사를 수행한다. 복사와 소유권 이동 둘다 가능한 시점에서 복사가 발생한다.
 

@@ -1,6 +1,6 @@
 ---
 title: 'ECS Getting started on Fargate'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 Amazon Elastic Container Service (Amazon ECS) is a highly scalable, fast, container management service that makes it easy to run, stop, and manage your containers. You can host your containers on a serverless infrastructure that is managed by Amazon ECS by launching your services or tasks on AWS Fargate.

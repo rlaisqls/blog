@@ -1,6 +1,6 @@
 ---
 title: 'PMU'
-lastUpdated: 2024-03-25T23:34:05
+lastUpdated: 
 ---
 # PMU(performance monitoring unit)
 

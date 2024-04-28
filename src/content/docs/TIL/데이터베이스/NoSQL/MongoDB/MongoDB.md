@@ -1,6 +1,6 @@
 ---
 title: 'MongoDB'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 mongoDB는 C++로 짜여진 오픈소스 데이터베이스이다. **문서지향(Document-Oriented)적이며 뛰어난 확장성과 성능을 자랑**한다.

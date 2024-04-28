@@ -1,6 +1,6 @@
 ---
 title: 'Node not Ready'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 A Kubernetes node is a physical or virtual machine participating in a Kubernetes cluster, which can e used to run pods. When a node **shuts down** or **crashed**, it enters the NotReasy state, meaning it cannot be used to run pods. All stateful pods running on the node then becom unavailable.

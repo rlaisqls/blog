@@ -1,6 +1,6 @@
 ---
 title: 'Resource Annotations & Labels'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 The various resource annotations that Istio supports to control its behavior.

@@ -1,6 +1,6 @@
 ---
 title: 'SEC()'
-lastUpdated: 2024-03-25T23:34:05
+lastUpdated: 
 ---
 
 - `SEC()`은 [ELF](./ELF.md) Section을 정의하는 매크로이다.

@@ -1,6 +1,6 @@
 ---
 title: 'HashedWheelTimer'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 Timers are important for failure recovery, rate based flow control, scheduling algorithms, controlling packet lifetime in networks. And Efficient timer algorithms are required to reduce the overall interrupt overhead

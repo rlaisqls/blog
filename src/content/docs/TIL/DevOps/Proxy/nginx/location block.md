@@ -1,6 +1,6 @@
 ---
 title: 'location block'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 location 블록은 Nginx에서 정의되어 있는 웹사이트의 특정 URL 을 조작하는데 사용되는 블록이다. Server 블록마다 Location 을 지정해줄 수 있으며, Location 을 여러 번 정의할 수 있다.

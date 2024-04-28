@@ -1,6 +1,6 @@
 ---
 title: 'DependencyHandler'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 [DependencyHandler](https://docs.gradle.org/current/javadoc/org/gradle/api/artifacts/dsl/DependencyHandler.html)는 Gradle의 종속성(Dependencies)을 생성해주는 인터페이스이다.

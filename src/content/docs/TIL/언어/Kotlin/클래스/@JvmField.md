@@ -1,6 +1,6 @@
 ---
 title: '@JvmField'
-lastUpdated: 2024-03-23T23:07:01
+lastUpdated: 
 ---
 
 `@JvmField`는 get/set을 생성하지 말라는 의미이다.

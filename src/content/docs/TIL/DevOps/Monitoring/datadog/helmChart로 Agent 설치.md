@@ -1,6 +1,6 @@
 ---
 title: 'helmChart로 Agent 설치'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 ### 1. helm을 설치한다.

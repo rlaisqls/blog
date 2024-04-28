@@ -1,6 +1,6 @@
 ---
 title: 'JAVA'
-lastUpdated: 2024-03-23T23:07:01
+lastUpdated: 
 ---
 ## 객체 지향 프로그래밍(OOP, Object-Oriented Programming)
 > #### 모든 데이터를 객체(object)로 취급하여 객체의 상태와 행동을 구체화 하는 형태의 프로그래밍

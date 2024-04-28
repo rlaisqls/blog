@@ -1,6 +1,6 @@
 ---
 title: '@ComponentScan'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 `@ComponentScan`은 객체를 패키지에서 Scan하여 빈으로 등록해주는 어노테이션이다.

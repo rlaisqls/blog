@@ -1,6 +1,6 @@
 ---
 title: 'Collections'
-lastUpdated: 2024-03-23T23:07:01
+lastUpdated: 
 ---
 
 코틀린에서 아래와 같은 방식으로 컬렉션을 사용할 수 있다.

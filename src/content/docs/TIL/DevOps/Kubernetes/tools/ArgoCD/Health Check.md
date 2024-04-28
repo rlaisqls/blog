@@ -1,6 +1,6 @@
 ---
 title: 'Health Check'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 Here are some common indicators and states you might encounter while working with ArgoCD:
 

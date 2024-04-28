@@ -1,6 +1,6 @@
 ---
 title: 'Cloud Agnostic Design'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 Agnostic is a term that refers to a kind of belief that does not determine the authenticity of religion, but it is often used in an extended sense in many fields. When it's commonly used, it means that you're not tied to a particular idea, concept, or theory.

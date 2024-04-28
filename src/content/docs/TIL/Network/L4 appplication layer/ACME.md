@@ -1,6 +1,6 @@
 ---
 title: 'ACME'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 ACME is a protocol that makes it possible to automate the issuance and renewal of certificates, all withour human interaction.

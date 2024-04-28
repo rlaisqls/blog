@@ -1,6 +1,6 @@
 ---
 title: 'Fargate'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 - Fargate is a servreless compute engine for containers.

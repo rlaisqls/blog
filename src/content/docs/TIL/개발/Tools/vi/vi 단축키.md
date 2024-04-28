@@ -1,6 +1,6 @@
 ---
 title: 'vi 단축키'
-lastUpdated: 2024-03-15T23:07:00
+lastUpdated: 
 ---
 
 ### 커서 이동

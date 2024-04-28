@@ -1,6 +1,6 @@
 ---
 title: 'K8s의 도커런타임 사용중단'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 ![image](https://user-images.githubusercontent.com/81006587/201903310-cec614e1-d458-40be-afc3-9df77529e4d5.png)

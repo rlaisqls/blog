@@ -1,6 +1,6 @@
 ---
 title: 'signal'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 리눅스에서는 프로세스끼리 서로 통신할 때 정해진 signal을 사용한다.

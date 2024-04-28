@@ -1,6 +1,6 @@
 ---
 title: 'puppeteer'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 Puppeteer는 Headless Chrome 혹은 Chromium 를 제어하도록 도와주는 라이브러리이다.

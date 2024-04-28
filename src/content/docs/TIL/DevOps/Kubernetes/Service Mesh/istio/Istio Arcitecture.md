@@ -1,6 +1,6 @@
 ---
 title: 'Istio Arcitecture'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 An Istio service mesh is logically split into a data plane and a control plane.

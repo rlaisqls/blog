@@ -1,6 +1,6 @@
 ---
 title: 'mail'
-lastUpdated: 2024-03-25T23:34:05
+lastUpdated: 
 ---
 
 linux에서 mail 서비스를 운영할 수 있다.

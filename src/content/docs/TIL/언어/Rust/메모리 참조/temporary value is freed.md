@@ -1,6 +1,6 @@
 ---
 title: 'temporary value is freed'
-lastUpdated: 2024-04-19T07:46:03
+lastUpdated: 
 ---
 - In Rust, the error `temporary value is freed` occurs when a temporary value is deallocated before it is expected to be used. 
 - This typically happens when the temporary value goes out of scope and its memory is deallocated. If there are still references to this value after deallocation, it leads to a runtime error.

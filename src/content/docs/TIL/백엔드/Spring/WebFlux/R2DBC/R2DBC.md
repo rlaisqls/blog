@@ -1,6 +1,6 @@
 ---
 title: 'R2DBC'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 R2DBC는 Reactive Relational Database Connectivity의 줄임말이다. R2DBC는 관계형 데이터베이스 접근을 위해 구현해야 할 리액티브 API를 선언하는 스펙이다.

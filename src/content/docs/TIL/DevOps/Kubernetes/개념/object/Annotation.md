@@ -1,6 +1,6 @@
 ---
 title: 'Annotation'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 - You can use Kubernetes annotations to attach arbitrary non-identifying metadata to objects. Clients such as tools and libraries can retrieve this metadata.

@@ -1,6 +1,6 @@
 ---
 title: 'perf event'
-lastUpdated: 2024-04-19T07:46:03
+lastUpdated: 
 ---
 ```c
     #include <linux/perf_event.h>    /* Definition of PERF_* constants */

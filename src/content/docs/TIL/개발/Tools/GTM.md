@@ -1,6 +1,6 @@
 ---
 title: 'GTM'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 - GTM은 ‘코드추적을 용이하게 해주는 도구이자 태그 관리 툴’이다.

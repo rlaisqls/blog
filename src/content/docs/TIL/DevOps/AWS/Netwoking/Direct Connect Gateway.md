@@ -1,6 +1,6 @@
 ---
 title: 'Direct Connect Gateway'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 Use AWS Direct Connect gateway to connect your VPCs. You associate an AWS Direct Connect gateway with either of the following gateways:

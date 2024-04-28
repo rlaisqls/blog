@@ -1,6 +1,6 @@
 ---
 title: 'Terraform with AWS'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 AWS Provider로 간단한 인프라를 구성해보자.

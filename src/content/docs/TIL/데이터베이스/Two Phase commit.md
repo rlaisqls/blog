@@ -1,6 +1,6 @@
 ---
 title: 'Two Phase commit'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 <img width="558" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/59cfc111-d6a4-40bb-ac68-4ebde4d33da4">

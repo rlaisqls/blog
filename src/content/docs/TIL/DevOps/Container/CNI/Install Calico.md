@@ -1,6 +1,6 @@
 ---
 title: 'Install Calico'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 1. Install the Calico operator and cudtom resource definitions

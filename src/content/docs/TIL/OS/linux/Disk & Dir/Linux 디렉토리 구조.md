@@ -1,6 +1,6 @@
 ---
 title: 'Linux 디렉토리 구조'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 - `/bin`: 기본 명령어 저장

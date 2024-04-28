@@ -1,6 +1,6 @@
 ---
 title: 'TLS'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 HTTP는 Hypertext Transfer Protocol의 약어이다. Hypertext 즉, HTML을 전송하는 통신 프로토콜을 의미하는 것이다.

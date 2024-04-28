@@ -1,6 +1,6 @@
 ---
 title: 'IP addresse prefix'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 Each Amazon EC2 instance supports a maximum number of elastic network interfaces and a maximum number of IP addresses that can be assigned to each network interface. Each node requires one IP address for each network interface. All other available IP addresses can be assigned to Pods. Each Pod requires its own IP address. As a result, you might have nodes that have available compute and memory resources, but can't accommodate additional Pods because the node has run out of IP addresses to assign to Pods.

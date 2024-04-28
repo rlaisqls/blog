@@ -1,6 +1,6 @@
 ---
 title: 'Contour'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 **Contour** is an Envoy based ingress controller.

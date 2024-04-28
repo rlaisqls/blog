@@ -1,6 +1,6 @@
 ---
 title: 'NetworkPolicy'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 Kubernetes's default befavior is to allow traffic between any two pods in the cluster network. This behavior is a deliberate design choice for ease of adoption and flexibility of configuration, but it is highly undesirable in practice. Allowing any system to make (or receive) arbitrary connections creates risk.

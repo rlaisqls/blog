@@ -1,6 +1,6 @@
 ---
 title: 'prometheus glossary'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 <img src="https://github.com/rlaisqls/TIL/assets/81006587/982c9e69-b39d-454e-8fed-6753ff221d1a" height=300px>

@@ -1,6 +1,6 @@
 ---
 title: 'Docker Image Layer'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 Lets take a contrived example Dockerfile:

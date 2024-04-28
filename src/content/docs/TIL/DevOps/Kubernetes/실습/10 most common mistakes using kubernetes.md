@@ -1,6 +1,6 @@
 ---
 title: '10 most common mistakes using kubernetes'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 We had the chance to see quite a bit of clusters in our years of experience with Kubernetes (both managed and unmanaged - on GCP, AWS and Azure), and we see some mistakes being repeated. No shame in that, we've done most of these too! Let's try to show the ones we see very often and talk a bit about how to fix them.

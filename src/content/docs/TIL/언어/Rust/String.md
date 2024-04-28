@@ -1,6 +1,6 @@
 ---
 title: 'String'
-lastUpdated: 2024-03-23T23:07:01
+lastUpdated: 
 ---
 
 ### String과 str

@@ -1,6 +1,6 @@
 ---
 title: 'RDS proxy'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 - By using Amazon RDS Proxy, you can allow your applications to pool and share database connections to improve their ability to scale.

@@ -1,6 +1,6 @@
 ---
 title: 'CNI'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 ![image](https://user-images.githubusercontent.com/81006587/216500706-744fd3ac-ca09-443b-b026-9c27f276c2b0.png)

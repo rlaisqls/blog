@@ -1,6 +1,6 @@
 ---
 title: 'libbpf helper 함수'
-lastUpdated: 2024-03-28T23:07:01
+lastUpdated: 
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: 'Active Directory Domain Services'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 - A directory is a **hierarchical structure** that stores information about objects on the network. 

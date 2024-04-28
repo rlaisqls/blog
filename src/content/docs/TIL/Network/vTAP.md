@@ -1,6 +1,6 @@
 ---
 title: 'vTAP'
-lastUpdated: 2024-03-25T23:34:05
+lastUpdated: 
 ---
 Being able to capture network packets from inside a network at strategic points is invaluable, whether it is done to troubleshoot or for security monitoring.
 

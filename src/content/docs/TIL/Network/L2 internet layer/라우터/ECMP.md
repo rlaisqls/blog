@@ -1,6 +1,6 @@
 ---
 title: 'ECMP'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/802d1aqECMP_%28cropped%29.gif" height=400px/>

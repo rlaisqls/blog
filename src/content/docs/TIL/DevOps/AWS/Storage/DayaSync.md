@@ -1,6 +1,6 @@
 ---
 title: 'DayaSync'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 AWS DataSync is a secure, online service that automates and accelerates moving data between on premises and AWS Storage services.

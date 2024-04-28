@@ -1,6 +1,6 @@
 ---
 title: 'Heap 영역 구조와 GC'
-lastUpdated: 2024-03-23T23:07:01
+lastUpdated: 
 ---
 
 런타임 데이터 영역은 크게 Method영역, Heap영역, Stack영역 등등으로 나뉘어있는데, 런타임중 가장 많은 메모리가 새로 할당되는 영역이 Heap영역이기 때문에, GC 또한 Heap영역을 위주로 실행된다.

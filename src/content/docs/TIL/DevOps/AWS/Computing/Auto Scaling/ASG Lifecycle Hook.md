@@ -1,6 +1,6 @@
 ---
 title: 'ASG Lifecycle Hook'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 ASG를 통해 생성되는 인스턴스들은 아래와 같은 Lifecycle을 가지고 있다.

@@ -1,6 +1,6 @@
 ---
 title: 'Lake Formation'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 [AWS Lake Formation](https://aws.amazon.com/lake-formation/) is fully managed service that helps you build, secure, and manage data lakes, and provide access control for data in the data lake.

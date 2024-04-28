@@ -1,6 +1,6 @@
 ---
 title: 'Sequences'
-lastUpdated: 2024-03-23T23:07:01
+lastUpdated: 
 ---
 
 Sequences는 Collections와 비슷하게 Iterable한 자료구조이다. 하지만 `Eager evaluation`으로 동작하는 Collections와 다르게 Sequences는 `Lazy evaluation`으로 동작한다.

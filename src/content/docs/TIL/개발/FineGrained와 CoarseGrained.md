@@ -1,6 +1,6 @@
 ---
 title: 'FineGrained와 CoarseGrained'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 <img src="https://github.com/rlaisqls/TIL/assets/81006587/dbef4d66-8107-48e8-8767-5a65c7f8a637" height=300px>
 

@@ -1,6 +1,6 @@
 ---
 title: 'pprof'
-lastUpdated: 2024-03-23T23:07:01
+lastUpdated: 
 ---
 
 > https://github.com/google/pprof?ref=pangyoalto.com

@@ -1,6 +1,6 @@
 ---
 title: 'Channel'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 Channel은 2개의 Coroutine 사이를 연결한 파이프라고 생각하면 된다.

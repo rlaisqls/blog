@@ -1,6 +1,6 @@
 ---
 title: 'HexagonalArchitecture'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 > The  <a href="https://beyondxscratch.com/2017/08/19/hexagonal-architecture-the-practical-guide-for-a-clean-architecture">Hexagonal Architecture<a/> is a very powerful pattern. It helps you create more sustainable and better testable software by decoupling the business logic from the technical code.

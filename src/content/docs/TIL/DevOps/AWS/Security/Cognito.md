@@ -1,6 +1,6 @@
 ---
 title: 'Cognito'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 Amazon Cognito is an identity platform for web and mobile apps. It’s a user directory, an authentication server, and an authorization service for OAuth 2.0 access tokens and AWS credentials.

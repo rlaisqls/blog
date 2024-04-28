@@ -1,6 +1,6 @@
 ---
 title: 'DNS 레코드유형'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 |레코드|설명|

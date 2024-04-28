@@ -1,6 +1,6 @@
 ---
 title: 'Keytool'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 Keystore 정보를 확인하기 위해선 터미널 또는 CMD에서 아래 명령어를 실행하면 된다.

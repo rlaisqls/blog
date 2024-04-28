@@ -1,6 +1,6 @@
 ---
 title: 'R2DBC 사용'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 R2DBC를 사용하기 위해서는 의존성을 먼저 추가해주어야 한다. 데이터베이스에 맞는 R2DBC driver와 그 구현체의 의존성을 추가해주자.

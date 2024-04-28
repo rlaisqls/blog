@@ -1,6 +1,6 @@
 ---
 title: 'Callback과 Futures'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 어떻게 해야 JVM 위에서 비동기적인 코드를 작성할 수 있을까? Java는 asynchronous programming을 위해 두가지 모델을 제공한다.

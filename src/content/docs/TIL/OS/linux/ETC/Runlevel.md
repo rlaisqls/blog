@@ -1,6 +1,6 @@
 ---
 title: 'Runlevel'
-lastUpdated: 2024-03-25T23:34:05
+lastUpdated: 
 ---
 
 ![image](https://github.com/rlaisqls/rlaisqls/assets/81006587/db6af408-ed8e-45bc-882c-789ae5c112d5)

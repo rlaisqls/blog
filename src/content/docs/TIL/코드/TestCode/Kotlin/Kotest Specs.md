@@ -1,6 +1,6 @@
 ---
 title: 'Kotest Specs'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 https://kotest.io/docs/framework/testing-styles.html

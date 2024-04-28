@@ -1,6 +1,6 @@
 ---
 title: 'BPF ring buffer'
-lastUpdated: 2024-03-26T23:07:01
+lastUpdated: 
 ---
 - BPF 프로그램은 수집한 데이터를 후처리하고 로깅하기 위해 정보를 User space로 전송하는데, 대부분의 경우 이를 위해 BPF Perf buffer(Perfbuf)를 사용한다. Perfbuf는 CPU마다 하나씩 생성되는 순환 버퍼로, Kernel space와 Use space간 데이터를 효율적으로 교환할 수 있도록 한다.
 

@@ -1,6 +1,6 @@
 ---
 title: '@GeneratedValue 코드보기'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 GeneratedValue는 jakarta에 정의되어있고, Id에 새로운 값을 자동으로 생성해줄 전략을 지정하기 위한 어노테이션이다.

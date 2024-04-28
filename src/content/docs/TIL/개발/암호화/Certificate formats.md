@@ -1,6 +1,6 @@
 ---
 title: 'Certificate formats'
-lastUpdated: 2024-03-02T21:22:36
+lastUpdated: 
 ---
 
 SSL has been around for long enough you'd think that there would be agreed upon container formats. Many formats are using for implement it. But in the end, all of these are different ways to encode Abstract Syntax Notation 1 (ASN.1) formatted data — which happens to be the format x509 certificates are defined in — in machine-readable ways.

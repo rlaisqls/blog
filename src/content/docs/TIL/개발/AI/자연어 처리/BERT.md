@@ -1,6 +1,6 @@
 ---
 title: 'BERT'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 BERT는 트랜스포머를 이용하여 구현되었으며, 위키피디아(25억 단어)와 BooksCorpus(8억 단어)와 같은 레이블이 없는 텍스트 데이터로 사전 훈련된 언어 모델이다.

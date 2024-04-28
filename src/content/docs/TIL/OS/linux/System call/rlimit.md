@@ -1,6 +1,6 @@
 ---
 title: 'rlimit'
-lastUpdated: 2024-04-14T23:07:00
+lastUpdated: 
 ---
 ## `getrlimit()`와 `setrlimit()`
 

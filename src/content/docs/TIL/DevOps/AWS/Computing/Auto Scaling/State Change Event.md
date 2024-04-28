@@ -1,6 +1,6 @@
 ---
 title: 'State Change Event'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 Amazon EC2 sends an `EC2 Instance State-change Notification` event to Amazon EventBridge when the state of an instance changes.

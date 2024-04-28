@@ -1,6 +1,6 @@
 ---
 title: 'OrphanRemoval'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 - <a href="./Cascade.md">cascade</a> 옵션을 사용하면 부모 엔티티에 상태 변화가 생길 때 그 엔티티와 연관되어있는 엔티티에도 상태 변화를 전이시킬 수 있다. 

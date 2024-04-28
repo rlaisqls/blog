@@ -1,6 +1,6 @@
 ---
 title: 'Procedural／Nonprocedural DML'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 <a href="./DML.md">DML</a>은 사용자가 DB에서 원하는 데이터를 처리할 수 있도록 명세하기 위한 도구이다. 간단하게 말하면 테이블의 데이터를 입력/수정/삭제/조회하는 데 쓰이는 쿼리 명령어라고 할 수 있다.

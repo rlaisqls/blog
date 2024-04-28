@@ -1,6 +1,6 @@
 ---
 title: 'Label'
-lastUpdated: 2024-03-23T23:07:01
+lastUpdated: 
 ---
 
 Kotlin은 loop에 label을 지정해 break, continue 스코프를 정할 수 있다.

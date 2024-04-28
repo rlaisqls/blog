@@ -1,6 +1,6 @@
 ---
 title: 'Envoy'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 
 ---
 
 Envoy is a high performance C++ distributed proxy designed for single services and applications, as well as a communication bus and **“universal data plane”** designed for large microservice **“service mesh”** architectures.
