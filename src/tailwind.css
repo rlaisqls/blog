@@ -7,9 +7,9 @@
 @layer base {
     html {
         font-family: 'Pretendard Variable', 'Noto Sans KR', sans-serif;
-        font-size: 16px;
+        font-size: 15px;
         color: #1d1d1f;
-        zoom: 90%;
+        zoom: 100%;
     }
     img {
         display: block;
