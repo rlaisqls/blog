@@ -1,6 +1,6 @@
 ---
 title: 'EBS gp2 vs gp3'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 - The main difference between gp2 and gp3, however, is gp3’s decoupling of IOPS, throughput, and volume size. This flexibility – the ability to configure each piece independently – is where the savings come in.

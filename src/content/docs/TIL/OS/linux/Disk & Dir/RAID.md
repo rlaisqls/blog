@@ -1,6 +1,6 @@
 ---
 title: 'RAID'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 ## RAID(Redundant Array of Independent Disks)
 

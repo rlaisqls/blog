@@ -1,6 +1,6 @@
 ---
 title: 'minio'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 ![image](https://github.com/rlaisqls/TIL/assets/81006587/e22783af-abce-40a5-9b35-2d40adc17425)

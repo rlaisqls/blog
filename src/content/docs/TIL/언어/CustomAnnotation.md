@@ -1,6 +1,6 @@
 ---
 title: 'CustomAnnotation'
-lastUpdated: 
+lastUpdated: 2024-03-23T23:07:01
 ---
 
 개발시 프레임워크를 사용하다보면 여러 Annotation들을 볼 수 있다. (ex: `@NotNull`, `@Controller`, `@Data` 등)

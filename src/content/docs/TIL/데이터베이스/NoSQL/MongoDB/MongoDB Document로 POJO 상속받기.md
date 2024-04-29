@@ -1,6 +1,6 @@
 ---
 title: 'MongoDB Document로 POJO 상속받기'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 REPO 코드를 짜던중, Document로 설정할 객체가 POJO를 상속받는 구조가 필요해졌다.

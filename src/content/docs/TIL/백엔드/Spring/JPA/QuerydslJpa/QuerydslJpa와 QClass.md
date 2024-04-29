@@ -1,6 +1,6 @@
 ---
 title: 'QuerydslJpa와 QClass'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 <img src="https://t1.daumcdn.net/cfile/tistory/99248E505CB2FFB018">

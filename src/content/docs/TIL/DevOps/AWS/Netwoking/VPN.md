@@ -1,6 +1,6 @@
 ---
 title: 'VPN'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 - VPCs can also serve as a bridge between your corporate data center and the WAS cloud. With a VPC Virtual Private Network (VPN), your NPC bocomes an extension of your ono-prem environment.

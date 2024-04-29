@@ -1,6 +1,6 @@
 ---
 title: 'CORS'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 CORS란Cross-Origin Resource Sharing, 교차 출처 리소스 공유의 약자이다. 서로 출처가 다른 웹 애플리케이션에서 자원을 공유하는 것을 말한다.

@@ -1,6 +1,6 @@
 ---
 title: 'Route53'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Amazon Route 53 is a highly available and scalable Domain Name System(DNS) service. You can use Route 53 to perform three main functions in any combination: domain registration, DNS routing, and health checking.

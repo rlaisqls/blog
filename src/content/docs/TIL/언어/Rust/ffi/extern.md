@@ -1,6 +1,6 @@
 ---
 title: 'extern'
-lastUpdated: 
+lastUpdated: 2024-04-08T23:07:00
 ---
 
 - Using extern keyword, you can link to or import external code.

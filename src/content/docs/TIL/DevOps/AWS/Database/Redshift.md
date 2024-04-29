@@ -1,6 +1,6 @@
 ---
 title: 'Redshift'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud. The Amazon Redshify service manages all of the work of setting up, operating, and scaling a data warehouse. These tasks include provisioning capacity, monitoring and backing up the cluster, and applying patches and upgrades to the Amazon Redshift engine.

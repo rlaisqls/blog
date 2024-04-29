@@ -1,6 +1,6 @@
 ---
 title: 'DR strategies'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 DR is a crucial part of your Business Continuity Plan. How can we architect for disaster recovery (DR), which is the process of preparing for and recovering from a disaster?

@@ -1,6 +1,6 @@
 ---
 title: 'aws 서버 네트워크 구축'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 ### 1. 네트워크 구성

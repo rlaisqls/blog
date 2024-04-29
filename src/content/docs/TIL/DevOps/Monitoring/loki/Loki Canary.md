@@ -1,6 +1,6 @@
 ---
 title: 'Loki Canary'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 - Loki Canary is a standalone app that audits the log-capturing performance of a Grafana Loki cluster.

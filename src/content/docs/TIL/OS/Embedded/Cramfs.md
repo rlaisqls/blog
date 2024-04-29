@@ -1,6 +1,6 @@
 ---
 title: 'Cramfs'
-lastUpdated: 
+lastUpdated: 2024-03-14T23:07:03
 ---
 - Cramfs (Compressed ROM File System)는 플래시 디바이스 내부에서 사용 가능한 압축된 읽기 전용 리눅스 파일 시스템이다.
 - 간단하고 공간 효율적이다.

@@ -1,6 +1,6 @@
 ---
 title: 'NetworkPolicy Cilium example'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Using the same KIND cluster from the Cilium install, let's deploy the Postgres database([database.yaml](https://github.com/strongjz/Networking-and-Kubernetes/blob/master/chapter-4/database.yaml)) with the follwing `YAML` and `kubectl`

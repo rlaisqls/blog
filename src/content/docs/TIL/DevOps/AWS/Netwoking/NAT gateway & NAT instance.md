@@ -1,6 +1,6 @@
 ---
 title: 'NAT gateway & NAT instance'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 |속성|	NAT 게이트웨이|NAT 인스턴스|

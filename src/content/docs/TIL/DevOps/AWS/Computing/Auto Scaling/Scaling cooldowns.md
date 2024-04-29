@@ -1,6 +1,6 @@
 ---
 title: 'Scaling cooldowns'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 - After your Auto Scaling group launches or terminates instances, it waits for a cooldown period to end before any further scaling activities initiated by simple scaling policies can start.

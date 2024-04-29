@@ -1,6 +1,6 @@
 ---
 title: 'CPU 아키텍처'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 ## Instruction Set Architecture

@@ -1,6 +1,6 @@
 ---
 title: 'Cobbler'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Cobbler is a Linux installation server that allows for rapid setup of network installation environments. It glues together and automates many associated Linux tasks so you do not have to hop between many various commands and applications when deploying new systems, and, in some cases, changing existing ones. Cobbler can help with provisioning, managing DNS and DHCP, package updates, power management, configuration management orchestration.

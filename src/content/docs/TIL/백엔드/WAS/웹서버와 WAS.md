@@ -1,6 +1,6 @@
 ---
 title: '웹서버와 WAS'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 ## 웹 서버(Web Server)
 

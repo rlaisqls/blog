@@ -1,6 +1,6 @@
 ---
 title: 'Kyverno'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Kyverno(Greek for “govern”) is a policy engine designed for Kubernetes. It can validate, mutate, and generate configurations using admission controls and background scans, Kyverno policies are Kubernetes resources and do not require learning new language. Kyverno is designed to work nicely with tools you already use like kubectl, kustomize, and Git.

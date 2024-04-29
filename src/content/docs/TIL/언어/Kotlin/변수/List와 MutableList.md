@@ -1,6 +1,6 @@
 ---
 title: 'List와 MutableList'
-lastUpdated: 
+lastUpdated: 2024-03-23T23:07:01
 ---
 
 List는 수정이 불가능한 리스트이고, MutableList는 수정이 가능한 리스트이다.

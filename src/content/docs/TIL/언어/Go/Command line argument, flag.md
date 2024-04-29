@@ -1,6 +1,6 @@
 ---
 title: 'Command line argument, flag'
-lastUpdated: 
+lastUpdated: 2024-03-25T23:34:05
 ---
 
 ### Command Line Argument 사용

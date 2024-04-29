@@ -1,6 +1,6 @@
 ---
 title: 'datadog'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 > 💡 APM, log, Infrastructure를 통합적으로 모니터링·관리하는 클라우드 모니터링 솔루션**

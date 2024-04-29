@@ -1,6 +1,6 @@
 ---
 title: 'ELB'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Elastic Load Balancing automatically distributes incoming application traffic acress multiple targets, such as Amazon EC2 instances, Docker containers, IP addresses, and Lambda functions. It can handel the varying load of your application traffic in a single Availability Zone or acress multiple Availability Zones. Elastic Load Balancing offers three types of load balancers that all feature the high cailability, automatic scaling, and robust security necessary to make your applications fault tolerant.

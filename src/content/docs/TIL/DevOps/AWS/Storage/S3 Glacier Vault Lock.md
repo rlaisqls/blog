@@ -1,6 +1,6 @@
 ---
 title: 'S3 Glacier Vault Lock'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 - S3 Glacier Vault Lock helps you to easily deploy and enforce compliance controls for individual S3 Glacier vaults with a Valut Lock policy.

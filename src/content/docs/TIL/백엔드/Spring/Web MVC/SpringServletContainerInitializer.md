@@ -1,6 +1,6 @@
 ---
 title: 'SpringServletContainerInitializer'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 `ServletContainerInitializer`(in org.springframework.web) is the interface which allows a library/runtime to be notified of a web application's startup phase and perform any required programmatic registration of servlets, filters, and listeners in response to it.

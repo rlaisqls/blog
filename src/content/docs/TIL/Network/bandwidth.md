@@ -1,6 +1,6 @@
 ---
 title: 'bandwidth'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 > Bandwidth is the amount of data that can be transmitted in a specified amount of time.

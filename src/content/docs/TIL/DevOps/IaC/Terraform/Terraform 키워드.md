@@ -1,6 +1,6 @@
 ---
 title: 'Terraform 키워드'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 resource는 테라폼에서 가장 중요한 요소이다. resource 블록은 하나 이상의 인프라스트럭처의 오브젝트를 기술한다. 아래는 providers로 AWS를 사용하고 있을 때 인스턴스를 사용하는 예제이다.

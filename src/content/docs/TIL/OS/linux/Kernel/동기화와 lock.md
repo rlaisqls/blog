@@ -1,6 +1,6 @@
 ---
 title: '동기화와 lock'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 ## 1. Critical section과 Race condition

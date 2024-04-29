@@ -1,6 +1,6 @@
 ---
 title: 'Elastic Beanstalk'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Elastic Beanstalk is another way to script out your provisioning process by deploying existing applications to the cloud. ElasticBeanstalk is aimed toward developers who know very little about the cloud and want the simplest way of deploying their code.

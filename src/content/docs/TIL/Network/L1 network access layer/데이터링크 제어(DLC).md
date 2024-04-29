@@ -1,6 +1,6 @@
 ---
 title: '데이터링크 제어(DLC)'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 데이터 링크 제어(DLC, DataLink Control)는 두 인접한 노드간의 통신의 프레임 짜기, 오류검출 작업 절차를 포함하는 데이터링크층의 부계층이다.

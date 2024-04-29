@@ -1,6 +1,6 @@
 ---
 title: 'Alias'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 SQL에서 Alias(별칭)은 컬럼이나 테이블에 임시 이름을 주는 용도로 사용한다.

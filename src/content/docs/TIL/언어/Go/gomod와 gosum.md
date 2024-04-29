@@ -1,6 +1,6 @@
 ---
 title: 'gomod와 gosum'
-lastUpdated: 
+lastUpdated: 2024-03-23T23:07:01
 ---
 ## go.mod
 

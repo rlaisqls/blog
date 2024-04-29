@@ -1,6 +1,6 @@
 ---
 title: 'jcmd'
-lastUpdated: 
+lastUpdated: 2024-04-29T23:07:00
 ---
 
 Jcmd is a recommended tool from JDK 7 onwards for enhanced JVM diagnostics with no or minimum performance overhead.

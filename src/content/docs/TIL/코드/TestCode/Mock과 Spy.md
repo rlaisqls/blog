@@ -1,6 +1,6 @@
 ---
 title: 'Mock과 Spy'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Mockito 등의 라이브러리를 쓰다보면, Mock과 Spy를 사용하게 될 것이다. 둘 다 클래스의 **가상 객체**를 만들어서 메소드와 필드를 모의 실험하기 위해 쓰인다는 공통점이 있다.

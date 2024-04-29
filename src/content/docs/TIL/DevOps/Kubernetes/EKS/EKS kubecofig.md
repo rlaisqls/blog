@@ -1,6 +1,6 @@
 ---
 title: 'EKS kubecofig'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
  
 EKS 기본 환경 Setting 방법을 알아보자.

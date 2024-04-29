@@ -1,6 +1,6 @@
 ---
 title: 'IAM'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 **IAM** enables you to securely control access to AWS services and resources for your AWS users, groups, and roles. Using IAM, you can create and manage fine-grained access controls with permissions, specify who can access which services and resources, and under which conditions. IAM allows you to do the following:

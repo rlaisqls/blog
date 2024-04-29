@@ -1,6 +1,6 @@
 ---
 title: 'Taints and Tolerations'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Node affinity is a property of Pods that attracts them to a set of nodes (either as a preference or a hard requirement) **Taints are the opposite** -- they allow a node to repel a set of pods.

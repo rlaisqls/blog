@@ -1,6 +1,6 @@
 ---
 title: 'Understanding Ansible, Terraform, Puppet, Chef, and Salt'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Choosing the automation solution that works best for your organization is no easy task. There’s not a single "right" approach—you can automate your enterprise in multiple ways. Indeed, many IT organizations today use more than one automation tool, and a major consideration is how well they work together to achieve business goals. 

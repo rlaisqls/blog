@@ -1,6 +1,6 @@
 ---
 title: 'prometheus agent mode'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 - The core design of Prometheus is inpired by Google's [Borgmon monitoring system](https://sre.google/sre-book/practical-alerting/#the-rise-of-borgmon), you can deploy a Prometheus server alongside the applications you want to monitor, tell Prometheus how to reach them, and allow to scrape the current values of their metrics at regular intervals.

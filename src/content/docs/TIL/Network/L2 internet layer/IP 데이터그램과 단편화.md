@@ -1,6 +1,6 @@
 ---
 title: 'IP 데이터그램과 단편화'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 IP 데이터그램은 아래와 같은 형태로 구성되어있다.

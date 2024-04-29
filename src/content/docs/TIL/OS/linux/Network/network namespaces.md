@@ -1,6 +1,6 @@
 ---
 title: 'network namespaces'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 컨테이너는 [namespace](namespace와 cgroup.md)를 사용하여 같은 host 안에서 자원을 격리한다. 

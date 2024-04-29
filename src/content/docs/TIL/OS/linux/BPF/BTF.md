@@ -1,6 +1,6 @@
 ---
 title: 'BTF'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 BTF is the metadata format which encodes the debug info related to BPF program/map. The name BTF was used initially to describe data types. The BTF was later extended to include function info for defined subroutines, and line info for source/line information.

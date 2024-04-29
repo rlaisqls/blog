@@ -1,6 +1,6 @@
 ---
 title: 'Dex'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Dex is an identity service that uses OpenID Connect to drive authentication for other apps.

@@ -1,6 +1,6 @@
 ---
 title: 'Helm'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Helm이란, kubernetes 패키지 관리를 도와주는 tool이다.  Node.js의 npm, Python의 pip와 같은 역할이라고 볼 수 있다.

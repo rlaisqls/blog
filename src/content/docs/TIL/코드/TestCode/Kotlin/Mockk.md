@@ -1,6 +1,6 @@
 ---
 title: 'Mockk'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 ![image](https://user-images.githubusercontent.com/81006587/210192366-7c1a653d-9af0-4e7d-aab1-7b54b58be4cd.png)

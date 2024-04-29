@@ -1,6 +1,6 @@
 ---
 title: 'Terraform'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Terraform is an open source “Infrastructure as Code” tool, created by HashiCorp.

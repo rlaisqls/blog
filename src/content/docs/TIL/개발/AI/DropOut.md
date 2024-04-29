@@ -1,6 +1,6 @@
 ---
 title: 'DropOut'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
  <img width="530" alt="image" src="https://github.com/rlaisqls/rlaisqls/assets/81006587/91ba4db6-eef3-4741-a6a2-6e76fe64269e">

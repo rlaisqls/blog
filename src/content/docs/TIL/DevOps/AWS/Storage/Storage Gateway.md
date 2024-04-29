@@ -1,6 +1,6 @@
 ---
 title: 'Storage Gateway'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Storage Gateway is a service that connects on-premise environments with cloud-based storage in order to seamlessly and securely intergrate an on-prem application with a cloud storage backend. Storage Gateway comes in three flavors: File Gateway, Volume Gateway and Tape Gateway.

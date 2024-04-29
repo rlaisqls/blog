@@ -1,6 +1,6 @@
 ---
 title: 'Promise'
-lastUpdated: 
+lastUpdated: 2024-03-23T23:07:01
 ---
 
 - Kleisli composition은 함수형 프로그래밍에서 두 개의 Kleisli 함수를 조합하는 기술을 가리킨다.

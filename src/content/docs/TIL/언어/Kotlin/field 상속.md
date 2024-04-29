@@ -1,6 +1,6 @@
 ---
 title: 'field 상속'
-lastUpdated: 
+lastUpdated: 2024-03-23T23:07:01
 ---
 
 JAVA에는 field 상속이라는 개념이 없다. 하지만 kotlin에서는 `override val`과 같이 쓰면 필드를 상속받은 것 처럼 사용할 수 있다.

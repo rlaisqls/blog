@@ -1,6 +1,6 @@
 ---
 title: 'Flow'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 coroutine의 Flow는 데이터 스트림이며, 코루틴 상에서 리액티브 프로그래밍을 지원하기 위한 구성요소이다.

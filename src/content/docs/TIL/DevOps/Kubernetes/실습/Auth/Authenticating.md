@@ -1,6 +1,6 @@
 ---
 title: 'Authenticating'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 k8s에서 kubectl과 같은 커맨드를 사용해 API를 요청하는 과정은 크게 3가지로 구성되어 있다. 

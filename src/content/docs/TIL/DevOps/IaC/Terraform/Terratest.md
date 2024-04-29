@@ -1,6 +1,6 @@
 ---
 title: 'Terratest'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Terratest has a pretty simple premise. It is ans open-source testing framework created by Terragrunt the includes helper functions for testing terraform code by providing a simple, reusable, and easy-to-use interface for creating and running automated tests on cloud resources.

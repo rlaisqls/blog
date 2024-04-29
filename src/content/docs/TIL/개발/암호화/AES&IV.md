@@ -1,6 +1,6 @@
 ---
 title: 'AES&IV'
-lastUpdated: 
+lastUpdated: 2023-05-03T23:28:19
 ---
 In AES, For The Same Plaintext, Will We Always Get Same Ciphertext (for the same IV and Key)?
 

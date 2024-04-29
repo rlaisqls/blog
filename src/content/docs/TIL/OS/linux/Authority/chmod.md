@@ -1,6 +1,6 @@
 ---
 title: 'chmod'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 `ls -l` 명령을 사용하여 파일, 디렉토리 리스트를 출력하면 파일에 지정된 permission을 확인할 수 있다.

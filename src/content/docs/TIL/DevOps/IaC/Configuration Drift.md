@@ -1,6 +1,6 @@
 ---
 title: 'Configuration Drift'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Configuration Drift is the phenomenon where servers in an infrastructure become more and more different from one another as time goes on, due to manual ad-hoc changes and updates, and general entropy.

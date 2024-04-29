@@ -1,6 +1,6 @@
 ---
 title: 'Cipher'
-lastUpdated: 
+lastUpdated: 2024-03-02T21:22:36
 ---
 
 > https://www.baeldung.com/java-cipher-class

@@ -1,6 +1,6 @@
 ---
 title: 'java로 간단한 socket 프로그램만들기'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 `java.net`의 Socket class와 Thread를 이용해 간단한 socket 통신 프로그램을 만들어보자.

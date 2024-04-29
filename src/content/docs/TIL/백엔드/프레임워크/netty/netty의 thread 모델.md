@@ -1,6 +1,6 @@
 ---
 title: 'netty의 thread 모델'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 이벤트 루프란 이벤트를 실행하기 위한 무한루프 스레드를 말한다.

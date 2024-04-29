@@ -1,6 +1,6 @@
 ---
 title: 'val과 var'
-lastUpdated: 
+lastUpdated: 2024-03-23T23:07:01
 ---
 
 코틀린을 사용할 때 변수를 선언하려면 아래와 같이 한다.

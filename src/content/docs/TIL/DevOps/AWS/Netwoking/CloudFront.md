@@ -1,6 +1,6 @@
 ---
 title: 'CloudFront'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 The AWS CDN service is called CloudFront. It serves up cached content and assets for the increased global performance of you application.

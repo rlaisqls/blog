@@ -1,6 +1,6 @@
 ---
 title: 'WAF & Firewall Manager & Shield Advanced'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 You can use AWS WAF, AWS Shield, and AWS Firewall Manager together to create a comprehensive security solution. 

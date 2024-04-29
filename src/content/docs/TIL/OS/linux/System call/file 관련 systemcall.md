@@ -1,6 +1,6 @@
 ---
 title: 'file 관련 systemcall'
-lastUpdated: 
+lastUpdated: 2024-04-21T23:33:56
 ---
 
 ### open

@@ -1,6 +1,6 @@
 ---
 title: 'VPC'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 ![image](https://github.com/rlaisqls/rlaisqls/assets/81006587/a61614ad-4b4e-4533-ba3d-434ae438978d)

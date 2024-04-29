@@ -1,6 +1,6 @@
 ---
 title: 'Anyhow'
-lastUpdated: 
+lastUpdated: 2024-03-25T23:34:05
 ---
 
 - Anyhow는 일반화된 Error 타입을 이용해 **코드에서 발생하는 에러를 한 가지 타입으로 처리할 수 있게 도와주는 라이브러리**이다.

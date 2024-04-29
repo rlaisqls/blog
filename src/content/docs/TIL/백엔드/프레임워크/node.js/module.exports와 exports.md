@@ -1,6 +1,6 @@
 ---
 title: 'module.exports와 exports'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 모듈이란 관련된 코드들을 하나의 코드 단위로 캡슐화 하는 것을 말한다.

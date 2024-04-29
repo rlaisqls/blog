@@ -1,6 +1,6 @@
 ---
 title: 'Pyroscope eBPF'
-lastUpdated: 
+lastUpdated: 2024-04-04T23:07:01
 ---
 
 Pyroscope는 애플리케이션을 지속적으로 프로파일링하는 오픈소스 플랫폼이다. Go의 `pprof`, python의 `py-spy`, eBPF 등 다양한 백엔드를 지원한다. 애플리케이션이 사용한 CPU, Memory 등의 메트릭을 Flamegraph로 확인할 수 있도록 하는 기능을 제공한다.

@@ -1,6 +1,6 @@
 ---
 title: 'Rule'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 > **NOTE:** It is recommended to keep deploying rules inside the relevant Prometheus servers locally. Use ruler only on specific cases. Read details below why.

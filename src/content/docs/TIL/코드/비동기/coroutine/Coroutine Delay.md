@@ -1,6 +1,6 @@
 ---
 title: 'Coroutine Delay'
-lastUpdated: 
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 아래와 같은 timeout(혹은 delay)가 내부적으로 어떻게 동작하는지 알아보자.
