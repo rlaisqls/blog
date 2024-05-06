@@ -1,6 +1,6 @@
 ---
 title: 'Pyroscope eBPF'
-lastUpdated: 2024-04-04T23:07:01
+lastUpdated: 2024-05-06T23:07:00
 ---
 
 Pyroscope는 애플리케이션을 지속적으로 프로파일링하는 오픈소스 플랫폼이다. Go의 `pprof`, python의 `py-spy`, eBPF 등 다양한 백엔드를 지원한다. 애플리케이션이 사용한 CPU, Memory 등의 메트릭을 Flamegraph로 확인할 수 있도록 하는 기능을 제공한다.
@@ -13,7 +13,7 @@ Flamegraph는 샘플링 시간에 캡처된 모든 함수를 보여준다. 그�
 
 Pyroscope의 ebpf 백엔드는 Flamegraph 정보를 가져오기 위해 eBPF helper인 `bpf_get_stackid`를 사용한다. `bpf_get_stackid`를 사용하면 특정 애플리케이션의 사용자 또는 커널 스택을 검사할 수 있다.
 
-> Walk a user or a kernel stack and return its id. To achieve this, the helper needs ctx, which is a pointer to the context on which the tracing program is executed, and a pointer to a map of type BPF_MAP_TYPE_STACK_TRACE.
+> Walk a user or a kernel stack and return its id. To achieve this, the helper needs ctx, which is a pointer to the context on which the tracing program is executed, and a pointer to a map of type `BPF_MAP_TYPE_STACK_TRACE`.
 
 따라서 helper는 두 가지 작업을 수행한다.
 
@@ -76,18 +76,18 @@ helper에서 명령어의 포인터를 기준으로 정보를 수집한 후에�
     ```go
     func newPerfEvent(cpu int, sampleRate int) (*perfEvent, error) {
         var (
-        fd  int
-        err error
+            fd  int
+            err error
         )
         attr := unix.PerfEventAttr{
-        Type:   unix.PERF_TYPE_SOFTWARE,
-        Config: unix.PERF_COUNT_SW_CPU_CLOCK,
-        Bits:   unix.PerfBitFreq,
-        Sample: uint64(sampleRate),
+            Type:   unix.PERF_TYPE_SOFTWARE,
+            Config: unix.PERF_COUNT_SW_CPU_CLOCK,
+            Bits:   unix.PerfBitFreq,
+            Sample: uint64(sampleRate),
         }
         fd, err = unix.PerfEventOpen(&attr, -1, cpu, -1, unix.PERF_FLAG_FD_CLOEXEC)
         if err != nil {
-        return nil, fmt.Errorf("open perf event: %w", err)
+            return nil, fmt.Errorf("open perf event: %w", err)
         }
         return &perfEvent{fd: fd}, nil
     }
@@ -112,7 +112,7 @@ helper에서 명령어의 포인터를 기준으로 정보를 수집한 후에�
 
     ```go
     for i := range keys {
-        /*...*/
+        // ...
         if s.options.CollectUser {
             uStack = s.getStack(ck.UserStack)
         }
@@ -190,13 +190,13 @@ helper에서 명령어의 포인터를 기준으로 정보를 수집한 후에�
 
     ```go
         ProcMap {
-        StartAddr: saddr,
-        EndAddr:   eaddr,
-        Perms:     perms,
-        Offset:    offset,
-        Dev:       device,
-        Inode:     inode,
-        Pathname:  pathname,
+            StartAddr: saddr,
+            EndAddr:   eaddr,
+            Perms:     perms,
+            Offset:    offset,
+            Dev:       device,
+            Inode:     inode,
+            Pathname:  pathname,
         }
     ```
 
