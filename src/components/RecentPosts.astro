@@ -8,14 +8,38 @@ export type StarlightDocsEntry = Omit<CollectionEntry<"docs">, "slug"> & {
 const docs: StarlightDocsEntry[] = ((await getCollection("docs")) ?? [])
   .filter((d) => d.data.lastUpdated)
   .sort((a, b) => b.data.lastUpdated - a.data.lastUpdated)
-  .slice(0, 30);
-
-// console.log(docs);
+  .slice(0, 100);
 
 const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
 ---
 
 <>
+  <script>
+    const tgt = document.querySelector(".more");
+
+    window.onload = function() {
+      var elements = document.getElementsByClassName("hide-element");
+      for (var i = 0; i < 2; i++) {
+        elements[i].classList.remove("hide-element");
+        elements[i].classList.add("show-element");
+      }
+    }
+    let count = 4;
+    tgt.addEventListener("click", () => {
+      var elements = document.getElementsByClassName("hide-element");
+      if (elements.length<6) return;
+
+      for (var i = 0; i < count; i++) {
+        elements[i].classList.remove("hide-element");
+        elements[i].classList.add("show-element");
+      }
+
+      if (elements.length<6) {
+        var more = document.getElementsByClassName("more");
+        more[0].classList.add("hide-element");
+      } 
+    });
+  </script>
   <div class="mt-[75px]">
     <span>최신글</span>
     <div class="line"></div>
@@ -23,7 +47,7 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
       {
         docs.map((post) => {
           let content = post.body
-            .replace(/>\s|#|-|import.*?;|<[^>]*>?/g, "")
+            .replace(/>\s|#|- |import.*?;|<[^>]*>?/g, "")
             .slice(0, 400)
             .replace(/\`\`\`/g, "")
             .replace(/\*\*/g, "")
@@ -43,7 +67,7 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
             return parts;
           }
           return (
-            <div>
+            <div class="hide-element">
               <a class="no-underline" href={`/${post.slug}/`}>
                 <div class="flex flex-row gap-2">
                   <span class="text-lg title font-bold">{post.data.title}</span>
@@ -65,6 +89,13 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
         })
       }
     </div>
+    <div style="margin-top: 40px; display: flex; align-items: center; justify-content: center;">
+      <div class="more">
+        <div style="display: flex; align-items: center; justify-content: center;">
+          + 더보기
+        </div>
+      </div>
+    </div>
   </div>
 </>
 
@@ -73,5 +104,20 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
     margin-top: 0.5rem;
     height: 0.07rem;
     background: var(--sl-color-gray-3);
+  }
+
+  .more {
+    width: 70px;
+    border-radius: 20px;
+    margin: auto 0;
+    background: var(--sl-color-gray-6);
+  }
+
+  .hide-element {
+    display: none;
+  }
+
+  .show-element {
+    display: block;
   }
 </style>
