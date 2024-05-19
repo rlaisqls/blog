@@ -1,0 +1,29 @@
+---
+import type { Props } from '@astrojs/starlight/props'
+import Default from '@astrojs/starlight/components/Head.astro'
+
+const ogImageUrl = new URL(
+  `/og/${Astro.props.id.replace(/\.\w+$/, '.png')}`,
+  Astro.site,
+)
+const description = Astro.props.entry.body
+    .replace(/>\s|#|- |import.*?;|<[^>]*>?/g, "")
+    .replace(/\`\`\`/g, "")
+    .replace(/\*\*/g, "")
+    .replace(/https:\/\/\S+/g, "")
+    .replace(/\[([^\]]+)\]\([^\)]+\)/g, "$1")
+    .replace(/\n/g, "")
+    .slice(0, 160)
+//console.log(description)
+---
+
+<Default {...Astro.props}><slot /></Default>
+<script>
+    document.querySelector("[property='og:description']").remove()
+    document.querySelector("[name='twitter:description']").remove()
+</script>
+
+<meta property="og:image" content={ogImageUrl} />
+<meta name="twitter:image" content={ogImageUrl} />
+<meta property="og:description" content={description} />
+<meta name="twitter:description" content={description} />

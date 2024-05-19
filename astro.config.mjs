@@ -2,11 +2,14 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import tailwind from '@astrojs/tailwind';
 import remarkDescription from 'astro-remark-description'
+import { rehypeHeadingIds } from '@astrojs/markdown-remark'
+import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://blog.rlaisqls.site',
 	markdown: {
+		rehypePlugins: [rehypeHeadingIds, rehypeAutolinkHeadings],
 		remarkPlugins: [
 			[remarkDescription, {}]
 		]
@@ -23,7 +26,8 @@ export default defineConfig({
 				Sidebar: './src/components/Sidebar.astro',
 				Footer: './src/components/Footer.astro',
 				PageTitle: './src/components/PageTitle.astro',
-				ThemeSelect: './src/components/ThemeSelect.astro'
+				ThemeSelect: './src/components/ThemeSelect.astro',
+				Head: './src/components/Head.astro'
 			},
 			sidebar: [
 				{
