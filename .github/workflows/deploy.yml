@@ -25,8 +25,8 @@ jobs:
         uses: withastro/action@v2
         with:
           path: .
-          node-version: 20
-          package-manager: yarn@latest
+          node-version: 18.17.1
+          package-manager: yarn@1.22.21
 
   deploy:
     needs: build
