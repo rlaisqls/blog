@@ -1,6 +1,6 @@
 ---
 title: 'Object'
-lastUpdated: 2024-03-23T23:07:01
+lastUpdated: 2024-05-20T23:07:00
 ---
 
 코틀린에서 클래스를 정의하는 키워드는 class이다. 하지만 간혹 object 키워드로 클래스 정의하는 경우를 볼 수 있다. object로 클래스를 정의하면, 싱클턴(Singleton) 패턴이 적용되어 객체가 한번만 생성되도록 한다. 코틀린에서 object를 사용하면 싱글톰을 구현하기 위한 Boiler plate를 작성하지 않아도 된다. 또는, 익명 객체를 생성할 때 쓰이기도 한다.
@@ -25,7 +25,7 @@ object CarFactory {
 }
 ```
 
-object로 설정하면, 아래 코드처럼 CarFactory.makeCar 처럼 메소드에 접근하여 Car객체를 생성할 수 있다. 또한, CarFactory.cars 처럼 직접 변수에 접근할 수 있습니다. 마치 static처럼 사용하는 것 같지만, 인스턴스는 한개 만들어져있는 상태이다. 당연히 여러번 호출해도 CarFactory 객체는 한번만 생성된다.
+object로 설정하면, 아래 코드처럼 CarFactory.makeCar 처럼 메소드에 접근하여 Car객체를 생성할 수 있다. 또한, CarFactory.cars 처럼 직접 변수에 접근할 수 있다. 마치 static처럼 사용하는 것 같지만, 인스턴스는 한개 만들어져있는 상태이다. 당연히 여러번 호출해도 CarFactory 객체는 한번만 생성된다.
 
 ```kotlin
 val car = CarFactory.makeCar(150)

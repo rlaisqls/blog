@@ -1,6 +1,6 @@
 ---
 title: 'Events'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 2024-05-20T23:07:00
 ---
 
 Kubernetes Events는 하나의 Kubernetes 리소스 타입으로서 Kubernetes 리소스들의 state 변화, 에러 또는 시스템에 특정 메세지를 전파해야할 때 자동으로 만들어진다. 이러한 Kubernetes Events 리소스는 Kubernetes 개발 및 운영하며 디버깅시에 매우 유용하게 사용된다.
@@ -32,7 +32,7 @@ Kubernetes를 사용하다보면 Events가 계속 쌓이게 되는데 이걸 계
 
 간략하게 위에서 출력된 필드만 살펴보자.
 
-- **type**: Normal, Warning 2가지의 값 중 하나를 가지며 추후 추가될 수 있습니다. 말 그대로 일반적인 작업에 의해 생겨난 Event인지, 아니면 어느 오류 및 실패로 인해 생겨난 Event인지 표현한다.
+- **type**: Normal, Warning 2가지의 값 중 하나를 가지며 추후 추가될 수 있다. 말 그대로 일반적인 작업에 의해 생겨난 Event인지, 아니면 어느 오류 및 실패로 인해 생겨난 Event인지 표현한다.
 - **reason**: 왜 해당 Event가 발생했는지를 나타낸다. 딱히 정해진 형식은 없고, 128자 이하의 사람이 이해할 수 있는 짧은 명칭이다. kubelet에서 사용하는 Reason의 종류는 [여기](https://github.com/kubernetes/kubernetes/blob/master/pkg/kubelet/events/event.go)서 볼 수 있다.
 - **eventTime**: Age로 출력된 부분의 값을 나타낸다. Event 발생한 시각을 의미하며 MicroTime 타입의 데이터로 이루어져있다.
 - **reportingController**: From으로 출력된 부분의 값을 나타낸다. 말 그대로 해당 Event를 발생시킨 Controller의 이름을 의미한다.

@@ -1,6 +1,6 @@
 ---
 title: 'AppSync'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 2024-05-20T23:07:00
 ---
 
 <img width="649" alt="image" src="https://github.com/rlaisqls/rlaisqls/assets/81006587/cd94639f-0937-4141-a540-b7e3acf6cd2e">
@@ -24,7 +24,7 @@ AppSync에서는 request와 response할 시에 호출될 resolver를 각각 정�
 
     <img width="216" alt="image" src="https://github.com/rlaisqls/rlaisqls/assets/81006587/b9afea3b-60ce-46dd-b73b-d43aef0db918">
   
-  Pipeline resolver 타입은 하나하나의 `request mapping template` + `response mapping template` 쌍을 Function으로 등록하여 사용한다. 이 Function은 다른 resolver 에서도 사용할 수 있어서, 공통적인 로직을 만들어두고 다양한 resolver에서 사용하는 패턴 등의 활용이 가능합니다.
+  Pipeline resolver 타입은 하나하나의 `request mapping template` + `response mapping template` 쌍을 Function으로 등록하여 사용한다. 이 Function은 다른 resolver 에서도 사용할 수 있어서, 공통적인 로직을 만들어두고 다양한 resolver에서 사용하는 패턴 등의 활용이 가능하다.
 
 ### Scalar Types
 

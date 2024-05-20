@@ -1,6 +1,6 @@
 ---
 title: '@GroupSequence'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 2024-05-20T23:07:00
 ---
 
 보통 WebRequest를 받을때, null이거나 비어있는 등의 유효하지 않은 값을 미리 걸러내기 위해 Sprign validation을 사용한다. 설정해둔 `@NotNull`, `@Size`, `@Pattern` 등 조건에 부합하지 못하면 MethodArgumentNotValidException이 발생하고, 이 에러를 적절히 처리하여 반환하는 방식이 많이 사용된다.
@@ -46,7 +46,7 @@ dto에 선언되어있는 어노테이션에서 각각 groups = "인터페이스
 ```java
 @Size(min = 4, max = 30, message = "아이디는 4글자에서 30글자 사이로 입력해주세요.", groups = ValidationGroups.SizeCheckGroup.class)
 @NotBlank(message = "아이디를 입력해주세요.", groups = ValidationGroups.NotNullGroup.class)
-@Pattern(regexp = "^([a-z가-힣0-9]){4,30}$", message = "대문자, 특수문자는 입력할 수 없습니다.", groups = ValidationGroups.PatternCheckGroup.class)
+@Pattern(regexp = "^([a-z가-힣0-9]){4,30}$", message = "대문자, 특수문자는 입력할 수 없다.", groups = ValidationGroups.PatternCheckGroup.class)
     private String userId;
 ```
 
