@@ -1,0 +1,76 @@
+---
+export async function getStaticPaths() {
+  const allPosts = await Astro.glob('../../**/*.{md,mdx,astro}');
+  const uniqueTags = [...new Set(allPosts.map((post) => {
+    let tags = post.file.slice("/Users/rlaisqls/github/blog/src/content/docs".length).split("/").slice(1,-1)
+    if (post.frontmatter && post.frontmatter.tags) {
+        tags = tags.concat(...post.frontmatter.tags)
+    } 
+    return tags
+  }).flat())];
+
+  return uniqueTags.map((tag) => {
+    const filteredPosts = allPosts.filter((post) => {
+        if (post.file.slice("/Users/rlaisqls/github/blog/src/content/docs".length).split("/").slice(1,-1).includes(tag)) {
+            return true;
+        } if (post.frontmatter && post.frontmatter.tags) {
+            post.frontmatter.tags.includes(tag)
+        } else return false
+    });
+    return {
+      params: { tag },
+      props: { posts: filteredPosts },
+    };
+  });
+}
+
+
+const { tag } = Astro.params;
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import FormattedDate from "../../components/FormattedDate.astro";
+const allPosts = await Astro.glob('../../**/*.{md,mdx,astro}');
+
+
+const filteredPosts = allPosts.filter((post) => {
+    if (post.file.slice("/Users/rlaisqls/github/blog/src/content/docs".length).split("/").slice(1,-1).includes(tag)) {
+        return true;
+    } else if (post.frontmatter && post.frontmatter.tags) {
+        return post.frontmatter.tags.includes(tag)
+    } else return false
+}).sort((a, b) => new Date(b.frontmatter.lastUpdated) - new Date(a.frontmatter.lastUpdated));
+
+const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
+const removeFileExtension = (filePath) => filePath.substring(0, filePath.lastIndexOf('.')) || filePath;
+---
+
+<StarlightPage frontmatter={{ title: '태그: ' + tag }}>
+    <div class="flex flex-col gap-4 ml-6 mr-6">
+        {filteredPosts.map((post) => {
+            
+            const url = removeFileExtension(post.file).slice("/Users/rlaisqls/github/blog/src/content/docs".length)
+                .replace(/ /g, "").toLowerCase()
+            return <div>
+                <a class="no-underline" href={(post.url && removeFileExtension(post.url.slice("src/content/docs".length))) || url}>
+                <div class="flex flex-row justify-between">
+                    <div style="margin-left: 0;" class="flex flex-row gap-2">
+                        <span class="text-lg title font-bold h-[20px]">{post.frontmatter.title}</span>
+                        <div
+                            style="background-color: var(--sl-color-gray-4)"
+                            class="w-[1px] h-[20px] my-auto"
+                        />
+                        <span style="color: var(--sl-color-gray-3)">
+                            {(post.default.moduleId && getParentFolder(post.default.moduleId)) || getParentFolder(url)}
+                        </span>
+                    </div>
+                    <div style="margin-right: 0; margin-top: 0">
+                        <FormattedDate date={new Date(post.frontmatter.lastUpdated)}/>
+                    </div>
+                </div>
+                <span class="line-clamp-2 overflow-hidden bg-blue m-0 btext-ellipsis">
+                    {post.frontmatter.description}
+                </span>
+                </a>
+            </div>
+        })}
+    </div>
+</StarlightPage>

@@ -1,22 +1,49 @@
 ---
 import type { Props } from '@astrojs/starlight/props';
 
-const { labels, lang, lastUpdated } = Astro.props;
+const { lastUpdated } = Astro.props;
+let tags = Astro.props.entry.id.split('/').slice(1, -1)
+
+const allPosts = await Astro.glob('../**/*.{md,mdx}');
+const filteredPosts = allPosts.filter((post) => {
+    if (post.frontmatter && post.frontmatter.title) {
+        return post.frontmatter.title == Astro.props.entry.data.title
+    } else return false
+})
+
+if (filteredPosts.length > 0 && filteredPosts[0].frontmatter && filteredPosts[0].frontmatter.tags) {
+    tags = tags.concat(...filteredPosts[0].frontmatter.tags)
+}
 ---
 
-
 <h1 id='_top'>{Astro.props.entry.data.title}</h1>
+<div style="margin-top: 20px" class="flex flex-row gap-2">
+    {
+        tags.map((t) => 
+            <a href={"/tags/"+t} class="no-underline" style="color: var(--sl-color-gray-1);">
+                <div style="display: flex; align-items: center; justify-content: center;">
+                    <div style="border-radius: 15px; margin: auto 0; background: var(--sl-color-gray-6);">
+                        <div style="display: flex; align-items: center; margin: 0 8px; justify-content: center;">
+                            {t}
+                        </div>
+                        </div>
+                    </div>
+            </a>
+        )
+    }
+ </div>
+
 {
     lastUpdated && (
-    <p>
-        <time>
-            {lastUpdated.toISOString()
-                .replace(/T|Z/g, ' ')
-                .slice(0, 16)
-                .replace(/-/g, '.')
-            }
-        </time>
-    </p>
+        <p style="margin-top: 6px" > 
+            <time>
+                {lastUpdated.toISOString()
+                    .replace(/T|Z/g, ' ')
+                    .slice(0, 16)
+                    .replace(/-/g, '.')
+                }
+            </time>
+        </p>
     )
 }
 

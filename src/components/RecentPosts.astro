@@ -69,7 +69,9 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
           return (
             <div class="hide-element">
               <a class="no-underline" href={`/${post.slug}/`}>
-                <div class="flex flex-row gap-2">
+
+                <div class="flex flex-row justify-between">
+                <div class="flex flex-row gap-3">
                   <span class="text-lg title font-bold">{post.data.title}</span>
                   <div
                     style="background-color: var(--sl-color-gray-4)"
@@ -80,6 +82,7 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
                   </span>
                 </div>
                 <FormattedDate date={post.data.lastUpdated} />
+                </div>
                 <span class="line-clamp-2 overflow-hidden bg-blue m-0 btext-ellipsis">
                   {convertToCodeTag(content)}
                 </span>
