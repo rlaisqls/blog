@@ -1,6 +1,7 @@
 ---
 title: 'eBPF로 서버 성능 Profiling하는 법: Pyroscope의 구현 살펴보기'
 lastUpdated: 2024-05-21T19:56:10
+tags: ["BPF", "linux"]
 ---
 
 eBPF를 사용한 모니터링을 공부하며 Pyroscopee의 eBPF 기능에 관심이 생겼다. 구현 코드를 살펴보면서 eBPF를 활용하는 방법과 그에 연관된 Linux 기능을 익힐 수 있었는데, 내용을 되새기기 위해 공부했던 부분을 전체적으로 풀어 설명해보려 한다.

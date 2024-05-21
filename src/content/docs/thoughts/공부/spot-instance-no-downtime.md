@@ -1,6 +1,7 @@
 ---
 title: Downtime 없는 Spot Instance 클러스터 구축 과정
 lastUpdated: 2023-12-20T11:17:10
+tags: ["Kubernetes", "EKS", "karpenter"]
 ---
 
 ## Xquare 인프라 
