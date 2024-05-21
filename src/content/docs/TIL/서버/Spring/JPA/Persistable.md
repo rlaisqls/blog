@@ -1,6 +1,6 @@
 ---
 title: 'Persistable'
-lastUpdated: 2024-05-21T21:55:09
+lastUpdated: 2024-05-22T08:39:15
 ---
 
 `CrudRepository`의 기본 구현인 `SimpleJpaRepositoryy`의 save 메서드는 이렇게 구현되어있다.

@@ -1,6 +1,6 @@
 ---
 title: 'Hibernate dialect'
-lastUpdated: 2024-05-21T21:55:09
+lastUpdated: 2024-05-22T08:39:15
 ---
 
 - 하이버네이트가 데이터베이스와 통신을 하기 위해 사용하는 언어를 Dialect라고 한다.

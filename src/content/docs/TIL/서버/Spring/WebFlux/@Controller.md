@@ -1,6 +1,6 @@
 ---
 title: '@Controller'
-lastUpdated: 2024-05-21T21:55:09
+lastUpdated: 2024-05-22T08:39:15
 ---
 
 **@Controller**로 webFlux를 사용해보자.

@@ -1,6 +1,6 @@
 ---
 title: 'WebFilter'
-lastUpdated: 2024-05-21T21:55:09
+lastUpdated: 2024-05-22T08:39:15
 ---
 
 WebFilter는 Spring WebMVC의 Filter에 대응되는 클래스이다. WebFilter는 Spring Web package에 있는 클래스이고, WebFlux를 사용할 때만 동작한다. 

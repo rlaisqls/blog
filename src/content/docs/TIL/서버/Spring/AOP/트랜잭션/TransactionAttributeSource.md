@@ -1,6 +1,6 @@
 ---
 title: 'TransactionAttributeSource'
-lastUpdated: 2024-05-21T21:55:09
+lastUpdated: 2024-05-22T08:39:15
 ---
 
 위 두개의 클래스는 모두 `TransactionAttributeSource` 인터페이스의 구현체이다

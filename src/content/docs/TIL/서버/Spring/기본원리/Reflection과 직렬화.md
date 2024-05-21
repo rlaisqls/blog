@@ -1,6 +1,6 @@
 ---
 title: 'Reflection과 직렬화'
-lastUpdated: 2024-05-21T21:55:09
+lastUpdated: 2024-05-22T08:39:15
 ---
 
 `Reflection`은 런타임에 동적으로 클래스들의 정보를 알아내고, 실행할 수 있는 것을 말한다.

@@ -1,6 +1,6 @@
 ---
 title: 'GenerateValue Column에 값을 넣는다면'
-lastUpdated: 2024-05-21T21:55:09
+lastUpdated: 2024-05-22T08:39:15
 ---
 
 Hexagonal architecture를 사용해서 구현하다 문제가 생겼다.

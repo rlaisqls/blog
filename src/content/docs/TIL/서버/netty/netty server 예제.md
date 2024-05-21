@@ -1,6 +1,6 @@
 ---
 title: 'netty server 예제'
-lastUpdated: 2024-05-21T21:55:09
+lastUpdated: 2024-05-22T08:39:15
 ---
 
 클라이언트의 입력을 그대로 응답으로 돌려주는 서버를 Netty 프레임워크로 구현하고 이해해보자.
