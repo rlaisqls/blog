@@ -50,15 +50,6 @@ const removeFileExtension = (filePath) => filePath.substring(0, filePath.lastInd
             const url = removeFileExtension(post.file).slice("/Users/rlaisqls/github/blog/src/content/docs".length)
                 .replace(/ /g, "")
                 .replace(/\./g, "").toLowerCase()
-
-            // console.log(post.compiledContent()        
-            //             .replace(/>\s|#|- |import.*?;|<[^>]*>?/g, "")
-            //             .slice(0, 400)
-            //             .replace(/\`\`\`/g, "")
-            //             .replace(/\*\*/g, "")
-            //             .replace(/https:\/\/\S+/g, "")
-            //             .replace(/\[([^\]]+)\]\([^\)]+\)/g, "$1")
-            // )
                 
             return <div>
                 <a class="no-underline" href={(post.url && removeFileExtension(post.url.slice("src/content/docs".length))) || url}>
@@ -78,13 +69,13 @@ const removeFileExtension = (filePath) => filePath.substring(0, filePath.lastInd
                     </div>
                 </div>
                 <span class="line-clamp-2 overflow-hidden bg-blue m-0 btext-ellipsis">
-                    {post.compiledContent && post.compiledContent()        
+                    {(post.compiledContent && post.compiledContent()        
                         .replace(/>\s|#|- |import.*?;|<[^>]*>?/g, "")
                         .slice(0, 400)
                         .replace(/\`\`\`/g, "")
                         .replace(/\*\*/g, "")
                         .replace(/https:\/\/\S+/g, "")
-                        .replace(/\[([^\]]+)\]\([^\)]+\)/g, "$1")
+                        .replace(/\[([^\]]+)\]\([^\)]+\)/g, "$1")) || post.frontmatter.description
                     }
                 </span>
                 </a>
