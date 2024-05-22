@@ -24,17 +24,17 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
         elements[i].classList.add("show-element");
       }
     }
-    let count = 4;
+    let count = 5;
     tgt.addEventListener("click", () => {
       var elements = document.getElementsByClassName("hide-element");
-      if (elements.length<6) return;
+      if (elements.length<5) return;
 
       for (var i = 0; i < count; i++) {
         elements[i].classList.remove("hide-element");
         elements[i].classList.add("show-element");
       }
 
-      if (elements.length<6) {
+      if (elements.length<5) {
         var more = document.getElementsByClassName("more");
         more[0].classList.add("hide-element");
       } 
@@ -49,10 +49,10 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
           let content = post.body
             .replace(/>\s|#|- |import.*?;|<[^>]*>?/g, "")
             .slice(0, 400)
+            .replace(/\[([^\]]+)\]\([^\)]+\)/g, "$1")
             .replace(/\`\`\`/g, "")
             .replace(/\*\*/g, "")
-            .replace(/https:\/\/\S+/g, "")
-            .replace(/\[([^\]]+)\]\([^\)]+\)/g, "$1");
+            .replace(/https:\/\/\S+/g, "");
 
           function convertToCodeTag(content: string) {
             const regex = /\`([^\`]+)\`/g;
