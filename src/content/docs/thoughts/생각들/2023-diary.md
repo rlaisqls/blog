@@ -18,14 +18,14 @@ lastUpdated: 2024-02-16T01:58:16
 이 글에 2023년 내가 했던 생각의 9할은 담겨있다고 봐도 무방하다.
 하지만 과거의 나는 과거의 나일 뿐이므로 공개적으로 정리해도 아마 괜찮을 것이다!
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/4e2ba0ab-0bf7-4c46-8e86-33314387f05d"/>
+<img style="height: 450px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/4e2ba0ab-0bf7-4c46-8e86-33314387f05d"/>
 
 학교 생활하면서 다양한 사건들이 있었는데, 그때마다 어떤 생각을 했었는지 기록하지 않으니까
 시간이 너무 의미없이 흘러가는 것 같은 기분이 들어서 2022년 말 충동적으로 일기장을 구매했다.
 
 매일 쓰는 게 목표였지만, 책을 읽고 싶거나 졸린 날에는 몇 번씩 건너뛰기도 했다.
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/42177c25-3a37-40d6-8e86-4756e8dbe3a6"/>
+<img style="height: 410px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/42177c25-3a37-40d6-8e86-4756e8dbe3a6"/>
 
 고등학교 입학해서 처음으로 지냈던 1년은 정말 알차고 긴 시간이었다.
 진로와 전공에 대해 더 자세히 고민할 수 있게 되어서, 이 때 미래를 위한 다짐을 많이 했던 것 같다.
@@ -33,7 +33,7 @@ lastUpdated: 2024-02-16T01:58:16
 잠이 몰려오기 직전 심신미약 상태로 일기를 썼기 때문에, 찬란한 미래.. 이런 재밌는 어휘를 사용하는 모습을 볼 수 있다.
 원래 머리가 복잡해지는 상황이 오면 종종 저런 추상적인 다짐을 해왔다.
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/71789e2c-85c7-4d9b-a6d1-60356c9166b0"/>
+<img style="height: 570px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/71789e2c-85c7-4d9b-a6d1-60356c9166b0"/>
 
 DMS 동아리장이 정해질 시기가 와서
 내가 동아리장이나 리더를 해도 되는 사람인지 아닌지 많이 고민했었다.
@@ -46,16 +46,16 @@ DMS 동아리장이 정해질 시기가 와서
 그리고 뭐였는진 모르겠지만 뭔가 혼란스러운 상황이 있었나보다..
 
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/6c1f20eb-499d-40ce-92df-41ef1a2af81d"/>
+<img style="height: 450px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/6c1f20eb-499d-40ce-92df-41ef1a2af81d"/>
 
 한 스타트업에서 방학기간동안 백엔드로 잠시 일해보면 어떻겠냐고 제안을 주셔서 이날 저녁에 화상 면접을 봤었다.
 정말 진심으로 좋아했던 기업이었는데 면접도 좋은 분위기로 마무리되어서 많이 들떠있었다.
 
 기분이 진짜 좋았나보다 ㅋㅋㅋㅋㅋㅋ 이때만큼은 아니지만 면접을 재밌게 생각하는 건 아직까지도 유효한 것 같다.
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/13f5bffc-31ac-466d-bec3-2129c9073ac8"/>
+<img style="height: 370px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/13f5bffc-31ac-466d-bec3-2129c9073ac8"/>
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/33250883-ced0-42cc-a1b1-1ef4f2f8a483"/>
+<img style="height: 550px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/33250883-ced0-42cc-a1b1-1ef4f2f8a483"/>
 
 기말고사를 앞두고 기분이 적나라하게 안 좋았던 모습이다.
 나는 시험 직전에 긴 글을 쓰는 경향이 있다.
@@ -67,7 +67,7 @@ DMS 동아리장이 정해질 시기가 와서
 
 12월 17일 일기의 두 번째 항목은 인간관계에 대한 내용인데 실명 언급이 있어서 공개할 수 없다..ㅎㅎ
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/1469e630-1ce9-4e52-9fd7-5664b132d3b5"/>
+<img style="height: 450px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/1469e630-1ce9-4e52-9fd7-5664b132d3b5"/>
 
 중학교때는 시험을 안보는 대안학교를 다녀서 부담이 없었는데
 고등학교 올라와서는 시험을 계속 잘봐야 한다는 강박을 가지고 공부하다보니 더 힘들었던 것 같다.
@@ -75,8 +75,8 @@ DMS 동아리장이 정해질 시기가 와서
 그리고 놀랍게도 이때 한 과목빼고 다 1등급이었다.
 힘들어서 결과가 좋았던 걸까...?
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/2e2f3e7b-f0e2-4a43-a6ae-aaa54a6a586e"/>
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/6f0a1963-ebee-4976-924b-79490d2d0a6d"/>
+<img style="height: 220px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/2e2f3e7b-f0e2-4a43-a6ae-aaa54a6a586e"/>
+<img style="height: 160px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/6f0a1963-ebee-4976-924b-79490d2d0a6d"/>
 
 시험이 끝난 후엔 REPO를 위해 mongoDB 공부를 했었다.
 재밌음과 힘듦 사이를 항상 오락가락하는 모습을 볼 수 있다.
@@ -84,7 +84,7 @@ DMS 동아리장이 정해질 시기가 와서
 근데 진짜로 안 해야겠다고 생각했던 적은 없다. 매번 금방 지나간다.
 
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/f103ac97-bc07-4313-89ff-b279ef947da7"/>
+<img style="height: 470px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/f103ac97-bc07-4313-89ff-b279ef947da7"/>
 
 
 동아리에서 프로젝트 진행하는 내용을 천천히 인수인계받으면서
@@ -93,7 +93,7 @@ DMS 동아리장이 정해질 시기가 와서
 그리고 이때부터 체력에 대한 걱정을 하게 되었다...
 
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/b0bccc68-1036-43c5-9a5e-795e482b232c"/>
+<img style="height: 200px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/b0bccc68-1036-43c5-9a5e-795e482b232c"/>
 
 
 이 때 레포가 엔트리와 분리된다는 얘기가 나와서 많이 불안했던 기억이 있다.
@@ -105,26 +105,25 @@ DMS 동아리장이 정해질 시기가 와서
 이제와서 생각해보면 그게 그렇게 큰 의미가 있었나 싶다.
 그래도 나름 괜찮은 지원을 받으면서 프로젝트를 재밌게 진행할 수 있었기에 좋았다.
 1월 12일에 방학식을 한 후..
-면접봤던 기업에서 백엔드로서 인턴 비스무리하게 일을 했었다
+면접봤던 기업에서 백엔드로서 인턴 비스무리하게 일을 했었다
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/6fab3b65-87f9-4d65-94b1-4269fef5983e"/>
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/f3bb0406-a562-401e-b004-aa917b0ea9c1"/>
+<img style="height: 250px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/6fab3b65-87f9-4d65-94b1-4269fef5983e"/>
+<img style="height: 500px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/f3bb0406-a562-401e-b004-aa917b0ea9c1"/>
 
 초반에는 정말 하루종일 회사 코드와 문서만 들여다보며 열심히 공부했었다.
 정말 재밌게 열심히 했었다. 이때의 기억이 아직까지도 새록새록 난다..
 마음이 해이해지면 다시 이때처럼 열심히 해야겠다는 생각이 든다.
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/a0e097a4-cf58-4eb8-a4cd-459731a832c0"/>
+<img style="height: 330px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/a0e097a4-cf58-4eb8-a4cd-459731a832c0"/>
 
-지금와서 생각해보면 그 MSA가 그렇게 엄청난 MSA는 아니었을듯...?
-방학 기간에 개인 공부도 너무 재밌게 했고,
-회사에서도 맡겨진 과제를 나름 잘 수행하고 있었지만
+방학 기간에 개인 공부도 너무 재밌게 했고,
+회사에서도 맡겨진 과제를 나름 잘 수행하고 있었지만
 너무 나 혼자만 공부하며 보내는 시간이 기니까
 점점 고립되는 것 같다는 기분이 들었다.
 그래서 앞으로 맡은 책임들을 잘 수행하려면
 협업하는 능력에 대해서도 더 신경을 써야하지 않을까 생각했었다.
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/302a521b-06cb-451c-8f97-1242f2648d41"/>
+<img style="height: 280px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/302a521b-06cb-451c-8f97-1242f2648d41"/>
 
 그리고 진짜 뜬금없지만 중학교 때 좋아했던 친구에 대한 생각을 적어놨었다.
 중학교 땐 뭐 딴거 걱정할 것도 없었고.. 친구관계 인간관계에 대한 감정을 정말 선명하게 몸으로 받아들였던 것 같다.
@@ -148,7 +147,7 @@ Xquare 인프라말고 저 때의 Xquare는 선배들의 힘만 너무 가해진
 앞으로 DMS 외부 컨택 프로젝트를 정말 열심히 해야겠다는 얘기도 많이 써놨다.
 
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/e309daf0-ec79-4c1f-b26a-cc8751ad964c"/>
+<img style="height: 570px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/e309daf0-ec79-4c1f-b26a-cc8751ad964c"/>
 
 
 1. 그리고 코로나 걸림
@@ -172,7 +171,7 @@ Xquare 인프라말고 저 때의 Xquare는 선배들의 힘만 너무 가해진
 코딩을 미친듯이 많이하면서 그런 힘든 점을 잊으려고 했던 것도 있다.
 뒤에 있는 일기에서도 계속 속상해한다.
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/1b6ceec5-b763-4d49-86c6-897045ad0475"/>
+<img style="height: 570px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/1b6ceec5-b763-4d49-86c6-897045ad0475"/>
 
 
 DMS로 뭔가를 해내고 싶었는데.. 그게 공동의 목표가 아니게 된 것 같은 기분도 들었다.
@@ -183,7 +182,7 @@ DMS로 뭔가를 해내고 싶었는데.. 그게 공동의 목표가 아니게 �
 백엔드에 대한 관심과 열정이 이 때 정점을 찍었던 것 같은데,
 위에서도 언급했듯이 도피성으로 집착한 게 있다보니 점점 정체성에 혼란이 왔다.
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/a1ffbb45-6a2e-4385-9292-8221a626d2f1"/>
+<img style="height: 520px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/a1ffbb45-6a2e-4385-9292-8221a626d2f1"/>
 
 
 멘토링도 열심히 했었고
@@ -195,7 +194,7 @@ DMS도 열심히 했었다.
 그래서 너무 힘들었다. 나 혼자만 의심해도 극복하기 힘든데 팀원들도 다 불안해했다.
 이 때 다 마음이 좋지 않았겠지..
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/abc33579-a065-4abf-926e-e6e89b73ce4d"/>
+<img style="height: 560px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/abc33579-a065-4abf-926e-e6e89b73ce4d"/>
 
 
 이때도 스타트업에 대한 관심이 계속 있었다.
@@ -206,7 +205,7 @@ DMS도 열심히 했었다.
 
 
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/175c786a-a9d8-41d5-bc09-007703fb5c1d"/>
+<img style="height: 450px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/175c786a-a9d8-41d5-bc09-007703fb5c1d"/>
 
 
 그래서 좀 지쳤었다.
@@ -220,14 +219,14 @@ DMS도 열심히 했었다.
 
 이 일기를 쓰기 좀 전부터 DMS는 내 맘속에서 반쯤 포기상태였고 7월 쯤 Xquare DevOps 구축을 시작했다. 그냥 나는 내가 갈 길을 찾겠다는 마음이었다.
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/b2803b08-1b0b-4940-8ff1-de82ea82ab98"/>
+<img style="height: 570px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/b2803b08-1b0b-4940-8ff1-de82ea82ab98"/>
 
 
 그래서 DevOps 공부를 열심히 했다. 1학기 때 프로젝트에서 의견 갈등을 겪으며 받은 스트레스를 풀기 위해 코딩에 광적으로 집착했을 때보다 더 막 빡세게 열심히 하진 않았지만
 그래도 새로운거 만드는 재미가 있었다. 뭘 어떻게 했는지 정확히 기억이 안나지만 뭔가 계속 할 만 한 동기가 있었다.
 
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/10ee99ef-891c-4e88-aaa6-98f5ae4e3d5d"/>
+<img style="height: 500px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/10ee99ef-891c-4e88-aaa6-98f5ae4e3d5d"/>
 
 
 그리고 중간고사때 시험공부를 해야하는 시기가 오니까 또 정신줄을 놓기 시작했다.
@@ -248,7 +247,7 @@ DMS도 열심히 했었다.
 중간고사 공부 안한 만큼의 가치가 있었다.
 그리고 중간고사가 끝난 후로는 겨울인턴 준비를 하면서 여러 생각을 했다.
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/2e534cfa-cac8-4549-b6d6-4d84090216ec"/>
+<img style="height: 250px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/2e534cfa-cac8-4549-b6d6-4d84090216ec"/>
 
 지금은 매 순간이 번아웃이라고 생각하지 않는다.
 그냥 기분이 좋지 않으면 그런 생각이 드는 것 같다....
@@ -275,7 +274,7 @@ DMS도 열심히 했었다.
 암튼 그래서 두 번째 회사에 가기로 마음을 다졌고, 면접을 봐서 합격하게 되었다.
 
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/71a86df2-c16f-4519-b4ba-05dc85cbdbc2"/>
+<img style="height: 550px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/71a86df2-c16f-4519-b4ba-05dc85cbdbc2"/>
 
 
 합격하고 나서 이런 저런 생각을 하면서 지냈다.
@@ -286,7 +285,7 @@ DMS도 열심히 했었다.
 그래서 생각만 많이하는 것 보다는 그냥 열려있는 태도로 새로운 경험을 하고,
 그걸 잘 받아들이는 게 나을 것 같다는 생각이 들었다.
 
-<img width="368" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/27cce625-511c-448a-8145-af2f6faf78c8"/>
+<img style="height: 450px" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/27cce625-511c-448a-8145-af2f6faf78c8"/>
 
 그리고 인턴을 가기 전에 내가 어떤 평가를 받는 게 맞는 사람인지에 대한 고민을 했다.
 일단 면접에서 붙었다는 건 긍정적으로 봐주셨기 때문일건데
