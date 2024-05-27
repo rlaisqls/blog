@@ -3,17 +3,7 @@ import type { Props } from '@astrojs/starlight/props';
 
 const { lastUpdated } = Astro.props;
 let tags = Astro.props.entry.id.split('/').slice(1, -1)
-
-const allPosts = await Astro.glob('../**/*.{md,mdx}');
-const filteredPosts = allPosts.filter((post) => {
-    if (post.frontmatter && post.frontmatter.title) {
-        return post.frontmatter.title == Astro.props.entry.data.title
-    } else return false
-})
-
-if (filteredPosts.length > 0 && filteredPosts[0].frontmatter && filteredPosts[0].frontmatter.tags) {
-    tags = tags.concat(...filteredPosts[0].frontmatter.tags)
-}
+if (Astro.props.entry.data.tags) tags = tags.concat(...Astro.props.entry.data.tags)
 ---
 
 <h1 id='_top'>{Astro.props.entry.data.title}</h1>
