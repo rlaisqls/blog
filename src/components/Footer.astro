@@ -44,39 +44,6 @@ const documents = getSurroundingElements(allDocuments, currentIndex)
 const getParentFolder = (fullPath) => fullPath.split('/').reverse()[2]
 ---
 
-<!--<script>-->
-<!--    const encodedPath = encodeURIComponent(window.location.pathname);-->
-<!--    let pageViews-->
-<!--    try {-->
-<!--        const response = await fetch(`/api/pageViews?path=${encodedPath}`, {-->
-<!--            method: 'GET',-->
-<!--            headers: {-->
-<!--                'Content-Type': 'application/json',-->
-<!--            },-->
-<!--        });-->
-<!--        if (!response.ok) {-->
-<!--            pageViews = 1;-->
-<!--        } else {-->
-<!--            const { count } = await response.json();-->
-<!--            pageViews = Number(count) + 1;-->
-<!--        }-->
-<!--    } catch (err) {-->
-<!--        pageViews = 1;-->
-<!--    }-->
-
-<!--    fetch('/api/pageViews', {-->
-<!--        method: 'PUT',-->
-<!--        referrerPolicy: 'same-origin',-->
-<!--        body: JSON.stringify({-->
-<!--            path: encodedPath,-->
-<!--        }),-->
-<!--        headers: {-->
-<!--            'Content-Type': 'application/json',-->
-<!--        },-->
-<!--    });-->
-<!--</script>-->
-
-
 {
     currentIndex != -1 &&
     <>
