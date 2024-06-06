@@ -9,10 +9,10 @@ tags: ["오픈소스"]
 - 백엔드를 공부하며 스프링, JPA 등 오픈소스 코드를 까보는 데 흥미를 가지기 시작했다.
 - 에러를 고치기 위한 목적으로, 또는 단순 기술에 대한 호기심으로, IDE의 디버깅 기능을 사용해 Springboot, JPA, Netty, Coroutine 등 라이브러리들의 코드를 많이 까봤다.
 - 이 즈음의 TIL에 특정 라이브러리 구현에 대해 분석하는 글을 많이 썼다.
-    - [@GeneratedValue 코드보기](https://github.com/rlaisqls/TIL/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%E2%80%85Spring/JPA/%40GeneratedValue%E2%80%85%EC%BD%94%EB%93%9C%EB%B3%B4%EA%B8%B0.md)
-    - [Detached entity passed to perist](https://github.com/rlaisqls/TIL/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%E2%80%85Spring/JPA/GenerateValue%E2%80%85Column%EC%97%90%E2%80%85%EA%B0%92%EC%9D%84%E2%80%85%EB%84%A3%EB%8A%94%EB%8B%A4%EB%A9%B4.md)
-    - [netty 메시지 전송 흐름](https://github.com/rlaisqls/TIL/blob/main/%EA%B0%9C%EB%B0%9C/%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC/netty/netty%E2%80%85%EB%A9%94%EC%8B%9C%EC%A7%80%E2%80%85%EC%A0%84%EC%86%A1%E2%80%85%ED%9D%90%EB%A6%84.md)
-    - [Coroutine Delay](https://github.com/rlaisqls/TIL/blob/main/%EA%B0%9C%EB%B0%9C/%EB%B9%84%EB%8F%99%EA%B8%B0/coroutine/Coroutine%E2%80%85Delay.md)
+    - [@GeneratedValue 코드보기](https://github.com/rlaisqls/TIL/blob/0fd3d959f694db0c181e30b18cca64ea3af95c99/%EC%84%9C%EB%B2%84/Spring/JPA/%40GeneratedValue%E2%80%85%EC%BD%94%EB%93%9C%EB%B3%B4%EA%B8%B0.md?plain=1)
+    - [Detached entity passed to perist](https://github.com/rlaisqls/TIL/blob/0fd3d959f694db0c181e30b18cca64ea3af95c99/%EC%84%9C%EB%B2%84/Spring/JPA/GenerateValue%E2%80%85Column%EC%97%90%E2%80%85%EA%B0%92%EC%9D%84%E2%80%85%EB%84%A3%EB%8A%94%EB%8B%A4%EB%A9%B4.md)
+    - [netty 메시지 전송 흐름](https://github.com/rlaisqls/TIL/blob/0fd3d959f694db0c181e30b18cca64ea3af95c99/%EC%84%9C%EB%B2%84/netty/netty%E2%80%85%EB%A9%94%EC%8B%9C%EC%A7%80%E2%80%85%EC%A0%84%EC%86%A1%E2%80%85%ED%9D%90%EB%A6%84.md?plain=1)
+    - [Coroutine Delay](https://github.com/rlaisqls/TIL/blob/0fd3d959f694db0c181e30b18cca64ea3af95c99/%EC%BD%94%EB%93%9C/%EB%B9%84%EB%8F%99%EA%B8%B0/coroutine/Coroutine%E2%80%85Delay.md)
     - 등등...
 - 근데… 보다보니 너무 잘 짜여있어서 내가 이런 코드에 기여할 수 있는 부분이 있을지 의문이 들었다.
 - 오픈소스에 기여해보는 게 좋은 경험이라는 얘기는 많이 들었지만 너무나도 막막했다.
