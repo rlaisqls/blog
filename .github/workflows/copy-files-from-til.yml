@@ -66,9 +66,3 @@ jobs:
           branch: main
           file_pattern: '.'
           push_options: '--force'
-          commit_options: '--no-verify --signoff'
-          commit_user_name: rlaisqls
-          commit_user_email: rlaisqls@gmail.com
-          commit_author: rlaisqls <rlaisqls@gmail.com>
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
