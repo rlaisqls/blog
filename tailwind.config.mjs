@@ -24,5 +24,5 @@ export default {
 			},
 		},
 	},
-	plugins: [starlightPlugin()],
+	plugins: [starlightPlugin(), require("tailwind-scrollbar-hide")],
 };
