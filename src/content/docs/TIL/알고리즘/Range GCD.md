@@ -1,6 +1,6 @@
 ---
 title: 'Range GCD'
-lastUpdated: 2024-06-12T23:07:01
+lastUpdated: 2024-06-27T23:07:00
 ---
 
 > https://www.acmicpc.net/problem/12858

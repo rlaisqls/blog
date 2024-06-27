@@ -23,4 +23,4 @@ lastUpdated: 2024-03-14T23:07:03
   sudo ./mkcramfs
   ```
 
-- 이후 ua.cramfs가 만들어짐 이 파일을 /tftpboot나 업그레이드 폴더에 카피하여 업그레이드함
+- 이후 ua.cramfs가 만들어지고, 이 파일을 /tftpboot나 업그레이드 폴더에 카피하여 업그레이드할 수 있다.

@@ -1,6 +1,6 @@
 ---
 title: 'N Queen'
-lastUpdated: 2024-06-02T23:07:00
+lastUpdated: 2024-06-27T23:07:00
 ---
 > https://www.acmicpc.net/problem/3344
 
