@@ -1,6 +1,6 @@
 ---
 title: 'BSON'
-lastUpdated: 2024-08-09T17:03:55
+lastUpdated: 2024-08-09T19:08:30
 ---
 
 golang에서 JSON 형태를 쓰고 싶을 때는 bson을 사용하면 된다.

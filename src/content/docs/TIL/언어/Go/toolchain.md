@@ -1,6 +1,6 @@
 ---
 title: 'toolchain'
-lastUpdated: 2024-08-09T17:03:55
+lastUpdated: 2024-08-09T19:08:30
 ---
 Go 1.21에서는 go command와 Go toolchain이 함께 제공되며, 이를 사용하여 라이브러리들을 컴파일할 수 있다.
 

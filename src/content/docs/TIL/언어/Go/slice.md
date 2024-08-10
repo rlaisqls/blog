@@ -1,6 +1,6 @@
 ---
 title: 'slice'
-lastUpdated: 2024-08-09T17:03:55
+lastUpdated: 2024-08-09T19:08:30
 ---
 슬라이스는 내부적으로 사용하는 배열의 부분 영역인 세그먼트에 대한 메타 정보를 가지고 있다. 슬라이스는 크게 3개의 필드로 구성되어 있다.
 
@@ -65,6 +65,10 @@ func main() {
 	fmt.Println(s2, s1)
 }
 ```
+
+s2에만 append 해서 capacity를 넘으면 메모리가 분리될 수도 있다.
+
+<img src="https://github.com/user-attachments/assets/3ef734de-82e5-4594-b906-241190828a01" style="height: 200px">
 
 
 ---
