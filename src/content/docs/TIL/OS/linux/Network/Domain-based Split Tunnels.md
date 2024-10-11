@@ -22,7 +22,7 @@ VPN을 구성할 때, 특정 도메인에 대해서만 VPN을 활성화하고 �
 
 Netbird의 도메인 라우팅이 안드로이드, iOS 클라이언트에서 비정상적으로 동작하는 문제가 있어 아래와 같은 방법을 시도해보았다.
 
-1. 모든 도메인 쿼리 결과에 대해 자신의 public IP를 반환하는 DNS 서버를 구성한다. ([linux bind](/til/os/linux/network/dns/bind로dns서버정의하기)와 같은 툴 사용)
+1. 모든 도메인 쿼리 결과에 대해 자신의 public IP를 반환하는 DNS 서버를 구성한다. ([linux bind](https://blog.rlaisqls.site/til/os/linux/network/bind%EB%A1%9Cdns%EC%84%9C%EB%B2%84%EC%A0%95%EC%9D%98%ED%95%98%EA%B8%B0/)와 같은 툴 사용)
 2. Netbird로 클라이언트의 DNS 쿼리 요청이 커스텀 DNS 서버를 향하도록 설정한다.
 3. 커스텀 DNS 서버가 항상 public IP를 반환하므로, 트래픽이 DNS 서버 호스트로 들어올 것이다.  
     호스트의 443 포트를 열고 요청이 들어온 도메인의 실제 IP로 포워딩하여 결과를 돌려준다. Nginx와 같은 Reverse Proxy를 사용할 수 있다.

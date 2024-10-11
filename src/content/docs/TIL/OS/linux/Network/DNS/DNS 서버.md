@@ -1,6 +1,6 @@
 ---
 title: 'DNS 서버'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 2024-10-04T19:02:55
 ---
 
 **DNS(Domain Name System)** : 사람이 식별하기 쉬운 도메인 이름을 컴퓨터가 식별하기 위한 네트워크 주소(IP)간의 변환을 수행하기 위한 시스템 (TCP,UDP/53)
