@@ -7,15 +7,17 @@ export async function getStaticPaths() {
         tags = tags.concat(...post.frontmatter.tags)
     } 
     return tags
-  }).flat())];
+    }).flat()), "토막글"];
 
   return uniqueTags.map((tag) => {
     const filteredPosts = allPosts.filter((post) => {
-        if (post.file.slice("/Users/rlaisqls/github/blog/src/content/docs".length).split("/").slice(1,-1).includes(tag)) {
-            return true;
-        } if (post.frontmatter && post.frontmatter.tags) {
-            post.frontmatter.tags.includes(tag)
-        } else return false
+      if (tag == "토막글" && post.rawContent && post.rawContent().length < 1000) {
+        return true;
+      } else if (post.file.slice("/Users/rlaisqls/github/blog/src/content/docs".length).split("/").slice(1,-1).includes(tag)) {
+        return true;
+      } else if (post.frontmatter && post.frontmatter.tags) {
+        return post.frontmatter.tags.includes(tag)
+      } else return false
     });
     return {
       params: { tag },
@@ -32,7 +34,9 @@ const allPosts = await Astro.glob('../../**/*.{md,mdx,astro}');
 
 
 const filteredPosts = allPosts.filter((post) => {
-    if (post.file.slice("/Users/rlaisqls/github/blog/src/content/docs".length).split("/").slice(1,-1).includes(tag)) {
+    if (tag == "토막글" && post.rawContent && post.rawContent().length < 900) {
+      return true;
+    } else if (post.file.slice("/Users/rlaisqls/github/blog/src/content/docs".length).split("/").slice(1,-1).includes(tag)) {
         return true;
     } else if (post.frontmatter && post.frontmatter.tags) {
         return post.frontmatter.tags.includes(tag)
@@ -44,6 +48,8 @@ const removeFileExtension = (filePath) => filePath.substring(0, filePath.lastInd
 ---
 
 <StarlightPage frontmatter={{ title: '태그: ' + tag }}>
+    총 {filteredPosts.length}개의 글이 있습니다.
+    {tag == "토막글" && <p>양질의 자료를 기록할 수 있도록 노력하겠습니다.</p>}
     <div class="flex flex-col gap-4 ml-3 mr-3">
         {filteredPosts.map((post) => {
             
