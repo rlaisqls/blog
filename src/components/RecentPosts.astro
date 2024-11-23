@@ -7,6 +7,7 @@ export type StarlightDocsEntry = Omit<CollectionEntry<"docs">, "slug"> & {
 };
 const docs: StarlightDocsEntry[] = ((await getCollection("docs")) ?? [])
   .filter((d) => d.data.lastUpdated)
+  .filter((d) => d.body.length > 800)
   .sort((a, b) => b.data.lastUpdated - a.data.lastUpdated)
   .slice(0, 100);
 
@@ -16,7 +17,6 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
 <>
   <script>
     const tgt = document.querySelector(".more");
-
     window.onload = function() {
       var elements = document.getElementsByClassName("hide-element");
       for (var i = 0; i < 2; i++) {
