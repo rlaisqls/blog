@@ -3,7 +3,7 @@ import type { Props } from '@astrojs/starlight/props';
 
 const { lastUpdated } = Astro.props;
 let tags = Astro.props.entry.id.split('/').slice(1, -1)
-if (Astro.props.entry.body.length < 1000) tags = tags.concat("토막글")
+if (tags.length > 0 && Astro.props.entry.body.length < 1000) tags = tags.concat("토막글")
 if (Astro.props.entry.data.tags) tags = tags.concat(...Astro.props.entry.data.tags)
 ---
 
