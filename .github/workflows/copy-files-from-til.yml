@@ -2,9 +2,9 @@ name: Copy Files from TIL
 
 on:
   schedule:
-    - cron: '0 15 * * *' # 매일 KST 기준 자정에 실행 (UTC 기준 15:00)
-  push:
-    branches: [ main ]
+    - cron: "0 15 * * *" # 매일 KST 기준 자정에 실행 (UTC 기준 15:00)
+  # push:
+  #   branches: [ main ]
 
 jobs:
   copy_files:
@@ -26,7 +26,7 @@ jobs:
               local dir="$1"
               echo "$dir"
               cd "$dir" || exit
-          
+
               for file in *; do
                 if [ -f "$file" ]; then
                 
@@ -44,7 +44,7 @@ jobs:
                 fi
               done
           }
-          
+
           add_labels_to_files $(pwd)/TIL
 
       - name: Copy files
@@ -64,5 +64,5 @@ jobs:
           commit_message: "${{ env.date }} TIL 문서 복사"
           repository: .
           branch: main
-          file_pattern: '.'
-          push_options: '--force'
+          file_pattern: "."
+          push_options: "--force"
