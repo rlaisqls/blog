@@ -1,6 +1,6 @@
 ---
 title: 'MNIST 숫자 판별'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 2025-01-07T22:34:40
 ---
 ```python
 import tensorflow as tf
