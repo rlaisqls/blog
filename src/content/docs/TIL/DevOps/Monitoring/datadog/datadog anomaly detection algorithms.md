@@ -1,6 +1,6 @@
 ---
-title: 'DatadogAnomalydetectionAlgorithms'
-lastUpdated: 2024-12-18T09:46:08
+title: 'datadog anomaly detection algorithms'
+lastUpdated: 2025-01-14T20:59:07
 ---
 Datadog은 Anormaly detection 기준 설정을 위해 최대 6주간의 데이터를 학습하고, 아래 세 알고리즘 중 하나에 따라 계산한다.
 
