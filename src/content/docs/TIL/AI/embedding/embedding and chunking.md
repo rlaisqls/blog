@@ -1,6 +1,6 @@
 ---
-title: 'embedding and chunking'
-lastUpdated: 
+title: 'embedding and chunking'
+lastUpdated: 2025-01-14T20:59:07
 ---
 ### Long-Context Embedding
 
