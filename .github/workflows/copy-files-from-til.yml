@@ -3,8 +3,8 @@ name: Copy Files from TIL
 on:
   schedule:
     - cron: "0 15 * * *" # 매일 KST 기준 자정에 실행 (UTC 기준 15:00)
-  # push:
-  #   branches: [ main ]
+  push:
+    branches: [ main ]
 
 jobs:
   copy_files:
@@ -53,6 +53,7 @@ jobs:
           mkdir ${{ env.destination }}
           cp -r TIL/* ${{ env.destination }}
           rm ${{ env.destination }}/README.md
+          rm ${{ env.destination }}/*.json
           rm -rf TIL
 
       - name: Set current date as env
