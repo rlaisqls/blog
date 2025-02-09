@@ -1,6 +1,6 @@
 ---
 title: 'EME'
-lastUpdated: 2025-01-14T19:49:51
+lastUpdated: 2025-02-03T20:25:31
 ---
 
 EME(Encrypted Media Extension)의 약자로, DRM이 걸려있는 영상 컨텐츠를 사용자가 단말기에서 보안 프로그램 설치 없이 사용할 수 있게 해주는 기술이다.

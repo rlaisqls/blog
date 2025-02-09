@@ -1,6 +1,6 @@
 ---
 title: 'CNN, RNN'
-lastUpdated: 2025-01-07T22:34:40
+lastUpdated: 2025-02-03T20:25:26
 ---
 
 mnist 알파벳 데이터를 식별하는 CNN 모델 예제이다.
