@@ -1,6 +1,6 @@
 ---
 title: 'ArgoCD 설치'
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 2025-02-14T19:43:58
 ---
 
 출처: https://dev.to/airoasis/argo-cd-seolci-mic-seoljeong-45bd
