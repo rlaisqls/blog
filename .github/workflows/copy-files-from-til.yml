@@ -67,3 +67,9 @@ jobs:
           branch: main
           file_pattern: "."
           push_options: "--force"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GIT_AUTHOR_EMAIL: rlaisqls@gmail.com
+          GIT_AUTHOR_NAME: rlaisqls
+          GIT_COMMITTER_EMAIL: rlaisqls@gmail.com
+          GIT_COMMITTER_NAME: rlaisqls
