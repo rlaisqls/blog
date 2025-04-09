@@ -35,9 +35,9 @@ export default defineConfig({
 					autogenerate: { directory: "thoughts", collapsed: true },
 				},
 				{
-					label: 'TIL',
-					autogenerate: { directory: 'TIL/개발', collapsed: true },
-				}
+					label: "TIL",
+					autogenerate: { directory: "TIL", collapsed: true },
+				},
 			],
 			customCss: ["./src/tailwind.css"],
 		}),
