@@ -33,7 +33,11 @@ jobs:
                   # title, lastUpdated 속성 추가
                   echo "---" > tmpfile
                   echo "title: '${file%.*}'" >> tmpfile
-                  echo "lastUpdated: $(git log --reverse --format=%cd --date=format:%Y-%m-%dT%H:%M:%S $file | head -n 1)" >> tmpfile
+                  LAST_UPDATED=$(git log --reverse --format=%cd --date=format:%Y-%m-%dT%H:%M:%S $file | head -n 1)
+                  if [ -z "$LAST_UPDATED" ]; then
+                    LAST_UPDATED=$(date +'%Y-%m-%dT%H:%M:%S')
+                  fi
+                  echo "lastUpdated: $LAST_UPDATED" >> tmpfile
                   echo "---" >> tmpfile
                   cat "$file" >> tmpfile
                   mv tmpfile "$file"
