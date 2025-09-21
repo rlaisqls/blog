@@ -1,6 +1,6 @@
 ---
 title: 'Langchain Chain Options'
-lastUpdated: 2025-09-20T15:10:34
+lastUpdated: 2025-09-21T15:10:26
 ---
 Langchain의 Chain은 여러 LLM 호출이나 다른 유틸리티들을 연결하여 복잡한 작업을 수행할 수 있게 해주는 핵심 구성 요소이다.
 
