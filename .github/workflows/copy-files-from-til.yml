@@ -24,32 +24,48 @@ jobs:
         run: |
           add_labels_to_files() {
               local dir="$1"
+              local rel_path="$2"
               echo "$dir"
               cd "$dir" || exit
 
               for file in *; do
                 if [ -f "$file" ]; then
-                
-                  # title, lastUpdated 속성 추가
-                  echo "---" > tmpfile
-                  echo "title: '${file%.*}'" >> tmpfile
-                  LAST_UPDATED=$(git log --reverse --format=%cd --date=format:%Y-%m-%dT%H:%M:%S $file | head -n 1)
+
+                  # 기존 파일이 있는지 확인하고 lastUpdated 추출
+                  EXISTING_FILE="${GITHUB_WORKSPACE}/${{ env.destination }}/${rel_path}${file}"
+                  LAST_UPDATED=""
+
+                  if [ -f "$EXISTING_FILE" ]; then
+                    # 기존 파일에서 lastUpdated 값 추출
+                    LAST_UPDATED=$(sed -n '/^---$/,/^---$/p' "$EXISTING_FILE" | grep '^lastUpdated:' | sed 's/lastUpdated: //')
+                  fi
+
+                  # 기존 값이 없으면 git log에서 가져오기
+                  if [ -z "$LAST_UPDATED" ]; then
+                    LAST_UPDATED=$(git log --reverse --format=%cd --date=format:%Y-%m-%dT%H:%M:%S $file | head -n 1)
+                  fi
+
+                  # 그래도 없으면 현재 날짜 사용
                   if [ -z "$LAST_UPDATED" ]; then
                     LAST_UPDATED=$(date +'%Y-%m-%dT%H:%M:%S')
                   fi
+
+                  # title, lastUpdated 속성 추가
+                  echo "---" > tmpfile
+                  echo "title: '${file%.*}'" >> tmpfile
                   echo "lastUpdated: $LAST_UPDATED" >> tmpfile
                   echo "---" >> tmpfile
                   cat "$file" >> tmpfile
                   mv tmpfile "$file"
-                
+
                 elif [ -d "$file" ]; then
-                  add_labels_to_files "$dir/$file"
+                  add_labels_to_files "$dir/$file" "${rel_path}${file}/"
                   cd "$dir"
                 fi
               done
           }
 
-          add_labels_to_files $(pwd)/TIL
+          add_labels_to_files $(pwd)/TIL ""
 
       - name: Copy files
         run: |
