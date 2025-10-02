@@ -1,8 +1,7 @@
 ---
 title: 'AWS 2024 Summit Seoul'
-lastUpdated: 2025-10-01T22:16:16
+lastUpdated: 2025-05-16T22:16:16
 ---
-2024/05/16(목) AWS Summit
 
 ## 데이터 처리도 이제는 컨테이너로, 우아한 형제들의 데이터 플랫폼 혁신
 
