@@ -1,5 +1,5 @@
 ---
-title: 'SRV, NAPTR'
+title: SRV, NAPTR
 lastUpdated: 2025-06-01T16:43:08
 ---
 ## SRV (Service) 레코드

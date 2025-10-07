@@ -1,5 +1,5 @@
 ---
-title: 'VictoriaLogs'
+title: VictoriaLogs
 lastUpdated: 2025-04-30T23:31:32
 ---
 

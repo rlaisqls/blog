@@ -1,5 +1,5 @@
 ---
-title: 'X window'
+title: X window
 lastUpdated: 2024-03-25T23:34:05
 ---
 

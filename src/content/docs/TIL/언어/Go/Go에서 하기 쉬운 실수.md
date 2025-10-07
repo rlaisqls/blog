@@ -1,5 +1,5 @@
 ---
-title: 'Go에서 하기 쉬운 실수'
+title: Go에서 하기 쉬운 실수
 lastUpdated: 2024-07-31T20:45:49
 ---
 

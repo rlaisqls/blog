@@ -1,5 +1,5 @@
 ---
-title: 'openssl로 pemKey 만들고 접속하기'
+title: openssl로 pemKey 만들고 접속하기
 lastUpdated: 2024-03-13T15:17:56
 ---
 

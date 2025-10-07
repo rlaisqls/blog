@@ -1,5 +1,5 @@
 ---
-title: 'Fail over와 서버 이중화'
+title: Fail over와 서버 이중화
 lastUpdated: 2024-03-13T15:17:56
 ---
 ## Fail over

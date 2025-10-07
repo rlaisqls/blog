@@ -1,5 +1,5 @@
 ---
-title: 'Deployment Strategy'
+title: Deployment Strategy
 lastUpdated: 2024-03-13T15:17:56
 ---
 

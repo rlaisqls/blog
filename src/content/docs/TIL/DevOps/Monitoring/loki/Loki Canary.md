@@ -1,5 +1,5 @@
 ---
-title: 'Loki Canary'
+title: Loki Canary
 lastUpdated: 2024-03-13T15:17:56
 ---
 

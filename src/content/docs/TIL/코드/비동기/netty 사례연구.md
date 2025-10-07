@@ -1,5 +1,5 @@
 ---
-title: 'netty 사례연구'
+title: netty 사례연구
 lastUpdated: 2024-03-13T15:17:56
 ---
 

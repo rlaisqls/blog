@@ -1,5 +1,5 @@
 ---
-title: 'DB 암호화'
+title: DB 암호화
 lastUpdated: 2023-04-29T17:48:20
 ---
 

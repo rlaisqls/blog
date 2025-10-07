@@ -1,5 +1,5 @@
 ---
-title: 'NAT gateway & NAT instance'
+title: NAT gateway & NAT instance
 lastUpdated: 2025-04-22T23:40:51
 ---
 

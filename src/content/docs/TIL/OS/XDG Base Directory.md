@@ -1,5 +1,5 @@
 ---
-title: 'XDG Base Directory'
+title: XDG Base Directory
 lastUpdated: 2025-05-15T10:50:41
 ---
 > <https://wiki.archlinux.org/title/XDG_Base_Directory>

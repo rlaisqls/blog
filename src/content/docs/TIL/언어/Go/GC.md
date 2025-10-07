@@ -1,5 +1,5 @@
 ---
-title: 'GC'
+title: GC
 lastUpdated: 2024-08-10T09:19:57
 ---
 Go의 GC는 mark-sweep 방식으로 동작하며 두 가지 주요 단계로 나뉜다.

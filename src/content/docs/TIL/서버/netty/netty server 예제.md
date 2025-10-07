@@ -1,5 +1,5 @@
 ---
-title: 'netty server 예제'
+title: netty server 예제
 lastUpdated: 2024-05-22T08:39:15
 ---
 

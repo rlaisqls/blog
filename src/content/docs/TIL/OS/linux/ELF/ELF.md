@@ -1,5 +1,5 @@
 ---
-title: 'ELF'
+title: ELF
 lastUpdated: 2024-03-25T23:34:05
 ---
 - ELF는 Executable and Linking Format의 약어로, UNIX / LINUX 기반에서 사용되는 실행 및 링킹 파일 포맷이다. 

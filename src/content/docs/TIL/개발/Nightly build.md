@@ -1,5 +1,5 @@
 ---
-title: 'Nightly build'
+title: Nightly build
 lastUpdated: 2025-01-02T18:07:10
 ---
 Nightly build

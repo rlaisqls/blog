@@ -1,5 +1,5 @@
 ---
-title: 'MongoDB 쿼리'
+title: MongoDB 쿼리
 lastUpdated: 2024-07-27T22:26:53
 ---
 - insert와 upsert

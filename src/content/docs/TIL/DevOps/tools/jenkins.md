@@ -1,5 +1,5 @@
 ---
-title: 'jenkins'
+title: jenkins
 lastUpdated: 2024-11-03T22:39:32
 ---
 <https://jenkins-le-guide-complet.github.io/html/sec-hudson-home-directory-contents.html>

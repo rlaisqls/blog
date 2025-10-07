@@ -1,5 +1,5 @@
 ---
-title: 'Spring 6.0과 Spring Boot 3.0'
+title: Spring 6.0과 Spring Boot 3.0
 lastUpdated: 2024-05-22T08:39:15
 ---
 

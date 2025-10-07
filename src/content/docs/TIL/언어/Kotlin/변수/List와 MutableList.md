@@ -1,5 +1,5 @@
 ---
-title: 'List와 MutableList'
+title: List와 MutableList
 lastUpdated: 2024-03-23T23:07:01
 ---
 

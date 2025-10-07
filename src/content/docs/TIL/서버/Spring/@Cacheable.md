@@ -1,5 +1,5 @@
 ---
-title: '@Cacheable'
+title: @Cacheable
 lastUpdated: 2024-05-22T08:39:15
 ---
 This method-level annotation lets Spring Boot know that the return value of the annotated method can be cached. Each time a method marked with this @Cacheable is called, the caching behavior will be applied. In particular, Spring Boot will check whether the method has been already invoked for the given arguments. This involves looking for a key, which is generated using the method parameters by default. If no value is found in the cache related to the method for the computed key, the target method will be executed normally. Otherwise, the cached value will be returned immediately. 

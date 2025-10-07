@@ -1,5 +1,5 @@
 ---
-title: 'SpringBoot 서비스를 위한 Kubernetes 설정'
+title: SpringBoot 서비스를 위한 Kubernetes 설정
 lastUpdated: 2024-03-13T15:17:56
 ---
 

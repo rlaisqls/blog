@@ -1,5 +1,5 @@
 ---
-title: 'tar'
+title: tar
 lastUpdated: 2024-11-03T22:39:32
 ---
 <https://www.gnu.org/software/tar/manual/html_node/gzip.html>

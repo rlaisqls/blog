@@ -1,5 +1,5 @@
 ---
-title: 'JVM 구성요소'
+title: JVM 구성요소
 lastUpdated: 2024-03-23T23:07:01
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'Data Lake와 Warehouse'
+title: Data Lake와 Warehouse
 lastUpdated: 2024-03-13T15:17:56
 ---
 

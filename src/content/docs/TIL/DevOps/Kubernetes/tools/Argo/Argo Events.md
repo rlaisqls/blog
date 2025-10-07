@@ -1,5 +1,5 @@
 ---
-title: 'Argo Events'
+title: Argo Events
 lastUpdated: 2025-02-14T19:43:58
 ---
 <img height="398" alt="image" src="https://github.com/user-attachments/assets/7986456e-9dcb-45bf-8165-e738fe2c0b12" />

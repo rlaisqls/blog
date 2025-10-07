@@ -1,5 +1,5 @@
 ---
-title: 'RPC'
+title: RPC
 lastUpdated: 2022-12-06T10:04:28
 ---
 

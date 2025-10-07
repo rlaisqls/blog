@@ -1,5 +1,5 @@
 ---
-title: 'Instance Store'
+title: Instance Store
 lastUpdated: 2025-04-22T23:40:51
 ---
 

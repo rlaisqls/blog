@@ -1,5 +1,5 @@
 ---
-title: 'field 상속'
+title: field 상속
 lastUpdated: 2024-03-23T23:07:01
 ---
 

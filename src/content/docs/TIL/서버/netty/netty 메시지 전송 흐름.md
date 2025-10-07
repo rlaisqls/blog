@@ -1,5 +1,5 @@
 ---
-title: 'netty 메시지 전송 흐름'
+title: netty 메시지 전송 흐름
 lastUpdated: 2024-05-22T08:39:15
 ---
 

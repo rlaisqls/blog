@@ -1,5 +1,5 @@
 ---
-title: 'Docker Image Layer'
+title: Docker Image Layer
 lastUpdated: 2024-03-13T15:17:56
 ---
 

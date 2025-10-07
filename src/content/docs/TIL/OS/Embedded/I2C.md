@@ -1,5 +1,5 @@
 ---
-title: 'I2C'
+title: I2C
 lastUpdated: 2024-06-20T23:07:00
 ---
 - Inter-Integrated Circuit(I2C) 프로토콜은 IC 사이에 통신 링크를 제공하는 양방향 2 와이어 직렬 버스이다.

@@ -1,5 +1,5 @@
 ---
-title: 'Domain-based Split Tunnels'
+title: Domain-based Split Tunnels
 lastUpdated: 2024-08-28T15:06:46
 ---
 

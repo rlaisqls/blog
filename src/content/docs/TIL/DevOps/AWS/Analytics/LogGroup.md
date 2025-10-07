@@ -1,5 +1,5 @@
 ---
-title: 'LogGroup'
+title: LogGroup
 lastUpdated: 2025-04-22T23:40:51
 ---
 - CloudWatch 로그 기능: 하위 개념 Log Group > Log Stream

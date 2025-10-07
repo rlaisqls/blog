@@ -1,5 +1,5 @@
 ---
-title: 'RI와 Saving plan'
+title: RI와 Saving plan
 lastUpdated: 2025-04-22T23:40:51
 ---
 

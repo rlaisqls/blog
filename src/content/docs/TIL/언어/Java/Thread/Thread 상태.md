@@ -1,5 +1,5 @@
 ---
-title: 'Thread 상태'
+title: Thread 상태
 lastUpdated: 2024-03-23T23:07:01
 ---
 

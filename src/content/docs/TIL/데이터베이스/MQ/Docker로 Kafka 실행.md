@@ -1,5 +1,5 @@
 ---
-title: 'Docker로 Kafka 실행'
+title: Docker로 Kafka 실행
 lastUpdated: 2024-03-13T15:17:56
 ---
 

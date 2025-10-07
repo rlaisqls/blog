@@ -1,5 +1,5 @@
 ---
-title: 'Reflection과 직렬화'
+title: Reflection과 직렬화
 lastUpdated: 2024-05-22T08:39:15
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'vim'
+title: vim
 lastUpdated: 2025-01-02T18:07:10
 ---
 ## map, noremap

@@ -1,5 +1,5 @@
 ---
-title: 'set'
+title: set
 lastUpdated: 2024-10-05T20:50:45
 ---
 linux의 set 명령어는 다양한 기능을 가지고 있다.

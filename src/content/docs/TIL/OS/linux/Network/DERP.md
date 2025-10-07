@@ -1,5 +1,5 @@
 ---
-title: 'DERP'
+title: DERP
 lastUpdated: 2024-10-06T22:32:38
 ---
 private 통신을 위해 UDP 포트를 열어놓고 [STUN과 ICE](/til/network/webrtc/)를 사용하여 통신하는 경우가 있다. 하지만 이 방법은 필요한 커넥션의 갯수만큼 많은 포트를 열어놓아야 하기 때문에, Tailnet에선 보안적으로 더 우수한 DERP(Designated Encrypted Relay for Packets) 라는 방법을 사용한다.

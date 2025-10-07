@@ -1,5 +1,5 @@
 ---
-title: 'QEMU'
+title: QEMU
 lastUpdated: 2025-04-28T22:54:25
 ---
 QEMU는 다양한 아키텍처를 가상화하거나 에뮬레이션할 수 있는 오픈소스 도구이다. 리눅스 커널 기반 가상화(KVM)와 함께 사용할 수 있으며, ARM, x86, MIPS, PowerPC 등 여러 CPU 아키텍처를 지원한다.

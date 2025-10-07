@@ -1,5 +1,5 @@
 ---
-title: 'Add IAM to RBAC'
+title: Add IAM to RBAC
 lastUpdated: 2024-03-13T15:17:56
 ---
 ## Add new IAM user or role to the Kubernetes RBAC, using kubectl or eksctl

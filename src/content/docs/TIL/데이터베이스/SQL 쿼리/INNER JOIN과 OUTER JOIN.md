@@ -1,5 +1,5 @@
 ---
-title: 'INNER JOIN과 OUTER JOIN'
+title: INNER JOIN과 OUTER JOIN
 lastUpdated: 2024-03-13T15:17:56
 ---
 

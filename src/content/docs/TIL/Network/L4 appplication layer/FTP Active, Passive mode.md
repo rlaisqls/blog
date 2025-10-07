@@ -1,5 +1,5 @@
 ---
-title: 'FTP Active, Passive mode'
+title: FTP Active, Passive mode
 lastUpdated: 2024-03-13T15:17:56
 ---
 

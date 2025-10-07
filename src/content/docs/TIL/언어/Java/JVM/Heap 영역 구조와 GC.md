@@ -1,5 +1,5 @@
 ---
-title: 'Heap 영역 구조와 GC'
+title: Heap 영역 구조와 GC
 lastUpdated: 2024-03-23T23:07:01
 ---
 

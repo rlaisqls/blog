@@ -1,5 +1,5 @@
 ---
-title: 'Projection'
+title: Projection
 lastUpdated: 2024-05-22T08:39:15
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'v8과 libuv'
+title: v8과 libuv
 lastUpdated: 2024-05-22T08:39:15
 ---
 - Node.js는 js 코드를 V8 엔진으로 해석하여 실행하고, 비동기 작업을 libUV에게 위임하여 논 블로킹 I/O를 지원한다. 

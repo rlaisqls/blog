@@ -1,5 +1,5 @@
 ---
-title: 'Scheduling'
+title: Scheduling
 lastUpdated: 2025-08-25T11:28:06
 ---
 k8s Scheduler의 동작:

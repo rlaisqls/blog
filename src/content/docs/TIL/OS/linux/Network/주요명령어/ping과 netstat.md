@@ -1,5 +1,5 @@
 ---
-title: 'ping과 netstat'
+title: ping과 netstat
 lastUpdated: 2024-03-13T15:17:56
 ---
 

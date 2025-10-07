@@ -1,5 +1,5 @@
 ---
-title: 'Terraform with AWS'
+title: Terraform with AWS
 lastUpdated: 2024-03-13T15:17:56
 ---
 

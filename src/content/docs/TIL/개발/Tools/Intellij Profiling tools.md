@@ -1,5 +1,5 @@
 ---
-title: 'Intellij Profiling tools'
+title: Intellij Profiling tools
 lastUpdated: 2024-03-13T15:17:56
 ---
 

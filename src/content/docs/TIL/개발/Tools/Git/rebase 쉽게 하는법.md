@@ -1,5 +1,5 @@
 ---
-title: 'rebase 쉽게 하는법'
+title: rebase 쉽게 하는법
 lastUpdated: 2025-03-06T01:27:34
 ---
 

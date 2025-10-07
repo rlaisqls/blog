@@ -1,5 +1,5 @@
 ---
-title: 'git reflog'
+title: git reflog
 lastUpdated: 2024-11-22T20:06:35
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'NoSQL에는 ACID가 없다고？'
+title: NoSQL에는 ACID가 없다고？
 lastUpdated: 2024-03-13T15:17:56
 ---
 

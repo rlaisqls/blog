@@ -1,5 +1,5 @@
 ---
-title: 'Terraform taint'
+title: Terraform taint
 lastUpdated: 2024-03-13T15:17:56
 ---
 

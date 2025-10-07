@@ -1,5 +1,5 @@
 ---
-title: 'Alice and Bob'
+title: Alice and Bob
 lastUpdated: 2025-10-01T22:16:16
 ---
 

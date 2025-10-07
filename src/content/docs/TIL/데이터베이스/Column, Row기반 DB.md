@@ -1,5 +1,5 @@
 ---
-title: 'Column, Row기반 DB'
+title: Column, Row기반 DB
 lastUpdated: 2024-03-13T15:17:56
 ---
 

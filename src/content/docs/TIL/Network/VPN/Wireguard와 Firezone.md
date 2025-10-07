@@ -1,5 +1,5 @@
 ---
-title: 'Wireguard와 Firezone'
+title: Wireguard와 Firezone
 lastUpdated: 2024-08-15T10:10:44
 ---
 ## WireGuard

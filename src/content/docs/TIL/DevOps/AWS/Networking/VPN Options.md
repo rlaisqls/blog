@@ -1,5 +1,5 @@
 ---
-title: 'VPN Options'
+title: VPN Options
 lastUpdated: 2025-04-22T23:40:51
 ---
 

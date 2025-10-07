@@ -1,5 +1,5 @@
 ---
-title: 'Condvar'
+title: Condvar
 lastUpdated: 2024-03-28T23:07:01
 ---
 > https://doc.rust-lang.org/std/sync/struct.Condvar.html

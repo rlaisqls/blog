@@ -1,5 +1,5 @@
 ---
-title: 'hammerspoon'
+title: hammerspoon
 lastUpdated: 2025-09-04T17:36:42
 ---
 [Hammerspoon](https://www.hammerspoon.org)은 macOS용 데스크톱 자동화 및 시스템 컨트롤 도구로, Lua로 사용하여 macOS의 다양한 기능을 제어할 수 있게 해준다.

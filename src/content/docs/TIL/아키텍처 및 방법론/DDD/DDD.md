@@ -1,5 +1,5 @@
 ---
-title: 'DDD'
+title: DDD
 lastUpdated: 2022-12-05T13:21:46
 ---
 

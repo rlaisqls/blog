@@ -1,5 +1,5 @@
 ---
-title: 'NoSQL 데이터유형'
+title: NoSQL 데이터유형
 lastUpdated: 2024-03-13T15:17:56
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'SOLID'
+title: SOLID
 lastUpdated: 2023-12-14T23:00:02
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'Cipher'
+title: Cipher
 lastUpdated: 2023-04-29T17:47:47
 ---
 

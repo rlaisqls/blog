@@ -1,5 +1,5 @@
 ---
-title: 'k9s'
+title: k9s
 lastUpdated: 2025-02-15T14:57:15
 ---
 ```sh

@@ -1,5 +1,5 @@
 ---
-title: 'R2DBC'
+title: R2DBC
 lastUpdated: 2024-05-22T08:39:15
 ---
 

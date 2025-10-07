@@ -1,5 +1,5 @@
 ---
-title: 'NUMA'
+title: NUMA
 lastUpdated: 2025-04-28T22:54:25
 ---
 

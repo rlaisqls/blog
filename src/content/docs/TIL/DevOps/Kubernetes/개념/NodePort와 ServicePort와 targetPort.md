@@ -1,5 +1,5 @@
 ---
-title: 'NodePort와 ServicePort와 targetPort'
+title: NodePort와 ServicePort와 targetPort
 lastUpdated: 2024-03-13T15:17:56
 ---
 

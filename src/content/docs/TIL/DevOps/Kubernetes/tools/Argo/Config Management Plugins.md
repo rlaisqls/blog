@@ -1,5 +1,5 @@
 ---
-title: 'Config Management Plugins'
+title: Config Management Plugins
 lastUpdated: 2025-02-14T19:43:58
 ---
 

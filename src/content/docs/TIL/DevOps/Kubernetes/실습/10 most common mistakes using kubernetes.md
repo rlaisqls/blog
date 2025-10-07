@@ -1,5 +1,5 @@
 ---
-title: '10 most common mistakes using kubernetes'
+title: 10 most common mistakes using kubernetes
 lastUpdated: 2024-03-13T15:17:56
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'Trie'
+title: Trie
 lastUpdated: 2024-07-26T21:21:33
 ---
 

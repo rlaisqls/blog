@@ -1,5 +1,5 @@
 ---
-title: 'pgbouncer'
+title: pgbouncer
 lastUpdated: 2024-10-06T22:32:38
 ---
 ### Session 모드, Transaction 모드

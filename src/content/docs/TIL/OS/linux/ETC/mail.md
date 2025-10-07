@@ -1,5 +1,5 @@
 ---
-title: 'mail'
+title: mail
 lastUpdated: 2024-03-25T23:34:05
 ---
 

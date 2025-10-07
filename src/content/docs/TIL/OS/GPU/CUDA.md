@@ -1,5 +1,5 @@
 ---
-title: 'CUDA'
+title: CUDA
 lastUpdated: 2025-03-31T21:02:01
 ---
 

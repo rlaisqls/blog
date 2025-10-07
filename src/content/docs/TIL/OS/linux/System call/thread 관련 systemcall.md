@@ -1,5 +1,5 @@
 ---
-title: 'thread 관련 systemcall'
+title: thread 관련 systemcall
 lastUpdated: 2024-03-13T15:17:56
 ---
 

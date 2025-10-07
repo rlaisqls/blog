@@ -1,5 +1,5 @@
 ---
-title: 'VPC'
+title: VPC
 lastUpdated: 2025-04-22T23:40:51
 ---
 

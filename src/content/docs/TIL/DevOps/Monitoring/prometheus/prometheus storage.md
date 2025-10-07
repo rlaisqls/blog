@@ -1,5 +1,5 @@
 ---
-title: 'prometheus storage'
+title: prometheus storage
 lastUpdated: 2024-03-13T15:17:56
 ---
 Prometheus는 기본적으로 로컬 디스크 기반의 시계열 데이터베이스를 내장하고 있다.

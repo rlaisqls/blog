@@ -1,5 +1,5 @@
 ---
-title: 'New Architecture'
+title: New Architecture
 lastUpdated: 2024-08-11T16:40:05
 ---
 ## JIS

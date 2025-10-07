@@ -1,5 +1,5 @@
 ---
-title: '@GeneratedValue 코드보기'
+title: @GeneratedValue 코드보기
 lastUpdated: 2024-05-22T08:39:15
 ---
 

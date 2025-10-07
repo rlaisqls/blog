@@ -1,5 +1,5 @@
 ---
-title: 'Sealed Class, interface'
+title: Sealed Class, interface
 lastUpdated: 2024-03-23T23:07:01
 ---
 

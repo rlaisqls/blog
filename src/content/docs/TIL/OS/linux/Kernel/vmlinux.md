@@ -1,5 +1,5 @@
 ---
-title: 'vmlinux'
+title: vmlinux
 lastUpdated: 2024-04-30T23:07:01
 ---
 

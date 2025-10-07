@@ -1,5 +1,5 @@
 ---
-title: 'CUE'
+title: CUE
 lastUpdated: 2024-07-22T23:07:24
 ---
 

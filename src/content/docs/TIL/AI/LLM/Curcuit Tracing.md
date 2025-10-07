@@ -1,5 +1,5 @@
 ---
-title: 'Curcuit Tracing'
+title: Curcuit Tracing
 lastUpdated: 2025-04-29T23:21:01
 ---
 > <https://transformer-circuits.pub/2025/attribution-graphs/methods.html#global-weights>

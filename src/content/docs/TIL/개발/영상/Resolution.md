@@ -1,5 +1,5 @@
 ---
-title: 'Resolution'
+title: Resolution
 lastUpdated: 2025-04-26T21:42:44
 ---
 - 해상도(Resolution)는 영상의 가로 픽셀 수와 세로 픽셀 수를 의미한다.

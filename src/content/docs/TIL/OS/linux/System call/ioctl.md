@@ -1,5 +1,5 @@
 ---
-title: 'ioctl'
+title: ioctl
 lastUpdated: 2024-04-21T23:33:56
 ---
 - [`ioctl()`](https://man7.org/linux/man-pages/man2/ioctl.2.html)는 하드웨어의 제어와 상태 정보를 얻기 위해 제공되는 함수이다. 

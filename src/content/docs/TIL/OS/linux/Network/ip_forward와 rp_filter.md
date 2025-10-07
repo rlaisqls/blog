@@ -1,5 +1,5 @@
 ---
-title: 'ip_forward와 rp_filter'
+title: ip_forward와 rp_filter
 lastUpdated: 2024-11-23T17:36:20
 ---
 

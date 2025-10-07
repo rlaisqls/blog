@@ -1,5 +1,5 @@
 ---
-title: 'ArgoCD 설치'
+title: ArgoCD 설치
 lastUpdated: 2025-02-14T19:43:58
 ---
 

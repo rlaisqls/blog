@@ -1,5 +1,5 @@
 ---
-title: 'Granafa agent'
+title: Granafa agent
 lastUpdated: 2024-03-15T23:07:00
 ---
 

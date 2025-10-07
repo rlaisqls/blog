@@ -1,5 +1,5 @@
 ---
-title: '@TransactionalEventListener'
+title: @TransactionalEventListener
 lastUpdated: 2024-05-22T08:39:15
 ---
 

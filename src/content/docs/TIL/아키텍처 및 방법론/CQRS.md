@@ -1,5 +1,5 @@
 ---
-title: 'CQRS'
+title: CQRS
 lastUpdated: 2022-12-05T13:21:13
 ---
 

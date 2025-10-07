@@ -1,5 +1,5 @@
 ---
-title: 'Mixin'
+title: Mixin
 lastUpdated: 2025-06-01T16:43:08
 ---
 

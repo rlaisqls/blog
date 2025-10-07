@@ -1,5 +1,5 @@
 ---
-title: 'PacketTracer 네트워크 구성'
+title: PacketTracer 네트워크 구성
 lastUpdated: 2024-03-25T23:34:05
 ---
 

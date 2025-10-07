@@ -1,5 +1,5 @@
 ---
-title: 'rerere'
+title: rerere
 lastUpdated: 2025-03-05T22:22:25
 ---
 In a workflow employing relatively long lived topic branches, the developer sometimes needs to resolve the same conflicts over and over again until the topic branches are done (either merged to the "release" branch, or sent out and accepted upstream).

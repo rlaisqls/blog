@@ -1,5 +1,5 @@
 ---
-title: 'AWS Organization'
+title: AWS Organization
 lastUpdated: 2024-05-28T23:07:01
 ---
 

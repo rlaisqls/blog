@@ -1,5 +1,5 @@
 ---
-title: 'Ethernet과 TokenRing'
+title: Ethernet과 TokenRing
 lastUpdated: 2024-03-13T15:17:56
 ---
 

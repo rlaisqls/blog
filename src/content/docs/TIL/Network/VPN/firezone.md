@@ -1,5 +1,5 @@
 ---
-title: 'firezone'
+title: firezone
 lastUpdated: 2024-08-19T01:01:42
 ---
 

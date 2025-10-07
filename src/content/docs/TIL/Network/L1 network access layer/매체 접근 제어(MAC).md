@@ -1,5 +1,5 @@
 ---
-title: '매체 접근 제어(MAC)'
+title: 매체 접근 제어(MAC)
 lastUpdated: 2024-03-13T15:17:56
 ---
 

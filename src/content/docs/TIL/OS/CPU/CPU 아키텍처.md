@@ -1,5 +1,5 @@
 ---
-title: 'CPU 아키텍처'
+title: CPU 아키텍처
 lastUpdated: 2025-04-28T22:54:25
 ---
 

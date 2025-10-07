@@ -1,5 +1,5 @@
 ---
-title: 'Hibernate dialect'
+title: Hibernate dialect
 lastUpdated: 2024-05-22T08:39:15
 ---
 

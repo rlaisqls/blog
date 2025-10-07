@@ -1,5 +1,5 @@
 ---
-title: 'LSM Tree'
+title: LSM Tree
 lastUpdated: 2024-07-28T23:34:31
 ---
 LSM 트리는 로그파일 기반으로 작성되는 방식의 파일 구조이다. LSM 트리는 Append-only 방법이어서 쓰기작업의 효울성이 좋다.
