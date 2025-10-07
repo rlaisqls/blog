@@ -2,10 +2,10 @@ name: Copy Files from TIL
 
 on:
   schedule:
-    - cron: "0 15 * * *" 
+    - cron: "0 15 * * *"
   push:
-    branches: [ main ]
- 
+    branches: [main]
+
 jobs:
   copy_files:
     env:
@@ -52,7 +52,7 @@ jobs:
 
                   # title, lastUpdated 속성 추가
                   echo "---" > tmpfile
-                  echo "title: '${file%.*}'" >> tmpfile
+                  echo "title: ${file%.*}" >> tmpfile
                   echo "lastUpdated: $LAST_UPDATED" >> tmpfile
                   echo "---" >> tmpfile
                   cat "$file" >> tmpfile
