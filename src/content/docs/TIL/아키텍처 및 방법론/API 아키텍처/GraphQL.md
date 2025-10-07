@@ -1,5 +1,5 @@
 ---
-title: GraphQL
+title: "GraphQL"
 lastUpdated: 2022-12-06T10:04:14
 ---
 

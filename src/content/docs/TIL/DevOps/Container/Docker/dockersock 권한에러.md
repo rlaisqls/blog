@@ -1,5 +1,5 @@
 ---
-title: dockersock 권한에러
+title: "dockersock 권한에러"
 lastUpdated: 2024-03-13T15:17:56
 ---
 ## docker 설치 후 /var/run/docker.sock의 permission denied 발생하는 경우

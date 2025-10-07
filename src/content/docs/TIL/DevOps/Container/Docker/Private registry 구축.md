@@ -1,5 +1,5 @@
 ---
-title: Private registry 구축
+title: "Private registry 구축"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

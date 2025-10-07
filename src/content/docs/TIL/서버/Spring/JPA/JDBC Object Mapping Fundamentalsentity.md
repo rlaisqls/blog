@@ -1,5 +1,5 @@
 ---
-title: JDBC Object Mapping Fundamentalsentity
+title: "JDBC Object Mapping Fundamentalsentity"
 lastUpdated: 2024-05-22T08:39:15
 ---
 

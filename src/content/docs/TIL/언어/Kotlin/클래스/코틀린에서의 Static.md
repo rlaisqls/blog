@@ -1,5 +1,5 @@
 ---
-title: 코틀린에서의 Static
+title: "코틀린에서의 Static"
 lastUpdated: 2024-03-23T23:07:01
 ---
 

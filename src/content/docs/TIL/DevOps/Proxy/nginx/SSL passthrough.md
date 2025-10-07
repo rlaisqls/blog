@@ -1,5 +1,5 @@
 ---
-title: SSL passthrough
+title: "SSL passthrough"
 lastUpdated: 2024-08-24T05:18:31
 ---
 > <https://github.com/NginxProxyManager/nginx-proxy-manager/issues/853>

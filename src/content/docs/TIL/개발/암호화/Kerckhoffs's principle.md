@@ -1,5 +1,5 @@
 ---
-title: Kerckhoffs's principle
+title: "Kerckhoffs's principle"
 lastUpdated: 2025-10-03T00:01:43
 ---
 

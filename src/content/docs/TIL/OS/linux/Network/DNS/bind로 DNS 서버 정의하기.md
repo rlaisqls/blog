@@ -1,5 +1,5 @@
 ---
-title: bind로 DNS 서버 정의하기
+title: "bind로 DNS 서버 정의하기"
 lastUpdated: 2024-10-04T19:02:55
 ---
 ### 1. bind를 설치한다

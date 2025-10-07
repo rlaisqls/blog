@@ -1,5 +1,5 @@
 ---
-title: 제네릭과 variance
+title: "제네릭과 variance"
 lastUpdated: 2024-03-23T23:07:01
 ---
 

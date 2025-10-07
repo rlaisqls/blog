@@ -1,5 +1,5 @@
 ---
-title: Karpenter
+title: "Karpenter"
 lastUpdated: 2024-03-13T15:17:56
 ---
 ## Karpenter의 스케줄링 우선순위

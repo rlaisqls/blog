@@ -1,5 +1,5 @@
 ---
-title: K8s를 위한 SpringBoot 개발
+title: "K8s를 위한 SpringBoot 개발"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

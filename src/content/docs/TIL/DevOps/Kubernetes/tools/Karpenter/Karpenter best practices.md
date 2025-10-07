@@ -1,5 +1,5 @@
 ---
-title: Karpenter best practices
+title: "Karpenter best practices"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

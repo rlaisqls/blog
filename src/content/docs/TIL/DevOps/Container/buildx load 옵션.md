@@ -1,5 +1,5 @@
 ---
-title: buildx load 옵션
+title: "buildx load 옵션"
 lastUpdated: 2025-03-29T20:59:43
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: BPFDoor
+title: "BPFDoor"
 lastUpdated: 2025-05-05T00:00:00
 ---
 [BPFDoor](https://www.pwc.com/gx/en/issues/cybersecurity/cyber-threat-intelligence/cyber-year-in-retrospect/yir-cyber-threats-report-download.pdf)는 Berkeley Packet Filter (BPF)를 활용한 백도어 악성코드로서 2021년 PWC 사의 위협 보고서를 통해 최초로 공개되었다. BPF의 필터링 기능을 악용하여, 방화벽을 우회하고 패킷 기반 명령 수신이 가능하도록 구성된 백도어이다.

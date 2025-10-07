@@ -1,5 +1,5 @@
 ---
-title: SMB
+title: "SMB"
 lastUpdated: 2025-08-08T14:25:23
 ---
 **SMB(Server Message Block)**: 네트워크를 통해 파일, 프린터, 시리얼 포트 등의 자원을 공유하기 위한 통신 프로토콜

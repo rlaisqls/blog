@@ -1,5 +1,5 @@
 ---
-title: Spring with Kafka
+title: "Spring with Kafka"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

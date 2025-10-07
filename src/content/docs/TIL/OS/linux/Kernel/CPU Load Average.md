@@ -1,5 +1,5 @@
 ---
-title: CPU Load Average
+title: "CPU Load Average"
 lastUpdated: 2024-06-07T23:07:00
 ---
 리눅스 커널에서는 CPU Load을 평균으로 산출하여 스케쥴링 알고리즘과 CPU 로드 밸런싱등에 사용한다.  여기서 산출하는 CPU Load 평균은 해당 CPU 실행큐에 대해서 전역적(global)으로 걸리는 부하 평균이다.  

@@ -1,5 +1,5 @@
 ---
-title: VMware Fusion Ubuntu 디스크 용량 늘리기
+title: "VMware Fusion Ubuntu 디스크 용량 늘리기"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

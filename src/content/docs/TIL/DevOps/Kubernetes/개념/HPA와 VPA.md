@@ -1,5 +1,5 @@
 ---
-title: HPA와 VPA
+title: "HPA와 VPA"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

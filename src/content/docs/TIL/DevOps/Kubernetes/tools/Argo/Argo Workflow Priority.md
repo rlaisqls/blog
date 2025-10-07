@@ -1,5 +1,5 @@
 ---
-title: Argo Workflow Priority
+title: "Argo Workflow Priority"
 lastUpdated: 2025-06-01T16:42:48
 ---
 

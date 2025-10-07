@@ -1,5 +1,5 @@
 ---
-title: DDD의 아키텍처
+title: "DDD의 아키텍처"
 lastUpdated: 2022-12-05T13:22:01
 ---
 

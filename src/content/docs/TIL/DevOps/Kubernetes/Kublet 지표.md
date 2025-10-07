@@ -1,5 +1,5 @@
 ---
-title: Kublet 지표
+title: "Kublet 지표"
 lastUpdated: 2025-06-01T16:43:08
 ---
 

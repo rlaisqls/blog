@@ -1,5 +1,5 @@
 ---
-title: PostgreSQL명령어
+title: "PostgreSQL명령어"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

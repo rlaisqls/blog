@@ -1,5 +1,5 @@
 ---
-title: Gradle LifeCycle
+title: "Gradle LifeCycle"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

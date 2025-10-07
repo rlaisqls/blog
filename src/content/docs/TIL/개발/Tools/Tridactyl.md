@@ -1,5 +1,5 @@
 ---
-title: Tridactyl
+title: "Tridactyl"
 lastUpdated: 2024-12-17T19:31:02
 ---
 <https://github.com/tridactyl/tridactyl>

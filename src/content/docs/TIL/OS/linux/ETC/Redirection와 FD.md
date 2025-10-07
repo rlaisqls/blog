@@ -1,5 +1,5 @@
 ---
-title: Redirection와 FD
+title: "Redirection와 FD"
 lastUpdated: 2024-03-25T23:34:05
 ---
 

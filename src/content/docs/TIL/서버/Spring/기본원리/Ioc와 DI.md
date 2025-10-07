@@ -1,5 +1,5 @@
 ---
-title: Ioc와 DI
+title: "Ioc와 DI"
 lastUpdated: 2024-05-22T08:39:15
 ---
 ## 🍃 제어의 역전

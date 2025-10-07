@@ -1,5 +1,5 @@
 ---
-title: Elastic Search
+title: "Elastic Search"
 lastUpdated: 2024-03-13T15:17:56
 ---
 - 확장성이 뛰어난 오픈 소스 전체 텍스트 검색 및 분석 엔진

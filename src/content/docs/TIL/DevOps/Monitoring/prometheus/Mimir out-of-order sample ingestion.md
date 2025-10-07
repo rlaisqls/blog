@@ -1,5 +1,5 @@
 ---
-title: Mimir out-of-order sample ingestion
+title: "Mimir out-of-order sample ingestion"
 lastUpdated: 2025-05-02T22:00:54
 ---
 

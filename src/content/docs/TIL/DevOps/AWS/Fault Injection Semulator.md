@@ -1,5 +1,5 @@
 ---
-title: Fault Injection Semulator
+title: "Fault Injection Semulator"
 lastUpdated: 2025-04-22T23:40:51
 ---
 AWS Fault Injection Simulator는 AWS에서 오류 주입 실험을 실행하기 위한 서비스로서 부하가 있을 때의 성능 테스트나, 특정 실패 이벤트에 대한 대처를 시뮬레이션해볼 수 있도록 한다.

@@ -1,5 +1,5 @@
 ---
-title: Pyroscope Distributor and Ingester
+title: "Pyroscope Distributor and Ingester"
 lastUpdated: 2024-05-19T23:02:59
 ---
 <img width="330" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/37fb9cc1-8767-4f68-aa27-77b46583650b">

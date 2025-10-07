@@ -1,5 +1,5 @@
 ---
-title: k8s 클러스터 root CA를 통한 사용자 인증
+title: "k8s 클러스터 root CA를 통한 사용자 인증"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

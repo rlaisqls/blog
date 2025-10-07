@@ -1,5 +1,5 @@
 ---
-title: Taints and Tolerations
+title: "Taints and Tolerations"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

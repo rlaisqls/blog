@@ -1,5 +1,5 @@
 ---
-title: Baston Host
+title: "Baston Host"
 lastUpdated: 2025-04-22T23:40:51
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: GenerateValue Column에 값을 넣는다면
+title: "GenerateValue Column에 값을 넣는다면"
 lastUpdated: 2024-05-22T08:39:15
 ---
 

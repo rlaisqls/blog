@@ -1,5 +1,5 @@
 ---
-title: ASG Lifecycle Hook
+title: "ASG Lifecycle Hook"
 lastUpdated: 2025-04-22T23:40:51
 ---
 

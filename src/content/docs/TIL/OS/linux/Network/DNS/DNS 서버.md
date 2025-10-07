@@ -1,5 +1,5 @@
 ---
-title: DNS 서버
+title: "DNS 서버"
 lastUpdated: 2024-10-04T19:02:55
 ---
 

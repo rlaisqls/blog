@@ -1,5 +1,5 @@
 ---
-title: gateway log debug 하는 법
+title: "gateway log debug 하는 법"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

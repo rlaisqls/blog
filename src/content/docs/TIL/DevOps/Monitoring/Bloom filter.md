@@ -1,5 +1,5 @@
 ---
-title: Bloom filter
+title: "Bloom filter"
 lastUpdated: 2025-05-01T19:37:03
 ---
 - Bloom Filter는 1970년 Burton Howard Bloom에 의해 고안된 공간 효율적인 확률적 데이터 구조로서, 어떤 요소가 집합에 속하는지를 테스트하는 데 사용된다.

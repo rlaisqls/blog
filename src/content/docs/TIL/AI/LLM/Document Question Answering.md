@@ -1,5 +1,5 @@
 ---
-title: Document Question Answering
+title: "Document Question Answering"
 lastUpdated: 2025-04-29T23:21:01
 ---
 <https://huggingface.co/docs/transformers/v4.27.1/en/tasks/document_question_answering>

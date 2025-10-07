@@ -1,5 +1,5 @@
 ---
-title: NGINX Ingress Basic Auth
+title: "NGINX Ingress Basic Auth"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

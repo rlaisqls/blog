@@ -1,5 +1,5 @@
 ---
-title: defer와 panic
+title: "defer와 panic"
 lastUpdated: 2024-03-23T23:07:01
 ---
 

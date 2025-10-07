@@ -1,5 +1,5 @@
 ---
-title: Spring Redis Phantomkey
+title: "Spring Redis Phantomkey"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

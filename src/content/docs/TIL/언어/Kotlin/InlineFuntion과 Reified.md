@@ -1,5 +1,5 @@
 ---
-title: InlineFuntion과 Reified
+title: "InlineFuntion과 Reified"
 lastUpdated: 2024-03-23T23:07:01
 ---
 

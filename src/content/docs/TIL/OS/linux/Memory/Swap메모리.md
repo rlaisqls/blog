@@ -1,5 +1,5 @@
 ---
-title: Swap메모리
+title: "Swap메모리"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

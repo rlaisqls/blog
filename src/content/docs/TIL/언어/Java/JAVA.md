@@ -1,5 +1,5 @@
 ---
-title: JAVA
+title: "JAVA"
 lastUpdated: 2024-03-23T23:07:01
 ---
 ## 객체 지향 프로그래밍(OOP, Object-Oriented Programming)

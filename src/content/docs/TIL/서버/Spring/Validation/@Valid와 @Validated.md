@@ -1,5 +1,5 @@
 ---
-title: @Valid와 @Validated
+title: "@Valid와 @Validated"
 lastUpdated: 2024-05-22T08:39:15
 ---
 

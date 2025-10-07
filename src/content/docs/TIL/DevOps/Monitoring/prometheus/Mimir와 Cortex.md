@@ -1,5 +1,5 @@
 ---
-title: Mimir와 Cortex
+title: "Mimir와 Cortex"
 lastUpdated: 2025-05-02T22:00:54
 ---
 Cortex와 Mimir는 Prometheus의 확장성과 장기 저장 한계를 극복하기 위해 설계된 오픈소스 시계열 데이터베이스이다.

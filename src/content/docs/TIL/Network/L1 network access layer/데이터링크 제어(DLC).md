@@ -1,5 +1,5 @@
 ---
-title: 데이터링크 제어(DLC)
+title: "데이터링크 제어(DLC)"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

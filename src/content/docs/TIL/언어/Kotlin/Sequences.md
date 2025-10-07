@@ -1,5 +1,5 @@
 ---
-title: Sequences
+title: "Sequences"
 lastUpdated: 2024-03-23T23:07:01
 ---
 

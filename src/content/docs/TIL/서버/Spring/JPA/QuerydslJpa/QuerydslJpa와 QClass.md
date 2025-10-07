@@ -1,5 +1,5 @@
 ---
-title: QuerydslJpa와 QClass
+title: "QuerydslJpa와 QClass"
 lastUpdated: 2024-05-22T08:39:15
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MongoDB Aggregation
+title: "MongoDB Aggregation"
 lastUpdated: 2024-07-27T22:26:53
 ---
 MongoDB의 Aggregation은 각 스테이지가 순차적으로 처리되며, 그 결과를 다음 스테이지로 전달하면서 사용자의 요청을 처리한다.

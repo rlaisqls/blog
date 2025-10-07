@@ -1,5 +1,5 @@
 ---
-title: Native messaging
+title: "Native messaging"
 lastUpdated: 2025-03-20T13:30:43
 ---
 

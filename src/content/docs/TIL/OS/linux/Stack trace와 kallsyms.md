@@ -1,5 +1,5 @@
 ---
-title: Stack trace와 kallsyms
+title: "Stack trace와 kallsyms"
 lastUpdated: 2024-04-28T23:11:04
 ---
 # Stack Frame

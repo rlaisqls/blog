@@ -1,5 +1,5 @@
 ---
-title: entropy
+title: "entropy"
 lastUpdated: 2024-11-07T09:32:38
 ---
 리눅스 시스템에서 암호화 및 보안 기능을 위한 난수를 생성하는 데 사용된다.

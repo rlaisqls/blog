@@ -1,5 +1,5 @@
 ---
-title: boxplot
+title: "boxplot"
 lastUpdated: 2025-03-31T21:02:01
 ---
 Box Plot(상자 그림)에서 그 부분들은 각각 다른 통계적 의미를 가짐:

@@ -1,5 +1,5 @@
 ---
-title: BPF 프로그램 타입
+title: "BPF 프로그램 타입"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Lexical Scope와 Closure
+title: "Lexical Scope와 Closure"
 lastUpdated: 2024-03-23T23:07:01
 ---
 

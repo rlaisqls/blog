@@ -1,5 +1,5 @@
 ---
-title: React Native
+title: "React Native"
 lastUpdated: 2024-08-11T16:40:05
 ---
 리액트 네이티브는 iOS와 안드로이드에서 동작하는 네이티브 모바일 앱을 만들기 위한 자바스크립트 프레임워크이다.

@@ -1,5 +1,5 @@
 ---
-title: Linux 디렉토리 구조
+title: "Linux 디렉토리 구조"
 lastUpdated: 2024-03-13T15:17:56
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: FFI
+title: "FFI"
 lastUpdated: 2024-04-08T23:07:00
 ---
 - FFI(Foreign Function Interface)는 한 프로그래밍 언어에서 다른 프로그래밍 언어의 코드를 호출하기 위한 인터페이스를 말한다. Rust에서는 toml에 lib 형태로 저장한 crate방식으로 사용할 수 있다.

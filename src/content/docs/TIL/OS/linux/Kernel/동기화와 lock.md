@@ -1,5 +1,5 @@
 ---
-title: 동기화와 lock
+title: "동기화와 lock"
 lastUpdated: 2024-03-13T15:17:56
 ---
 
