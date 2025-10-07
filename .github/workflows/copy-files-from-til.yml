@@ -52,7 +52,7 @@ jobs:
 
                   # title, lastUpdated 속성 추가
                   echo "---" > tmpfile
-                  echo "title: ${file%.*}" >> tmpfile
+                  echo "title: \"${file%.*}\"" >> tmpfile
                   echo "lastUpdated: $LAST_UPDATED" >> tmpfile
                   echo "---" >> tmpfile
                   cat "$file" >> tmpfile
