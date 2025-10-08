@@ -1,6 +1,6 @@
 ---
 title: "해시와 MAC"
-lastUpdated: 2025-10-07T15:15:13
+lastUpdated: 2025-10-08T15:13:09
 ---
 
 ## 해시 함수
@@ -111,14 +111,14 @@ lastUpdated: 2025-10-07T15:15:13
 
   - KMAC은 SHA-3의 스펀지 구조를 기반으로 한 MAC 알고리즘이다. NIST SP 800-185에 정의되어 있으며, cSHAKE를 기반으로 구현되었다.
 
-    - 가변 길이 출력을 지원한다. (XOF 기능)
-    - 커스텀 문자열(customization string)을 지원하여 도메인 분리가 가능하다.
-    - HMAC보다 더 간단한 구조로 구현되어 있다.
-
+  - 가변 길이 출력을 지원한다. (XOF 기능)
+  - 커스텀 문자열(customization string)을 지원하여 도메인 분리가 가능하다.
+  - HMAC보다 더 간단한 구조로 구현되어 있다.
+  
       ```python
       # Python cryptography 라이브러리 예시
       from hashlib import shake_256
-                
+              
       def kmac256(key, data, length, custom=b''):
           # KMAC256의 간소화된 개념적 구현
           # 실제로는 cSHAKE256 기반으로 구현됨
@@ -162,4 +162,8 @@ lastUpdated: 2025-10-07T15:15:13
 참고
 
 - 리얼월드 암호학 - 데이비드 웡 저 임지순 역
+- <https://www.fortinet.com/resources/cyberglossary/message-authentication-code>
+- <https://en.wikipedia.org/wiki/Message_authentication_code>
+- <https://www.rfc-editor.org/rfc/rfc5869>
+- <https://en.wikipedia.org/wiki/HKDF>
 - <https://en.wikipedia.org/wiki/Extendable-output_function>

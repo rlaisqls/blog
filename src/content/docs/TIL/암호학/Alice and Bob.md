@@ -1,6 +1,6 @@
 ---
 title: "Alice and Bob"
-lastUpdated: 2025-10-01T22:16:16
+lastUpdated: 2025-10-08T22:28:51
 ---
 
 암호학 및 보안 프로토콜 설명 시 사용되는 관례적 이름이 있다고 한다.

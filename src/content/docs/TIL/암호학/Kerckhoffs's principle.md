@@ -1,6 +1,6 @@
 ---
 title: "Kerckhoffs's principle"
-lastUpdated: 2025-10-03T00:01:43
+lastUpdated: 2025-10-08T22:28:51
 ---
 
 암호의 안전성은 알고리즘이 아니라 키의 비밀성에만 의존해야 한다.
