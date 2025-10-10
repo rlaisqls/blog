@@ -1,13 +1,15 @@
 name: Deploy to GitHub Pages
 
 on:
+  schedule:
+    - cron: "0 15 10 * *"
   workflow_dispatch:
   workflow_run:
     workflows: [Copy Files from TIL]
     types:
       - completed
   push:
-    branches: [ main ]
+    branches: [main]
 
 permissions:
   contents: read
@@ -38,3 +40,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
