@@ -1,6 +1,6 @@
 ---
-title: "비트코인 백서"
-lastUpdated: 2025-10-08T22:28:51
+title: "Bitcoin WhitePaper"
+lastUpdated: 2025-10-10T23:59:23
 ---
 Bitcoin: P2P Electronic Cash System
 
