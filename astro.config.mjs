@@ -31,12 +31,24 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: "글",
-					autogenerate: { directory: "thoughts", collapsed: true },
+					label: "공부",
+					autogenerate: { directory: "thoughts/공부", collapsed: true },
 				},
 				{
 					label: "TIL",
 					autogenerate: { directory: "TIL", collapsed: true },
+				},
+				{
+					label: "독후감",
+					autogenerate: { directory: "thoughts/독후감", collapsed: true },
+				},
+				{
+					label: "생각",
+					autogenerate: { directory: "thoughts/생각들", collapsed: true },
+				},
+				{
+					label: "회고",
+					autogenerate: { directory: "thoughts/회고", collapsed: true },
 				},
 			],
 			customCss: ["./src/tailwind.css"],

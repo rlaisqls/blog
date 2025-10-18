@@ -4,7 +4,7 @@ lastUpdated: 2024-05-22T10:10:10
 tags: ["BPF", "linux"]
 ---
 
-eBPF를 사용한 모니터링을 공부하며 Pyroscopee의 eBPF 기능에 관심이 생겼다. 구현 코드를 살펴보면서 eBPF를 활용하는 방법과 그에 연관된 Linux 기능을 익힐 수 있었는데, 내용을 되새기기 위해 공부했던 부분을 전체적으로 풀어 설명해보려 한다.
+eBPF를 사용한 모니터링을 공부하며 Pyroscope의 eBPF 기능에 관심이 생겼다. 구현 코드를 살펴보면서 eBPF를 활용하는 방법과 그에 연관된 Linux 기능을 익힐 수 있었는데, 내용을 되새기기 위해 공부했던 부분을 전체적으로 풀어 설명해보려 한다.
 
 우선 관련된 기술 배경부터 알아보자.
 
@@ -12,14 +12,15 @@ eBPF를 사용한 모니터링을 공부하며 Pyroscopee의 eBPF 기능에 관�
 
 ### Pyroscope
 
-[Grafana Pyroscope](https://github.com/grafana/pyroscope)는 애플리케이션을 지속적으로 프로파일링하는 오픈소스 플랫폼이다. 
+[Grafana Pyroscope](https://github.com/grafana/pyroscope)는 애플리케이션을 지속적으로 프로파일링하는 오픈소스 플랫폼이다.
 
 > **프로파일링(profiling)이란?**
 >
 > 프로그램을 실행하면서 성능을 측정하고, 분석하는 행위를 프로파일링이라고 한다. <br/>
+>
 > - 함수 혹은 메소드가 CPU를 얼마나 오랫동안 사용하는가, 얼마나 많이 호출되는가
 > - 메모리를 얼마나 자주 할당 및 해제하는가, 얼마나 많이 할당하느냐
-> 
+>
 > 와 같은 정보를 측정한다.
 
 애플리케이션이 사용한 CPU, Memory 등의 프로파일링 정보를 Flame Graph로 확인할 수 있다.
@@ -35,7 +36,7 @@ Pyroscope에서 Profiling 정보를 수집하는데는 두 가지 방식이 있�
 1. 각 언어 SDK에서 Pyroscope에 정보를 전송하는 방식 ([문서](https://grafana.com/docs/pyroscope/latest/configure-client/language-sdks/))
 2. Grafana Agent(Alloy)에서 Pyroscope에 정보를 전송하는 방식 ([문서](https://grafana.com/docs/pyroscope/latest/configure-client/grafana-agent/))
 
-이 중 Grafana Agent(Alloy) 방식을 쓰면 **eBPF**를 사용해 정보를 수집할 수 있다. 
+이 중 Grafana Agent(Alloy) 방식을 쓰면 **eBPF**를 사용해 정보를 수집할 수 있다.
 
 ### eBPF
 
@@ -46,10 +47,12 @@ Pyroscope에서 Profiling 정보를 수집하는데는 두 가지 방식이 있�
 > 커널 수준에서 일어나는 특정 이벤트나 정보를 추적하거나 모니터링하기 위해 활용된다.
 
 eBPF를 사용한 Pyroscope의 Profile 정보 수집 기능은 아래와 같은 장점을 가진다:
+
 - 성능 오버헤드가 가장 낮고, low level의 함수 호출 정보(System Call 등)까지 세밀하게 수집할 수 있다.
 - 애플리케이션 코드를 수정하지 않고 데이터를 수집할 수 있다.
 
 하지만 한계 또한 있다:
+
 - 일부 언어만 지원된다. <br/> (현재 Go, Rust, C/C++, Python에서 사용 가능하고, Java와 node.js는 [이슈](https://github.com/grafana/pyroscope/issues/2766)만 등록되었다.)
 - 메모리 및 Thread Lock 등의 프로파일링 유형을 지원하지 않는다.
 - eBPF는 호스트 시스템에 대한 root 액세스 권한이 필요하므로 일부 환경에서 문제가 될 수 있다.
@@ -69,17 +72,17 @@ Grafana Agent eBPF 모드는 **프로세스**(또는 컨테이너 프로세스)�
 ```go
 // https://github.com/grafana/pyroscope/blob/774085f/ebpf/sd/target.go#L210C1-L222C3
 func (tf *targetFinder) setTargets(opts TargetsOptions) {
-	...
-	containerID2Target := make(map[containerID]*Target)
-	pid2Target := make(map[uint32]*Target)
+ ...
+ containerID2Target := make(map[containerID]*Target)
+ pid2Target := make(map[uint32]*Target)
 
-	for _, target := range opts.Targets {
-		if pid := pidFromTarget(target); pid != 0 {
-			t := NewTarget("", pid, target)
-			pid2Target[pid] = t
-		}
+ for _, target := range opts.Targets {
+  if pid := pidFromTarget(target); pid != 0 {
+   t := NewTarget("", pid, target)
+   pid2Target[pid] = t
+  }
     ...
-	}
+ }
 }
 ```
 
@@ -143,8 +146,8 @@ Grafana Agent eBPF 모드는 CPU에서 명령어(함수)가 실행되었을 때 
     ```
 
 <!-- - 연관 커밋 ([profile only targets](https://github.com/grafana/pyroscope/commit/da9a377985e54ca1e888a4c3a5fd7044e590a5f8), [execve hook](https://github.com/grafana/pyroscope/commit/5163bcabcd9706bad0e474e2fce1b96e07792f0d#diff-48803d11d5ad31831fefb129df0cfbb7ed3b38cde6378a01f3103d74aba17dda)) -->
- 
-1. **eBPF에 대한 perf event 생성, 구독** (User space): <br> kprobe로 호출된 eBPF 코드의 output을 perf event로 받는 fd를 생성한다. 그리고 [epoll](https://man7.org/linux/man-pages/man2/poll.2.html) 시스템 콜을 통해 해당 fd를 구독한다. 
+
+1. **eBPF에 대한 perf event 생성, 구독** (User space): <br> kprobe로 호출된 eBPF 코드의 output을 perf event로 받는 fd를 생성한다. 그리고 [epoll](https://man7.org/linux/man-pages/man2/poll.2.html) 시스템 콜을 통해 해당 fd를 구독한다.
 
    epoll은 관찰 대상인 파일 디스크립터에 변경이 생겼을 때까지 기다렸다가 코드를 처리하도록 하는 시스템 콜이다. 여기에서도 perf 이벤트가 발생하면 해당 이벤트의 파일 디스크립터에 변경이 생기므로, 그 이벤트를 받아 처리하기 위해 사용한다.
 
@@ -166,7 +169,7 @@ Grafana Agent eBPF 모드는 CPU에서 명령어(함수)가 실행되었을 때 
     fd, err := unix.PerfEventOpen(&attr, -1, cpu, -1, unix.PERF_FLAG_FD_CLOEXEC)
     ...
     ```
-    
+
     ```go
     // https://github.com/cilium/ebpf/blob/8079b37/internal/epoll/poller.go#L110C3-L114C3
     // Reader 내부의 poller에서 poll 시스템 콜로 이벤트의 fd를 등록한다.
@@ -213,8 +216,9 @@ eBPF map인 `pid_config`에 타겟 프로세스와 프로세스 타입을 저장
 이벤트 정보를 받았을 때 실행되는 eBPF 코드를 부분별로 코드와 함께 살펴보자.
 
 프로세스 정보가 `pid_config` map에 존재하지 않으면:
-  - Unknown 타입으로 저장해놓고, 타겟이 아닌 프로세스인지 한 번 확인하기 위해 `bpf_perf_event_output()`으로 pid 정보를 반환하여 2번 단계의 절차를 거치도록 한다.
-  - User space에 있는 코드에서 비교했을 때 타겟에 해당하는 프로세스라면 unknown으로 저장했던 정보를 지우고 새 정보를 덮어씌운다.
+
+- Unknown 타입으로 저장해놓고, 타겟이 아닌 프로세스인지 한 번 확인하기 위해 `bpf_perf_event_output()`으로 pid 정보를 반환하여 2번 단계의 절차를 거치도록 한다.
+- User space에 있는 코드에서 비교했을 때 타겟에 해당하는 프로세스라면 unknown으로 저장했던 정보를 지우고 새 정보를 덮어씌운다.
 
     ```c
     // `pid_config` map에서 pid로 정보 조회
@@ -245,7 +249,8 @@ eBPF map인 `pid_config`에 타겟 프로세스와 프로세스 타입을 저장
     ```
 
 프로세스 정보가 `pid_config` map에 존재하면: 타입을 확인한다.
-  - Unknown 타입이면: 무시하고 return한다.
+
+- Unknown 타입이면: 무시하고 return한다.
 
     ```c
     if (config->type == PROFILING_TYPE_ERROR ||
@@ -254,7 +259,7 @@ eBPF map인 `pid_config`에 타겟 프로세스와 프로세스 타입을 저장
     }
     ```
 
-  - Python 타입이면: [`PyPerf`](https://github.com/grafana/pyroscope/pull/2201)로 Stack을 구한다.
+- Python 타입이면: [`PyPerf`](https://github.com/grafana/pyroscope/pull/2201)로 Stack을 구한다.
 
     ```c
     // 여기서는 `bpf_tail_call`을 사용해 Pyperf에 대한 BPF 코드로 이동하도록 한다.
@@ -264,7 +269,7 @@ eBPF map인 `pid_config`에 타겟 프로세스와 프로세스 타입을 저장
     }
     ```
 
-  - FramePointer 타입이면: `bpf_get_stackid`로 명령어의 [`Frame pointer`](http://en.wikipedia.org/wiki/Frame_pointer#Structure) Stack을 구한다. Stack을 구한 후에는 그 결과를 `count`라는 eBPF map에 저장하여 스택 호출 횟수를 센다.
+- FramePointer 타입이면: `bpf_get_stackid`로 명령어의 [`Frame pointer`](http://en.wikipedia.org/wiki/Frame_pointer#Structure) Stack을 구한다. Stack을 구한 후에는 그 결과를 `count`라는 eBPF map에 저장하여 스택 호출 횟수를 센다.
 
     ```c
     if (config->type == PROFILING_TYPE_FRAMEPOINTERS) {
@@ -361,11 +366,11 @@ CPU에서 실행된 명령어 Stack 정보를 저장하는 흐름에 대한 도�
 
 Grafana Agent는 `count` map에 있는 정보를 주기적으로 조회하고(기본 15초), Profile 정보 형태로 변환하여 Pyroscope 서버로 전송한다. Profile 정보로 변환하기 위해 가장 중요한 과정은 포인터로 되어있는 stack을 사람이 읽을 수 있는 함수명(Symbol)으로 바꾸는 것이다.
 
-기본적으로 사용되는 `FlamePointer` 타입의 구현을 살펴보자. 
+기본적으로 사용되는 `FlamePointer` 타입의 구현을 살펴보자.
 
 #### 4-1. WalkStack 함수
 
-Grafana Agent는 `count`를 조회하여 stack 정보를 가져온다. `FlamePointer` 타입의 Stack 정보는 8비트의 명령어 주소가 여러개 붙어있는 형태의 byte 배열이다. 
+Grafana Agent는 `count`를 조회하여 stack 정보를 가져온다. `FlamePointer` 타입의 Stack 정보는 8비트의 명령어 주소가 여러개 붙어있는 형태의 byte 배열이다.
 
 `WalkStack` 함수에는 stack 정보를 파라미터로 넘겨받아서 각 명령어별 Symbol을 string으로 해석해서 string 배열로 변환한다. 명령어별 이름은 `resolver.Resolve()`에서 해석된다.
 
@@ -396,7 +401,7 @@ func (s *session) WalkStack(sb *stackBuilder, stack []byte, resolver symtab.Symb
 
 #### 4-2. 명령어가 매핑된 파일 구하기
 
-위 함수에서 resolver(SymbolTable)은 ELF 섹션 정보를 사용해 명령어의 Symbol을 구한다. 
+위 함수에서 resolver(SymbolTable)은 ELF 섹션 정보를 사용해 명령어의 Symbol을 구한다.
 
 > **ELF란?**<br>
 > ELF는 Executable and Linking Format의 약어로, UNIX / LINUX 기반에서 사용되는 실행 및 링킹 파일 포맷이다. 파일의 ELF 섹션에는 Linking을 위한 명령어 주소, 데이터, 심볼 테이블, 재배치 정보 등이 담겨있다. 이 정보를 통해 명령어 주소에 대한 Symbol을 구할 수 있다.<br>
@@ -462,10 +467,9 @@ type ProcTable struct {
   }
   ```
 
-
 #### 4-3. elf table 정보 읽기
 
-명령어가 어떤 파일에 매핑되어있는지 알았으니 해당 파일의 ELF 섹션을 해석하여 실제 데이터의 함수명(symbol)을 구해야 한다. 이 과정은 [`NewSymbolTable()`](https://github.com/grafana/pyroscope/blob/774085f91bb9262c2f3cd46797a7e4313da295dd/ebpf/symtab/elf/symbol_table.go#L91) 함수에서 이뤄진다. 
+명령어가 어떤 파일에 매핑되어있는지 알았으니 해당 파일의 ELF 섹션을 해석하여 실제 데이터의 함수명(symbol)을 구해야 한다. 이 과정은 [`NewSymbolTable()`](https://github.com/grafana/pyroscope/blob/774085f91bb9262c2f3cd46797a7e4313da295dd/ebpf/symtab/elf/symbol_table.go#L91) 함수에서 이뤄진다.
 
 Symbol 정보를 알기 위해서는 `SHT_SYMTAB`, `SHT_DYNSYM` 두 섹션의 정보가 필요하므로 두 섹션의 정보를 각각 해석하여 [SymbolTable](https://github.com/grafana/pyroscope/blob/774085f91bb9262c2f3cd46797a7e4313da295dd/ebpf/symtab/elf/symbol_table.go#L44) 구조체에 담는다.
 
@@ -474,18 +478,18 @@ Symbol 정보를 알기 위해서는 `SHT_SYMTAB`, `SHT_DYNSYM` 두 섹션의 �
 func (f *MMapedElfFile) NewSymbolTable(opt *SymbolsOptions) (*SymbolTable, error) {
 
   // SHT_SYMTAB, SHT_DYNSYM 섹션에 해당하는 Symbol을 가져온다.
-	sym, sectionSym, err := f.getSymbols(elf.SHT_SYMTAB, opt)
-	dynsym, sectionDynSym, err := f.getSymbols(elf.SHT_DYNSYM, opt)
-	total := len(dynsym) + len(sym)
-	...
-	all := make([]SymbolIndex, 0, total)
-	all = append(all, sym...)
-	all = append(all, dynsym...)
+ sym, sectionSym, err := f.getSymbols(elf.SHT_SYMTAB, opt)
+ dynsym, sectionDynSym, err := f.getSymbols(elf.SHT_DYNSYM, opt)
+ total := len(dynsym) + len(sym)
+ ...
+ all := make([]SymbolIndex, 0, total)
+ all = append(all, sym...)
+ all = append(all, dynsym...)
   // 주소를 기준으로 정렬한다.
-	sort.Slice(...)
+ sort.Slice(...)
 
   // Index에 이름과 주소(value)를 배열로 저장한다.
-	res := &SymbolTable{
+ res := &SymbolTable{
     Index: FlatSymbolIndex{
       Links: []elf.SectionHeader{
         f.Sections[sectionSym],    // should be at 0 - SectionTypeSym
@@ -494,14 +498,14 @@ func (f *MMapedElfFile) NewSymbolTable(opt *SymbolsOptions) (*SymbolTable, error
       Names:  make([]Name, total),
       Values: gosym.NewPCIndex(total),
     },
-		File:            f,
-		demangleOptions: opt.DemangleOptions,
-	}
-	for i := range all {
-		res.Index.Names[i] = all[i].Name
-		res.Index.Values.Set(i, all[i].Value)
-	}
-	return res, nil
+  File:            f,
+  demangleOptions: opt.DemangleOptions,
+ }
+ for i := range all {
+  res.Index.Names[i] = all[i].Name
+  res.Index.Values.Set(i, all[i].Value)
+ }
+ return res, nil
 }
 ```
 
@@ -512,44 +516,44 @@ func (f *MMapedElfFile) NewSymbolTable(opt *SymbolsOptions) (*SymbolTable, error
 ```go
 // https://github.com/grafana/pyroscope/blob/774085f/ebpf/symtab/elf/symbol_table.go#L44
 type SymbolTable struct {
-	Index FlatSymbolIndex
-	File  *MMapedElfFile
+ Index FlatSymbolIndex
+ File  *MMapedElfFile
   ...
 }
 
 func (st *SymbolTable) Resolve(addr uint64) string {
   // 이분탐색으로 배열에서의 index를 구한다.
-	i := st.Index.Values.FindIndex(addr) 
-	...
-	name, _ := st.symbolName(i)
-	return name
+ i := st.Index.Values.FindIndex(addr) 
+ ...
+ name, _ := st.symbolName(i)
+ return name
 }
 ...
 func (st *SymbolTable) symbolName(idx int) (string, error) {
-	linkIndex := st.Index.Names[idx].LinkIndex()
-	SectionHeaderLink := &st.Index.Links[linkIndex]
-	NameIndex := st.Index.Names[idx].NameIndex()
+ linkIndex := st.Index.Names[idx].LinkIndex()
+ SectionHeaderLink := &st.Index.Links[linkIndex]
+ NameIndex := st.Index.Names[idx].NameIndex()
 
   // 구한 idx에 있는 symbol 주소에 offset을 더해 이름을 가져온다.
-	s, b := st.File.getString(int(NameIndex)+int(SectionHeaderLink.Offset), st.demangleOptions)
-	if !b {
-		return "", fmt.Errorf("elf getString")
-	}
+ s, b := st.File.getString(int(NameIndex)+int(SectionHeaderLink.Offset), st.demangleOptions)
+ if !b {
+  return "", fmt.Errorf("elf getString")
+ }
   // 이름을 string으로 반환한다.
-	return s, nil
+ return s, nil
 }
 ```
 
 ### 5. pprof 형식으로 데이터 변환 및 전송
- 
+
 Symbol을 모두 구하면 stack trace를 나타내는 string 배열이 결과로 나온다. 이제 이 결과를 Pyroscope 서버로 전송하기 위한 포맷으로 변환해야한다. Pyroscope에서는 [pprof](https://github.com/google/pprof/tree/main) 형식으로 데이터를 주고 받는다. google의 [pprof/profile](https://github.com/google/pprof/tree/main) 라이브러리를 사용해 형식을 변환한다.
 
 [반환 데이터 구조](https://github.com/google/pprof/blob/main/proto/profile.proto)를 간단하게 설명하자면 다음과 같다.
 
 - **Profile**: 가장 상위 메시지로, 전체 프로파일을 나타낸다. 프로파일에는 Sample, Location, Function 등이 포한된다.
-- **Sample**: 프로파일링 정보로 수집된 개별 샘플을 나타낸다. Sample은 호출 스택에 대한 각 Location의 배열과 그 위치에서의 profile 정보(e.g. CPU 사용량)를 포함한다. 
+- **Sample**: 프로파일링 정보로 수집된 개별 샘플을 나타낸다. Sample은 호출 스택에 대한 각 Location의 배열과 그 위치에서의 profile 정보(e.g. CPU 사용량)를 포함한다.
 - **Location**: 각 위치는 특정 함수 호출 또는 명령어 주소를 나타낸다. 각 Location은 하나 이상의 Function과 연결된다.
-- **Function**: 함수 정보를 나타낸다. 소스 파일 이름, 시작 라인 등을 포함한다. 
+- **Function**: 함수 정보를 나타낸다. 소스 파일 이름, 시작 라인 등을 포함한다.
 
 pprof 형식의 가장 큰 특징은 string 정보를 `string_table`에 별도로 가지고 있다는 점이다. 모든 string은 `string_table`에 담고, 정보를 포함한 sample과 function에는 `string_table`에 있는 해당 string의 index 값을 넣는다. 이를 통해 다량의 데이터를 적은 용량으로 전송할 수 있도록 한다.
 
@@ -576,8 +580,7 @@ stack 정보에 해당하는 함수명 Symbol 목록을 구한 후 변환하여 
 
 <img style="width: 652px" alt="image" src="https://github.com/rlaisqls/blog/assets/81006587/7c18ce37-7d7d-421c-bcbe-e43c557b14a2">
 
-
-Pyroscope의 eBPF를 사용한 프로파일링 정보 수집 과정을 상세히 살펴봄으로써, eBPF의 작동 방식과 프로파일링 데이터 수집 및 해석 과정에 대해 더 자세히 이해할 수 있었다. eBPF를 사용한 프로파일링은 낮은 오버헤드와 세부 수준의 정보 수집이 가능하다는 장점이 있다. 하지만 지원되는 언어가 제한적이고, 메모리 및 스레드 프로파일링을 지원하지 않는 단점도 있다. 
+Pyroscope의 eBPF를 사용한 프로파일링 정보 수집 과정을 상세히 살펴봄으로써, eBPF의 작동 방식과 프로파일링 데이터 수집 및 해석 과정에 대해 더 자세히 이해할 수 있었다. eBPF를 사용한 프로파일링은 낮은 오버헤드와 세부 수준의 정보 수집이 가능하다는 장점이 있다. 하지만 지원되는 언어가 제한적이고, 메모리 및 스레드 프로파일링을 지원하지 않는 단점도 있다.
 
 공부 전에는 eBPF를 활용할 수 있는 범위가 어디까지인지 파악하기 어려웠는데 생각보다는 쓸 수 있는 범위가 좁다는 걸 느꼈다. 다른 기술은 다른 기술대로 장점이 있고, eBPF는 eBPF만의 특화된 영역이 있는 것 같다. 앞으로도 eBPF를 사용해 구현하는 성능 모니터링 툴과 도구, 그리고 그 외의 다양한 활용 가능성에 대해 계속해서 관심을 가지고 살펴봐야겠다.
 
@@ -588,30 +591,32 @@ Pyroscope의 eBPF를 사용한 프로파일링 정보 수집 과정을 상세히
 <div markdown="1">
 
 **참고한 블로그**
-- https://www.brendangregg.com/flamegraphs.html
-- https://www.emaallstars.com/categories-of-ebpf-tools.html
-- https://fedepaol.github.io/blog/2023/09/24/ebpf-journey-by-examples-perf-events-with-pyroscope
-- https://ebpf-docs.dylanreimerink.nl/linux/program-type/BPF_PROG_TYPE_PERF_EVENT/
-- https://www.brendangregg.com/perf.html
-- https://terenceli.github.io/%E6%8A%80%E6%9C%AF/2020/08/29/perf-arch
+
+- <https://www.brendangregg.com/flamegraphs.html>
+- <https://www.emaallstars.com/categories-of-ebpf-tools.html>
+- <https://fedepaol.github.io/blog/2023/09/24/ebpf-journey-by-examples-perf-events-with-pyroscope>
+- <https://ebpf-docs.dylanreimerink.nl/linux/program-type/BPF_PROG_TYPE_PERF_EVENT/>
+- <https://www.brendangregg.com/perf.html>
+- <https://terenceli.github.io/%E6%8A%80%E6%9C%AF/2020/08/29/perf-arch>
 
 **참고한 공식 문서**
+
 - Pyroscope, Grafana Agent(alloy)
-  - https://grafana.com/docs/pyroscope/latest/
-  - https://grafana.com/docs/agent/latest/
-  - https://grafana.com/docs/pyroscope/latest/configure-client/grafana-agent/ebpf/
-  - https://grafana.com/docs/pyroscope/latest/configure-client/grafana-agent/ebpf/configuration/
-  - https://grafana.com/docs/alloy/latest/reference/components/pyroscope.ebpf/
+  - <https://grafana.com/docs/pyroscope/latest/>
+  - <https://grafana.com/docs/agent/latest/>
+  - <https://grafana.com/docs/pyroscope/latest/configure-client/grafana-agent/ebpf/>
+  - <https://grafana.com/docs/pyroscope/latest/configure-client/grafana-agent/ebpf/configuration/>
+  - <https://grafana.com/docs/alloy/latest/reference/components/pyroscope.ebpf/>
 - libbpf
-  - https://docs.kernel.org/bpf/libbpf/program_types.html
-  - https://github.com/libbpf/libbpf/blob/02724cf/src/bpf.h#L26
+  - <https://docs.kernel.org/bpf/libbpf/program_types.html>
+  - <https://github.com/libbpf/libbpf/blob/02724cf/src/bpf.h#L26>
 - bcc
-  - https://github.com/iovisor/bcc/blob/80fcfc9/docs/reference_guide.md
+  - <https://github.com/iovisor/bcc/blob/80fcfc9/docs/reference_guide.md>
 - man
-  - https://man7.org/linux/man-pages/man5/procfs.5.html
-  - https://man7.org/linux/man-pages/man1/perf.1.html
-  - https://man7.org/linux/man-pages/man2/perf_event_open.2.html
-  - https://man7.org/linux/man-pages/man7/epoll.7.html
+  - <https://man7.org/linux/man-pages/man5/procfs.5.html>
+  - <https://man7.org/linux/man-pages/man1/perf.1.html>
+  - <https://man7.org/linux/man-pages/man2/perf_event_open.2.html>
+  - <https://man7.org/linux/man-pages/man7/epoll.7.html>
 
 </div>
 </details>
@@ -633,3 +638,4 @@ Pyroscope의 eBPF를 사용한 프로파일링 정보 수집 과정을 상세히
 
 </div>
 </details>
+

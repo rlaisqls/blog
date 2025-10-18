@@ -1100,11 +1100,6 @@
   resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
-"@webgpu/types@0.1.21":
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@webgpu/types/-/types-0.1.21.tgz#b181202daec30d66ccd67264de23814cfd176d3a"
-  integrity sha512-pUrWq3V5PiSGFLeLxoGqReTZmiiXwY3jRkIG5sLLKjyqNxrwm/04b4nw7LSmGWJcKk59XOM/YRTUwOzo4MMlow==
-
 acorn-jsx@^5.0.0:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
@@ -1205,15 +1200,6 @@ astro-expressive-code@^0.33.4:
   dependencies:
     hast-util-to-html "^8.0.4"
     remark-expressive-code "^0.33.5"
-
-astro-og-canvas@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/astro-og-canvas/-/astro-og-canvas-0.5.0.tgz#e89235fcbb6906bad1997ea304e9cf411defdcd9"
-  integrity sha512-nrwZpFL9d6tVJRKV5OLZa3xSSh+Cbaaoay/R9jAgHCrJ79WNyN2rgRT/+wtP1O/bCQ+wVP3GC3mBQN7vogImvg==
-  dependencies:
-    canvaskit-wasm "^0.39.1"
-    deterministic-object-hash "^2.0.2"
-    entities "^4.4.0"
 
 astro-remark-description@^1.1.2:
   version "1.1.2"
@@ -1466,13 +1452,6 @@ caniuse-lite@^1.0.30001587, caniuse-lite@^1.0.30001599:
   version "1.0.30001620"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001620.tgz#78bb6f35b8fe315b96b8590597094145d0b146b4"
   integrity sha512-WJvYsOjd1/BYUY6SNGUosK9DUidBPDTnOARHp3fSmFO1ekdxaY6nKRttEVrfMmYi80ctS0kz1wiWmm14fVc3ew==
-
-canvaskit-wasm@^0.39.1:
-  version "0.39.1"
-  resolved "https://registry.yarnpkg.com/canvaskit-wasm/-/canvaskit-wasm-0.39.1.tgz#c3c8f3962cbabbedf246f7bcf90e859013c7eae9"
-  integrity sha512-Gy3lCmhUdKq+8bvDrs9t8+qf7RvcjuQn+we7vTVVyqgOVO1UVfHpsnBxkTZw+R4ApEJ3D5fKySl9TU11hmjl/A==
-  dependencies:
-    "@webgpu/types" "0.1.21"
 
 ccount@^2.0.0:
   version "2.0.1"

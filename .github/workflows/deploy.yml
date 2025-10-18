@@ -29,6 +29,7 @@ jobs:
           path: .
           node-version: 18.17.1
           package-manager: yarn@1.22.21
+          cache: true
 
   deploy:
     needs: build

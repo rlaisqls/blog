@@ -1,12 +1,12 @@
 ---
-title: Downtime 없는 Spot Instance 클러스터 구축 과정
+title: Spot 인스턴스에서 서버 가용성 개선하기
 lastUpdated: 2023-12-20T11:17:10
 tags: ["Kubernetes", "EKS", "karpenter"]
 ---
 
-대덕SW마이스터고 동아리에서 개발한 6개의 교내 서비스(약 250명의 교사와 학생이 사용하는)를 대상으로 서비스 인프라를 통합하는 프로젝트를 진행했습니다.
+대덕SW마이스터고 동아리에서 개발한 6개의 교내 서비스(약 250명의 교사와 학생이 사용 중)를 대상으로 서비스 인프라를 통합하는 프로젝트를 진행했습니다.
 
-이 과정에서 Karpenter 코드를 수정하여, Spot Instance 환경에서도 Replica 1인 Deployment의 가용성을 96%에서 99.95%로 개선한 과정을 정리한 글입니다.
+이 프로젝트에서 Karpenter를 코드를 커스텀하여, Spot 인스턴스 환경의 Replica 1인 Deployment의 가용성을 96% -> 99.95%로 개선한 과정을 정리한 글입니다.
 
 ### 문제 상황
 
@@ -199,7 +199,7 @@ func (n Node) CordonAndDrain(nodeName string, reason string, recorder recorderIn
 
 ## 결과
 
-위와 같이 구축 후 Uptimia 사이트를 사용해서 2023년 9월부터 2달간 측정한 결과, 모든 API 서버의 가용성이 99.95%를 유지하는 것을 볼 수 있었다.
+위와 같이 구축 후 가용성을 2023년 9월부터 2달간 측정한 결과, 모든 API 서버의 가용성이 99.95%를 유지하는 것을 볼 수 있었다. (30초마다 수집, Health check API 기준)
 
 <img width="705" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/befb2139-d0d3-4ab1-b07f-55d5c279d1a7">
 
