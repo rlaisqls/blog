@@ -43,7 +43,7 @@ Deployment의 Replica 수를 1로 설정했기에 노드가 내려갈 때마다 
 
  ASG 대신 Karpenter를 사용하면 node가 내려간 이후에 새 node를 바로 생성할 수 있고, node 생성 및 대기 시간을 줄일 수 있다. Karpenter의 이점을 알아보기 위해 우선 CA의 개념과 ASG의 동작에 대해 간략하게 설명해보겠다.
 
-### **Cluster Autoscaler(CA)**
+### Cluster Autoscaler(CA)
 
 **Cluster Autoscaler**는 [autoscaler](https://github.com/kubernetes/autoscaler)라는 쿠버네티스의 공식 서브 프로젝트 중 하나이며, 클러스터의 워커 노드를 유동적으로 스케일링해주는 컴포넌트이다. 워커 노드의 자원이 모두 소모된 경우 자원이 더 필요하다고 판단하면 새로운 클러스터를 생성, 더 이상 새로운 자원이 필요하지 않게되면 생성된 클러스터를 삭제하는 동작을 한다.
 
@@ -59,7 +59,7 @@ Deployment의 Replica 수를 1로 설정했기에 노드가 내려갈 때마다 
 
 Cluster Autoscaler는 이와 같이 AutoScaling Group의 desired size를 조정하여 새로운 node를 provisioning하므로 반응 속도가 느리다. 이 문제를 해결하기 위해 Karpenter라는 툴을 사용할 수 있다.
 
-### **Karpenter**
+### Karpenter
 
 **[Karpenter](https://karpenter.sh/)** 는 AWS 가 개발한 Kubernetes 의 Worker Node 자동 확장 기능을 수행하는 오픈소스 프로젝트이다. 앞서 말한 Cluster Autoscaler (CA) 와 비슷한 역할을 수행하지만, AWS 리소스에 의존성이 없어 JIT(Just In-Time) 배포가 가능하다.
 
