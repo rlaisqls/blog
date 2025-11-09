@@ -1,6 +1,6 @@
 ---
 title: "writeConcern"
-lastUpdated: 2025-10-30T22:59:01
+lastUpdated: 2025-11-09T20:29:55
 ---
 
 - writeConcern은 MongoDB에서 쓰기 작업이 몇 개의 노드에 복제되어야 성공으로 간주할지를 결정하는 설정들이다.
