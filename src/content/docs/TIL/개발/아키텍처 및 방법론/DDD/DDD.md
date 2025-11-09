@@ -1,6 +1,6 @@
 ---
 title: "DDD"
-lastUpdated: 2025-10-09T21:12:59
+lastUpdated: 2022-10-09T21:12:59
 ---
 
 DDD는 **Domain Driven Design**, 즉 도메인 주도 설계이다. 
