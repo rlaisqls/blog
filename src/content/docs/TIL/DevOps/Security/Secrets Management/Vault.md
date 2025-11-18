@@ -1,6 +1,6 @@
 ---
 title: "Vault"
-lastUpdated: 2024-03-13T15:17:56
+lastUpdated: 2025-11-18T22:41:36
 ---
 
 - HashiCorp Vault is an identity-based secrets and encryption management system.

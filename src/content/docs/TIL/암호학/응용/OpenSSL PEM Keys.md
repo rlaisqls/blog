@@ -1,6 +1,6 @@
 ---
-title: "openssl로 pemKey 만들고 접속하기"
-lastUpdated: 2024-03-13T15:17:56
+title: "OpenSSL PEM Keys"
+lastUpdated: 2025-11-18T15:14:11
 ---
 
 ### 1. openssl 설치
