@@ -539,7 +539,7 @@ your machine might store the data and make it available to others!
 
 ### 공개 키 내보내기
 
-타인에게 공개할 공개 키를 공유 하기 위해서는 키를 내보야 한다. `--export` 옵션을 사용하여 키를 내보낸다. 기본적으로 키를 바이너리 형식으로 내보내지만 이를 공유 할 때 불편할 수 있다. `--armor` 옵션을 사용하여 키를 ASCII형식으로 출력한다.
+타인에게 공개할 공개 키를 공유하기 위해서는 키를 내보내야 한다. `--export` 옵션을 사용하여 키를 내보낸다. 기본적으로 키를 바이너리 형식으로 내보내지만 이를 공유 할 때 불편할 수 있다. `--armor` 옵션을 사용하여 키를 ASCII형식으로 출력한다.
 
 ```bash
 gpg --export --armor --output test.pub rlaisqls@gmail.com

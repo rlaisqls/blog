@@ -1,6 +1,6 @@
 ---
-title: "Certificate_formats"
-lastUpdated: 2025-10-08T22:28:51
+title: "Certificate formats"
+lastUpdated: 2025-11-19T22:00:53
 ---
 
 SSL 인증서 형식은 다양하지만, 모두 ASN.1(Abstract Syntax Notation 1) 형식 데이터를 기계가 읽을 수 있는 방식으로 인코딩하는 방법의 차이임. x509 인증서도 이 형식으로 정의됨.
