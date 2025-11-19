@@ -1,6 +1,6 @@
 ---
 title: "AWS 2024 Summit Seoul"
-lastUpdated: 2025-05-16T22:16:16
+lastUpdated: 2024-05-16T22:16:16
 ---
 2024/05/16(목) AWS Summit
 
