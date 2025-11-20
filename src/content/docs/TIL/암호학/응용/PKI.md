@@ -144,7 +144,7 @@ X509v3 CT Precertificate SCTs:
                     30:45:02:21:00:...
 ```
 
-## PKI의 작동 원리
+## PKI의 작동 방식
 
 ### 인증서 발급 과정
 
@@ -233,16 +233,12 @@ Root CA (자체 서명)
 alice.com의 인증서를 검증한다고 하자.
 
 1. alice.com 인증서를 받는다. 이 인증서는 Intermediate CA 1이 서명했다고 표시되어 있다.
-
 2. Intermediate CA 1의 인증서를 받는다. 이 인증서는 Root CA가 서명했다고 표시되어 있다.
-
 3. Root CA의 인증서는 브라우저의 Trust Store에 이미 있다.
-
 4. 역순으로 검증한다.
    - Root CA의 인증서를 Trust Store에서 확인 (자체 서명이므로 신뢰)
    - Root CA의 공개 키로 Intermediate CA 1의 서명 검증
    - Intermediate CA 1의 공개 키로 alice.com의 서명 검증
-
 5. 모든 단계가 성공하면 alice.com의 인증서를 신뢰한다.
 
 ```
