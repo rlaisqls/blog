@@ -1,6 +1,6 @@
 ---
 title: "Karpenter best practices"
-lastUpdated: 2025-11-20T15:13:23
+lastUpdated: 2025-11-10T15:13:23
 ---
 ### Use Karpenter for workloads with changing capacity needs
 
@@ -12,7 +12,7 @@ ASG와 MNG는 AWS 네이티브 추상화로, EC2 CPU 부하와 같은 AWS 레벨
 
 Karpenter는 AWS 추상화 레이어를 제거하여 유연성을 Kubernetes에 직접 제공한다. Karpenter는 높고 급격한 수요를 겪거나 다양한 컴퓨팅 요구사항을 가진 워크로드를 실행하는 클러스터에 가장 적합하다. MNG와 ASG는 정적이고 일관된 워크로드를 실행하는 클러스터에 적합하다. 요구사항에 따라 동적 및 정적 관리 노드를 혼합하여 사용할 수 있다.
 
-### Consider other autoscaling projects when...
+### Consider other autoscaling projects when
 
 Karpenter에서 아직 개발 중인 기능이 필요한 경우. Karpenter는 비교적 새로운 프로젝트이므로, Karpenter에 아직 포함되지 않은 기능이 필요하다면 당분간 다른 오토스케일링 프로젝트를 고려하는 것이 좋다.
 
