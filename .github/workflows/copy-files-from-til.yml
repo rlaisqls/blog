@@ -73,7 +73,7 @@ jobs:
           mkdir ${{ env.destination }}
           cp -r TIL/* ${{ env.destination }}
           rm ${{ env.destination }}/README.md
-          rm ${{ env.destination }}/*.json
+          rm ${{ env.destination }}/*.toml || true
           rm -rf TIL
 
       - name: Set current date as env
