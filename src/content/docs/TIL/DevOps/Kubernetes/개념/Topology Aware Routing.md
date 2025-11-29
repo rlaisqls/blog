@@ -37,6 +37,7 @@ Topology Aware Routing을 활성화하면, kube-proxy가 가능한 한 같은 Zo
 Service에 `service.kubernetes.io/topology-mode` 어노테이션을 설정하면 된다.
 
 ```yaml
+
 apiVersion: v1
 kind: Service
 metadata:
@@ -49,6 +50,7 @@ spec:
   ports:
     - port: 80
       targetPort: 8080
+
 ```
 
 ### 모드 설정
@@ -65,6 +67,7 @@ spec:
 EndpointSlice 컨트롤러가 핵심 역할을 한다. 이 컨트롤러는 각 엔드포인트에 "hints"를 할당하여, 해당 엔드포인트가 어느 Zone에서 소비되어야 하는지 알려준다.
 
 ```yaml
+
 apiVersion: discovery.k8s.io/v1
 kind: EndpointSlice
 metadata:
@@ -89,6 +92,7 @@ endpoints:
     hints:
       forZones:
         - name: zone-b
+
 ```
 
 kube-proxy는 이 hints를 읽어서, 자신이 실행 중인 노드의 Zone과 일치하는 엔드포인트만 iptables/ipvs 규칙에 포함시킨다.
