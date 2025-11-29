@@ -157,3 +157,4 @@ Topology Aware Routing은 멀티 Zone 클러스터에서:
 
 - <https://kubernetes.io/docs/concepts/services-networking/topology-aware-routing/>
 - <https://kubernetes.io/docs/concepts/services-networking/service-topology/>
+- <https://kubernetes.io/docs/reference/networking/virtual-ips/> - kube-proxy의 hints 처리

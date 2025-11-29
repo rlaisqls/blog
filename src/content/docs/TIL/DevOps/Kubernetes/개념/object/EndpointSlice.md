@@ -470,4 +470,5 @@ EndpointSlice는:
 
 - <https://kubernetes.io/docs/concepts/services-networking/endpoint-slices/>
 - <https://kubernetes.io/docs/reference/kubernetes-api/service-resources/endpoint-slice-v1/>
+- <https://kubernetes.io/docs/reference/networking/virtual-ips/> - kube-proxy 동작 원리
 - <https://github.com/kubernetes/enhancements/tree/master/keps/sig-network/0752-endpointslices>

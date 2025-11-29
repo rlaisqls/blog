@@ -77,6 +77,8 @@ Session Affinity 구현은 kube-proxy가 핵심 역할을 담당하며, 모드�
 
 ### iptables 모드
 
+> 참고: [Virtual IPs and Service Proxies](https://kubernetes.io/docs/reference/networking/virtual-ips/#proxy-mode-iptables)
+
 iptables 모드에서는 `recent` 모듈을 사용한다. 이 모듈은 커널 메모리에 IP 주소 목록을 유지하면서, 최근에 본 IP인지 확인하고 타임스탬프를 기록한다.
 
 **규칙 체인 흐름**
@@ -157,6 +159,8 @@ modprobe xt_recent ip_list_tot=1000
 
 ### IPVS 모드
 
+> 참고: [IPVS-Based In-Cluster Load Balancing Deep Dive](https://kubernetes.io/blog/2018/07/09/ipvs-based-in-cluster-load-balancing-deep-dive/)
+
 IPVS(IP Virtual Server)는 Linux 커널의 L4 로드밸런서로, Session Affinity를 "Persistence"라는 이름으로 네이티브 지원한다.
 
 **Persistence 메커니즘**
@@ -223,6 +227,8 @@ ipvsadm -A -t 10.96.0.100:80 -s rr -p 10800 -M 255.255.255.0
 | 모니터링 | /proc/net/xt_recent/* | ipvsadm -Lnc |
 
 ### nftables 모드
+
+> 참고: [NFTables mode for kube-proxy](https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy/)
 
 Kubernetes 1.29부터 nftables 기반 kube-proxy가 도입되었다. nftables에서는 `meter` (이전 이름: `set`)를 사용하여 Session Affinity를 구현한다:
 
@@ -512,4 +518,6 @@ Session Affinity는:
 - <https://kubernetes.io/docs/concepts/services-networking/service/>
 - <https://kubernetes.io/docs/tutorials/services/source-ip/> - externalTrafficPolicy에 따른 Source IP 보존
 - <https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/>
+- <https://kubernetes.io/blog/2018/07/09/ipvs-based-in-cluster-load-balancing-deep-dive/> - IPVS 모드 상세
+- <https://kubernetes.io/blog/2025/02/28/nftables-kube-proxy/> - nftables 모드
 - <https://kubernetes.io/blog/2022/12/30/advancements-in-kubernetes-traffic-engineering/>
