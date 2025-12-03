@@ -1,5 +1,5 @@
 ---
-title: Spot 인스턴스에서 서버 가용성 개선하기
+title: spot 인스턴스에서 서버 가용성 개선하기
 lastUpdated: 2023-12-20T11:17:10
 tags: ["Kubernetes", "EKS", "karpenter"]
 ---
