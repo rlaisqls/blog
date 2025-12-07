@@ -90,7 +90,9 @@ grep "cmaf" /tmp/strace.* | grep mkdirat
 /tmp/strace.176:09:23:45.100242 mkdirat(AT_FDCWD, "/tmp/output", 0755) = -1 EEXIST (File exists)
 ```
 
-두 스레드가 거의 동시에(타임스탬프를 보면 8마이크로초 차이로)같은 디렉토리를 만들려고 시도했다. 스레드 177은 성공했고, 스레드 176은 EEXIST(이미 존재함)로 실패했다. 근데..? EEXIST는 "이미 있다"는 뜻이니까, 그냥 있는 디렉토리를 쓰면 되는 거 아닌가 싶었다
+두 스레드가 거의 동시에(타임스탬프를 보면 8마이크로초 차이로)같은 디렉토리를 만들려고 시도했다. 스레드 177은 성공했고, 스레드 176은 EEXIST(이미 존재함)로 실패했다. 그리고 스레드 176은 직후 exit으로 종료해 영상 인코딩이 정상적으로 이뤄지지 않았다.
+
+CLI로 실행할 땐 이미 존재하는 디렉터리인 경우 실패하지 않는데, 문제 상황인 경우엔 exit으로 처리되는 게 이상해보였다.
 
 ## shaka packager 소스 확인
 
@@ -99,20 +101,28 @@ grep "cmaf" /tmp/strace.* | grep mkdirat
 ```cpp
 // packager/file/local_file.cc
 bool LocalFile::Open() {
-  std::error_code ec;
-  auto file_path = std::filesystem::u8path(file_name_);
+  auto file_path = std::filesystem::u8path(file_name());
 
+  // Create upper level directories for write mode.
   if (file_mode_.find("w") != std::string::npos) {
-    if (!std::filesystem::create_directories(file_path.parent_path(), ec) && !ec) {
-      LOG(ERROR) << "Failed to create directory";
-      return false;
+    // From the return value of filesystem::create_directories, you can't tell
+    // the difference between pre-existing directories and failure.  So check
+    // first if it needs to be created.
+    auto parent_path = file_path.parent_path();
+    std::error_code ec;
+    if (parent_path != "" && !std::filesystem::is_directory(parent_path, ec)) {
+      if (!std::filesystem::create_directories(parent_path, ec)) {
+        return false;
+      }
     }
   }
-  // ...
+
+  internal_file_ = fopen(file_path.u8string().c_str(), file_mode_.c_str());
+  return (internal_file_ != NULL);
 }
 ```
 
-이 부분이 디렉터리를 생성하는 코드로 보인다.
+이 부분이 출력 디렉터리가 없는 경우 생성하는 코드로 보인다.
 
 ```cpp
 if (!std::filesystem::create_directories(..., ec) && !ec) {
@@ -205,9 +215,9 @@ Error   - result: 0, ec: 20 (Not a directory)  // 실제 에러
 6. `Open()` 함수가 `false` 반환
 7. 파일 열기 시도조차 안 함 → 실패
 
-두 스레드가 거의 동시에 `mkdirat`를 호출할 때만 문제가 생기기 때문에 버그가 간헐적으로만 발생하는 이유도 설명된다. 타이밍이 조금만 달라서 한 스레드가 디렉토리 생성을 완전히 끝낸 후에 다른 스레드가 시작하면, 두 번째 스레드는 `create_directories` 내부에서 "디렉토리가 이미 있네"하고 일찍 리턴해버려서 문제가 없다.
+두 스레드가 거의 동시에 `mkdirat`를 호출할 때만 문제가 생기기 때문에 버그가 간헐적으로만 발생하는 이유도 설명된다. 타이밍이 조금만 달라서 한 스레드가 디렉토리 생성을 완전히 끝낸 후에 다른 스레드가 시작하면, 두 번째 스레드는 `create_directories` 내부에서 디렉토리가 이미 있는 걸 보고 일찍 리턴해버려서 문제가 없다.
 
-성공 케이스의 strace 로그를 다시 보니 `mkdirat` 호출이 한 스레드에서만 나왔다. 다른 스레드들은 디렉토리 존재 여부를 체크하는 단계에서 "이미 있음"을 확인하고, 시스템콜까지 가지 않은 것이다.
+성공 케이스의 strace 로그를 다시 보니 `mkdirat` 호출이 한 스레드에서만 나왔다. 다른 스레드들은 디렉토리 존재 여부를 체크하는 단계에서 "이미 있음"을 확인하고, 생성을 호출하지 않은 것이다.
 
 근본적인 해결은 shaka-packager 조건문을 고치는 것이고, 당장 쓰는 입장에서는 패키저 실행 전에 디렉토리를 미리 만들어두는 우회책을 사용할 수 있겠다. 디렉토리가 이미 있으면 `create_directories` 내부에서 시스템콜을 부르기도 전에 리턴하기 때문에, race condition이 발생할 타이밍 자체가 없어진다.
 
