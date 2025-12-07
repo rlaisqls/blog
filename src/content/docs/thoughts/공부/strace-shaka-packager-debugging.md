@@ -17,7 +17,7 @@ tags: ["strace", "System Call"]
 3.mp4 출력 파일 생성 실패: Packaging Error: 5 (FILE_FAILURE) - Cannot open file to write
 ```
 
-두 개까지는 잘 되다가 마지막 하나에서 에러 코드 5번 `FILE_FAILURE`가 났다. shaka-packager에서 파일 관련 작업이 실패했을 때 반환하는 에러 코드인데, 로그에서 원인이 보이지 않아서 꽤 골치가 아팠다.
+두 개까지는 잘 되다가 주로 마지막 하나에서 에러 코드 5번 `FILE_FAILURE`가 났다. shaka-packager에서 파일 관련 작업이 실패했을 때 반환하는 에러 코드인데, 로그에서 원인이 보이지 않아서 꽤 골치가 아팠다.
 
 일단 떠오르는 대로 여러 가설을 세우고 하나씩 확인해봤다.
 
