@@ -17,6 +17,7 @@ export default defineConfig({
 			title: "Beside the Wheel",
 			favicon: "favicon.png",
 			social: {
+				email: "mailto:rlaisqls@gmail.com",
 				github: "https://github.com/rlaisqls",
 				linkedin:
 					"https://www.linkedin.com/in/%EC%9D%80%EB%B9%88-%EA%B9%80-248452250/",
