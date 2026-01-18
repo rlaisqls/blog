@@ -1,6 +1,6 @@
 ---
 title: "Scheduling"
-lastUpdated: 2026-01-16T14:17:03
+lastUpdated: 2025-08-25T11:28:06
 ---
 ## k8s Scheduler의 동작
 

@@ -1,6 +1,6 @@
 ---
 title: "exec user process caused exec format error"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 docker image build시 이런 에러가 날 때가 있다.

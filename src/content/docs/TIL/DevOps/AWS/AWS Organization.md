@@ -1,6 +1,6 @@
 ---
 title: "AWS Organization"
-lastUpdated: 2026-01-16T15:15:59
+lastUpdated: 2024-05-28T23:07:01
 ---
 
 <img src="https://github.com/rlaisqls/TIL/assets/81006587/15c7a0f8-26ba-434f-9f6e-de608dd0215f" style="height: 300px"/>

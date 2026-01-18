@@ -1,6 +1,6 @@
 ---
 title: "SOLID"
-lastUpdated: 2026-01-16T14:17:03
+lastUpdated: 2022-10-09T21:12:59
 ---
 
 

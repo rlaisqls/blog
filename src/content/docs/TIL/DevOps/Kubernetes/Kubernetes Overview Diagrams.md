@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes Overview Diagrams"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 ![image](https://github.com/rlaisqls/rlaisqls/assets/81006587/bddf24aa-95f2-43bb-a909-a4ce14aecfca)

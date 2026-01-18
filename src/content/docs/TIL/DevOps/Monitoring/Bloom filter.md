@@ -1,6 +1,6 @@
 ---
 title: "Bloom filter"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2025-05-01T19:37:03
 ---
 - Bloom Filter는 1970년 Burton Howard Bloom에 의해 고안된 공간 효율적인 확률적 데이터 구조로서, 어떤 요소가 집합에 속하는지를 테스트하는 데 사용된다.
 - 이 구조의 핵심적인 특징은 false positive가 발생할 수 있지만, false negative는 발생하지 않는다는 점이다. 즉, Bloom Filter는 주어진 쿼리에 대해 "집합에 포함되어 있을 수도 있음" 또는 "집합에 확실히 포함되어 있지 않음" 중 하나의 결과를 반환한다.

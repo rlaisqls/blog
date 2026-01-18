@@ -1,6 +1,6 @@
 ---
 title: "Deamon process"
-lastUpdated: 2026-01-16T15:16:02
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Deamon Process란 메모리에 상주하면서 요청이 들어올 때마다 명령을 수행하는 프로세스이다. (백그라운드에서 작동)

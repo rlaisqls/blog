@@ -1,6 +1,6 @@
 ---
 title: "Network Troubleshooting"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 각 상황에 맞는 네트워크 트러블슈팅 도구를 정리하면 다음과 같다:

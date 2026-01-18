@@ -1,6 +1,6 @@
 ---
 title: "Docker와 PID1"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-05-01T23:07:00
 ---
 ## 1. 배경
 

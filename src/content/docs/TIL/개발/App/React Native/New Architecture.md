@@ -1,6 +1,6 @@
 ---
 title: "New Architecture"
-lastUpdated: 2026-01-16T15:16:02
+lastUpdated: 2024-08-11T16:40:05
 ---
 ## JIS
 - 맨 처음엔 RN에서 js 엔진으로 JSC(Apple에서 만든, safari에서 쓰이는 엔진)가 사용되었는데, 브릿지의 책임이 커지고 서로 강결합된다는 문제가 발생했다. 이러한 문제를 해결하기 위해 엔진 인터페이스(JSI)가 만들어졌다.

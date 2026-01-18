@@ -1,6 +1,6 @@
 ---
 title: "RI와 Saving plan"
-lastUpdated: 2026-01-16T15:15:59
+lastUpdated: 2025-04-22T23:40:51
 ---
 
 <img width="839" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/d6216964-7b4a-4eab-8c34-f21af466f893">

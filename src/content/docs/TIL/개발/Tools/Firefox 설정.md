@@ -1,6 +1,6 @@
 ---
 title: "Firefox 설정"
-lastUpdated: 2026-01-16T15:16:02
+lastUpdated: 2025-03-07T18:24:53
 ---
 ## 상단 탭 목록 없애기
 

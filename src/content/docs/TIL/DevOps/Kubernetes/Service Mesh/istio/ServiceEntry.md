@@ -1,6 +1,6 @@
 ---
 title: "ServiceEntry"
-lastUpdated: 2026-01-16T14:17:03
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Since not all services live in the sevice mesh, we need a way for **services inside the mesh to communicate with those outdise the mesh**. Those could be existing HTTP services or, more likely, infrastructure services like databases or caches. We can still implement sophisticated routing for services that reside outside Istio, but first we have to introduce the concept of a `ServiceEntry`.

@@ -1,6 +1,6 @@
 ---
 title: "Baston Host"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2025-04-22T23:40:51
 ---
 
 AWS 리소스 구성 후 관리자는 VPC 외부에서 Private Subnet에 직접 접근할 수 없다.

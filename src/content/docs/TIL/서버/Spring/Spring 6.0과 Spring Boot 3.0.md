@@ -1,6 +1,6 @@
 ---
 title: "Spring 6.0과 Spring Boot 3.0"
-lastUpdated: 2026-01-16T15:16:03
+lastUpdated: 2024-05-22T08:39:15
 ---
 
 ## Spring 6.0에서 달라지는 점

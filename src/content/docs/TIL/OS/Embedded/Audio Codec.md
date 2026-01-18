@@ -1,6 +1,6 @@
 ---
 title: "Audio Codec"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-06-20T23:07:00
 ---
 
 - 오디오의 Raw 데이터는 너무 크기 때문에 통신이나 저장시에 효율이 좋지 못함

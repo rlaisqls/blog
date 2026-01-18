@@ -1,6 +1,6 @@
 ---
 title: "Mimir out-of-order sample ingestion"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2025-05-02T22:00:54
 ---
 
 > <https://grafana.com/blog/2022/09/07/new-in-grafana-mimir-introducing-out-of-order-sample-ingestion/>

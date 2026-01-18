@@ -1,6 +1,6 @@
 ---
 title: "xDS configuration"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 - Envoy is architected such that different types of configuration management approaches are possible. The approach taken in a deployment will be dependent on the needs of the implementor.

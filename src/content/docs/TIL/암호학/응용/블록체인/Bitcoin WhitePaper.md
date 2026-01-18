@@ -1,6 +1,6 @@
 ---
 title: "Bitcoin WhitePaper"
-lastUpdated: 2026-01-16T15:16:04
+lastUpdated: 2025-10-10T23:59:23
 ---
 Bitcoin: P2P Electronic Cash System
 

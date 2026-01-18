@@ -1,6 +1,6 @@
 ---
 title: "datadog 아키텍처"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 ## 1. Datedog Agent가 하는 일 (Application에서 서버로)

@@ -1,6 +1,6 @@
 ---
 title: "SRV, NAPTR"
-lastUpdated: 2026-01-16T15:16:02
+lastUpdated: 2025-06-01T16:43:08
 ---
 ## SRV (Service) 레코드
 

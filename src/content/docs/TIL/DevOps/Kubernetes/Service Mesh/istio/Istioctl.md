@@ -1,6 +1,6 @@
 ---
 title: "Istioctl"
-lastUpdated: 2026-01-16T14:17:03
+lastUpdated: 2024-03-13T15:17:56
 ---
 ```bash
 istioctl proxy-status

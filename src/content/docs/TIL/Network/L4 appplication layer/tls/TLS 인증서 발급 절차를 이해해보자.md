@@ -1,6 +1,6 @@
 ---
 title: "TLS 인증서 발급 절차를 이해해보자"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 [TLS](TLS.md) 보안 인증 과정을 거치기 전에, 서버는 CA (Certificate Authority) 기관에서 인증서를 발급받아야한다. CA는 신뢰성이 엄격하게 공인된 기업들만 할 수 있다고 한다.

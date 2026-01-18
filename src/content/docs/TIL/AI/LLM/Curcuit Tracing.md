@@ -1,6 +1,6 @@
 ---
 title: "Curcuit Tracing"
-lastUpdated: 2026-01-16T15:15:59
+lastUpdated: 2025-04-29T23:21:01
 ---
 > <https://transformer-circuits.pub/2025/attribution-graphs/methods.html#global-weights>
 > 위 글의 이해를 위한 번역, 정리글입니다.

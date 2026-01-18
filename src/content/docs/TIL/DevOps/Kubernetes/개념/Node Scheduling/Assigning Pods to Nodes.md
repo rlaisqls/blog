@@ -1,6 +1,6 @@
 ---
 title: "Assigning Pods to Nodes"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 You can constrain a Pod so that it is restricted to run on particular node(s), or to prefer to run on particular nodes.

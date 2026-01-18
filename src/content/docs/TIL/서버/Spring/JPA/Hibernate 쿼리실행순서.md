@@ -1,6 +1,6 @@
 ---
 title: "Hibernate 쿼리실행순서"
-lastUpdated: 2026-01-16T15:16:03
+lastUpdated: 2024-05-22T08:39:15
 ---
 
 1. OrphanRemovalAction

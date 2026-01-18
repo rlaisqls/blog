@@ -1,6 +1,6 @@
 ---
 title: "Dry run"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 A dry run (or practice run) is a software testing process used to make sure that a system works correctly and will not result in severe failure.

@@ -1,6 +1,6 @@
 ---
 title: "VictoriaLogs"
-lastUpdated: 2026-01-16T14:17:03
+lastUpdated: 2025-04-30T23:31:32
 ---
 
 - Loki는 Grafana에서 개발한 오픈소스 로그 관리 시스템이며, Elasticsearch나 OpenSearch 같은 기존의 오픈소스 로그 데이터베이스보다 RAM과 저장 공간을 적게 사용하는 것이 주요 장점이다.

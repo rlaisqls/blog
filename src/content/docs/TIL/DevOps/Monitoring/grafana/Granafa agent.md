@@ -1,6 +1,6 @@
 ---
 title: "Granafa agent"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-15T23:07:00
 ---
 
 Grafana Agent is an OpenTelemetry Collector distribution with configuration. It is designed to be flexible, performant, and compatible with multiple ecosystems such as Prometheus and OpenTelemetry.

@@ -1,6 +1,6 @@
 ---
 title: "BPF communicates with userspace"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-04-19T07:46:03
 ---
 프로그램이 attach 되어 실행되고 나면 어떻게 정보를 수집할 수 있을까요? 세 가지 방법이 있습니다. BPF 맵, perf 이벤트, bpf_trace_printk를 사용하는 것입니다.
 

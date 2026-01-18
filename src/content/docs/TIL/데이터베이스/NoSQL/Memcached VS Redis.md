@@ -1,6 +1,6 @@
 ---
 title: "Memcached VS Redis"
-lastUpdated: 2026-01-16T15:16:03
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 ## 공통점

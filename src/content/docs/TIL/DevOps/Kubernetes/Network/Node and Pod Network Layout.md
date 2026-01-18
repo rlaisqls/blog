@@ -1,6 +1,6 @@
 ---
 title: "Node and Pod Network Layout"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 - The cluster must have a group of IP addresses that is controls to assign an IP address to a pod, for example, `10.1.0.0./16`. Nodes and pods must have L3 conectivity in this IP address space. In L3, ths Internet layer, connectivity means packets with an IP address can route to a host with that IP address.

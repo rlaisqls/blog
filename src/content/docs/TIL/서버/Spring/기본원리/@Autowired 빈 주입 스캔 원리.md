@@ -1,6 +1,6 @@
 ---
 title: "@Autowired 빈 주입 스캔 원리"
-lastUpdated: 2026-01-16T15:16:04
+lastUpdated: 2024-05-22T08:39:15
 ---
 
 ```java

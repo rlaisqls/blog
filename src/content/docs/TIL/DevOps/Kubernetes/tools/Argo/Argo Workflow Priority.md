@@ -1,6 +1,6 @@
 ---
 title: "Argo Workflow Priority"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2025-06-01T16:42:48
 ---
 
 **1. Controller에서 Priority 추출** ([controller.go](https://github.com/argoproj/argo-workflows/blob/44f9ea7fed2266321f1e16bff5dcb06a7cd80523/workflow/controller/controller.go#L820))

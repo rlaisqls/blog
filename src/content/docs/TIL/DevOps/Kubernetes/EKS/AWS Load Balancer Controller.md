@@ -1,6 +1,6 @@
 ---
 title: "AWS Load Balancer Controller"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 AWS Load Balancer Controller is a controller to help manage Elastic Load Balancers for a Kubernetes cluster.

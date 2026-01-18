@@ -1,6 +1,6 @@
 ---
 title: "VMware Fusion NAT config"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-13T15:17:56
 ---
 Sometimes we need access virtual machine OS’s web page, at the VMware Fusion 8, the default network setting is NAT, how to config it.
 

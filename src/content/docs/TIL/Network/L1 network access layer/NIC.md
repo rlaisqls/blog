@@ -1,6 +1,6 @@
 ---
 title: "NIC"
-lastUpdated: 2026-01-16T14:17:03
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 - NIC(Network Interface Card, Controller)는 컴퓨터를 네트워크에 연결하기 위한 하드웨어 장치이다.

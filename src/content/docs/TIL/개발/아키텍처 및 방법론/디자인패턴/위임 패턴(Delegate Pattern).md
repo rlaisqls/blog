@@ -1,6 +1,6 @@
 ---
 title: "위임 패턴(Delegate Pattern)"
-lastUpdated: 2026-01-16T15:16:03
+lastUpdated: 2022-10-09T21:12:59
 ---
 
 소프트웨어 엔지니어링에서 delegate pattern(위임 패턴)은 객체 합성이 상속과 동일하게 코드 재사용을 할 수 있도록 하는 객체 지향 디자인 패턴이다.

@@ -1,6 +1,6 @@
 ---
 title: "rebase 쉽게 하는법"
-lastUpdated: 2026-01-16T15:16:02
+lastUpdated: 2025-03-06T01:27:34
 ---
 
 > <https://stackoverflow.com/questions/7241678/how-to-prevent-many-git-conflicts-when-rebasing-many-commits>

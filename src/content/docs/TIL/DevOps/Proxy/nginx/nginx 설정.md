@@ -1,6 +1,6 @@
 ---
 title: "nginx 설정"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Nginx를 설치한다. 원하면 이미지로 띄울 수도 있다.

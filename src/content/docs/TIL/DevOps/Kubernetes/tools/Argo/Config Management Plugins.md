@@ -1,6 +1,6 @@
 ---
 title: "Config Management Plugins"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2025-02-14T19:43:58
 ---
 
 Argo CD allows us to integrate more config management tools using config management plugins. Most prominent inbuilt tools are helm and kustomize.

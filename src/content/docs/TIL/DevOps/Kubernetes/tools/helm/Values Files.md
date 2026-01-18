@@ -1,6 +1,6 @@
 ---
 title: "Values Files"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Values is One of the built-in objects. This object provides access to values passed into the chart. Its contents come from multiple sources:

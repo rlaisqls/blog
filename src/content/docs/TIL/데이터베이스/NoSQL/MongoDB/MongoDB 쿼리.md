@@ -1,6 +1,6 @@
 ---
 title: "MongoDB 쿼리"
-lastUpdated: 2026-01-16T15:16:03
+lastUpdated: 2024-07-27T22:26:53
 ---
 - insert와 upsert
   - insert: 무조건 insert

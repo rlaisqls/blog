@@ -1,6 +1,6 @@
 ---
 title: "Pod 생성과정"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 <img height=450px src="https://user-images.githubusercontent.com/81006587/201905478-3e25b868-6274-425f-bdca-e068e9056986.png"/>

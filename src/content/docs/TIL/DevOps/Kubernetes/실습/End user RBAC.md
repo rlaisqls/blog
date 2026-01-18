@@ -1,6 +1,6 @@
 ---
 title: "End user RBAC"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Let's set up role-based access control (RBAC) suitable for running the cluster in production. We will cover roles for using Calico. General RBAC for a production Kubernetes cluster is beyond the scope of this lab.

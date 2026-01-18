@@ -1,6 +1,6 @@
 ---
 title: "kiali with prometheus"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Kiali requires Prometheus to generate the topology graph, show metrics, calculate health and for several other features. If Prometheus is missing or Kiali can’t reach it, Kiali won’t work properly.

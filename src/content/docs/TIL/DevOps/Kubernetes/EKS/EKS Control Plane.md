@@ -1,6 +1,6 @@
 ---
 title: "EKS Control Plane"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 EKS is a managed Kubernetes service that mekes it easy for you to run Kubernetes on AWS without needing to install, operate, and main your own Kubernetes control plane or worker nodes. It runs ipstream Kubernetes and is certified Kubernetes conformant.

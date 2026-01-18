@@ -1,6 +1,6 @@
 ---
 title: "Distance Metrics"
-lastUpdated: 2026-01-16T15:15:59
+lastUpdated: 2025-02-03T20:25:26
 ---
 Use the distance metric that matches the model that you're using.
 

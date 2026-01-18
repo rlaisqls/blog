@@ -1,6 +1,6 @@
 ---
 title: "Deployment Status"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 A Deployment enters various states during its lifecycle. It can be progressing while rolling out a new ReplicaSet, it can be complate, or it can fail to progress.

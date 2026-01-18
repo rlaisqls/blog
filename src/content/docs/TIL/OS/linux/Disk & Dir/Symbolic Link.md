@@ -1,6 +1,6 @@
 ---
 title: "Symbolic Link"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Linux/UNIX 시스템에는 두 가지 유형의 링크가 있다. 

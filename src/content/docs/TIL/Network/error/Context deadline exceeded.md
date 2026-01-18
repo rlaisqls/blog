@@ -1,6 +1,6 @@
 ---
 title: "Context deadline exceeded"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 When a `context is canceled` or `its deadline is exceeded`, all operations associated with that **context are terminated, and the corresponding functions return with an error**. The error message "context deadline exceeded" indicates that the operation took longer than the deadline specified in the context.

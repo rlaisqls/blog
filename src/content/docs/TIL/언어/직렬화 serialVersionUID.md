@@ -1,6 +1,6 @@
 ---
 title: "직렬화 serialVersionUID"
-lastUpdated: 2026-01-16T15:16:04
+lastUpdated: 2024-03-23T23:07:01
 ---
 
 가끔 자바코드에서 이런 코드를 발견할 때가 있다.

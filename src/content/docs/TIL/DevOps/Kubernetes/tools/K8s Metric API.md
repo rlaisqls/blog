@@ -1,6 +1,6 @@
 ---
 title: "K8s Metric API"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-14T23:07:03
 ---
 > Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 

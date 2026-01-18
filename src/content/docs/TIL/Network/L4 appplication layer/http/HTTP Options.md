@@ -1,6 +1,6 @@
 ---
 title: "HTTP Options"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 일반적인 브라우저를 사용하여 통신한 내용을 들여다보면, 본 요청 이전에 Request Method가 OPTIONS인 요청이 있는것을 볼 수 있다.

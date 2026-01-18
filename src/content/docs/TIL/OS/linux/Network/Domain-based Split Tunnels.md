@@ -1,6 +1,6 @@
 ---
 title: "Domain-based Split Tunnels"
-lastUpdated: 2026-01-16T15:16:02
+lastUpdated: 2024-08-28T15:06:46
 ---
 
 VPN을 구성할 때, 특정 도메인에 대해서만 VPN을 활성화하고 싶은 경우가 있을 수 있다. 해당 기능에 대해 TailScale과 Netbird는 아래와 같은 방식으로 제공한다.

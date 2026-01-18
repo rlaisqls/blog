@@ -1,6 +1,6 @@
 ---
 title: "Sticky Session과 Session Clustering"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Load balancing이란 대용량 트래픽을 장애 없이 처리하기 위해 여러 대의 서버에 적절히 트래픽을 분배하는 것이다. 이러한 서비스에서는 세션 관리에 문제가 생길 수 있다.

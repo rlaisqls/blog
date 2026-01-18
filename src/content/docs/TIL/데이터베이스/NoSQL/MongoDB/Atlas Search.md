@@ -1,6 +1,6 @@
 ---
 title: "Atlas Search"
-lastUpdated: 2026-01-16T15:16:03
+lastUpdated: 2024-07-26T21:21:33
 ---
 MongoDB의 Atlas Search는 Atlas 클러스터에서 데이터의 세밀한 텍스트 인덱싱과 쿼리를 가능하게 한다. Atlas Search는 데이터베이스에 별도의 검색 시스템을 추가하지 않고도 고급 검색 기능을 사용할 수 있도록 한다.
 

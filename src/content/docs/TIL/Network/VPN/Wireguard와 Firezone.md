@@ -1,6 +1,6 @@
 ---
 title: "Wireguard와 Firezone"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-08-15T10:10:44
 ---
 ## WireGuard
 

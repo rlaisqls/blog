@@ -1,6 +1,6 @@
 ---
 title: "ip_forward와 rp_filter"
-lastUpdated: 2026-01-16T15:16:02
+lastUpdated: 2024-11-23T17:36:20
 ---
 
 ### ip_forward

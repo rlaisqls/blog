@@ -1,6 +1,6 @@
 ---
 title: "Postgresql Transaction Wraparound"
-lastUpdated: 2026-01-16T15:16:03
+lastUpdated: 2024-10-11T21:03:16
 ---
 > https://www.youtube.com/watch?v=CyyRpjw2fWQ
 

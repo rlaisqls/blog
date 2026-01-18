@@ -1,6 +1,6 @@
 ---
 title: "NGINX Ingress Basic Auth"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 NGINX Ingress에서 설정을 해주면 어플리케이션 레벨에서, 혹은 Ingress 레벨에서 서비스 인증과정을 거치도록 할 수 있다. ingress를 통해 인증을 설정하는 방법을 두가지 알아보자.

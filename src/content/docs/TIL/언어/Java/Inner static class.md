@@ -1,6 +1,6 @@
 ---
 title: "Inner static class"
-lastUpdated: 2026-01-16T15:16:04
+lastUpdated: 2024-03-23T23:07:01
 ---
 
 클래스를 사용하면서 외부 인스턴스에 대한 참조가 필요없는 클래스를 선언 시 `Inner class may be static`이라는 경고가 뜬다. Inner class가 static으로 정의되어야 한다는 뜻인데, 그래야하는 이유가 무엇일까?

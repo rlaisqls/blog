@@ -1,6 +1,6 @@
 ---
 title: "Linux 배포판"
-lastUpdated: 2026-01-16T15:16:02
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 • **RedHat**

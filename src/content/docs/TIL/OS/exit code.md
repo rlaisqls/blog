@@ -1,6 +1,6 @@
 ---
 title: "exit code"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2025-02-13T10:29:45
 ---
 
 | exit code | 의미 | 예시 | 설명 |

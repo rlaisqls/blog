@@ -1,6 +1,6 @@
 ---
 title: "strace"
-lastUpdated: 2026-01-16T14:17:03
+lastUpdated: 2025-11-30T19:06:53
 ---
 strace는 프로세스가 호출하는 시스템 콜과 시그널을 추적하는 리눅스 디버깅 도구다.
 

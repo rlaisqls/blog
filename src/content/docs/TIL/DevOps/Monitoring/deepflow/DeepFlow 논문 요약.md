@@ -1,6 +1,6 @@
 ---
 title: "DeepFlow 논문 요약"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2025-04-30T23:31:32
 ---
 > <https://github.com/deepflowio/deepflow/blob/main/docs/deepflow_sigcomm2023.pdf>
 

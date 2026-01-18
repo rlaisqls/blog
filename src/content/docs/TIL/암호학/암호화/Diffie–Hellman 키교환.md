@@ -1,6 +1,6 @@
 ---
 title: "Diffie–Hellman 키교환"
-lastUpdated: 2026-01-16T15:16:04
+lastUpdated: 2025-10-08T22:28:51
 ---
 
 ## DH 키교환 (Diffie–Hellman key exchange)

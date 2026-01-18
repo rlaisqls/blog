@@ -1,6 +1,6 @@
 ---
 title: "PacketTracer 네트워크 구성"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-25T23:34:05
 ---
 
 

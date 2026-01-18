@@ -1,6 +1,6 @@
 ---
 title: "LSA와 LDA"
-lastUpdated: 2026-01-16T15:15:59
+lastUpdated: 2025-03-14T19:01:15
 ---
 # 잠재 의미 분석(Latent Semantic Analysis, LSA)
 

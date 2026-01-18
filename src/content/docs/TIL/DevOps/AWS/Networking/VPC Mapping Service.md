@@ -1,6 +1,6 @@
 ---
 title: "VPC Mapping Service"
-lastUpdated: 2026-01-16T15:15:59
+lastUpdated: 2025-04-22T23:40:51
 ---
 
 AWS VPC를 이용해서 가상 네트워크를 만들면 아래와 같은 구성이 된다.

@@ -1,6 +1,6 @@
 ---
 title: "Sealed Class, interface"
-lastUpdated: 2026-01-16T15:16:04
+lastUpdated: 2024-03-23T23:07:01
 ---
 
 ### Sealed Classe 와 Enum Classe 의 공통점

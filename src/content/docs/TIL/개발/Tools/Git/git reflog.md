@@ -1,6 +1,6 @@
 ---
 title: "git reflog"
-lastUpdated: 2026-01-16T15:16:02
+lastUpdated: 2024-11-22T20:06:35
 ---
 
 git branch를 실수로 reset하여 복구하고 싶을 때가 있다.

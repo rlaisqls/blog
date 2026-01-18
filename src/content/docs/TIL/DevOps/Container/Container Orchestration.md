@@ -1,6 +1,6 @@
 ---
 title: "Container Orchestration"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 레드햇(Red Hat)의 정의에 따르면, IT 업계에서 오케스트레이션(Orchestration)이란 용어는 "컴퓨터 자원과 어플리케이션, 서비스에 대한 자동화된 설정, 관리 및 제어 체계"를 의미한다. 

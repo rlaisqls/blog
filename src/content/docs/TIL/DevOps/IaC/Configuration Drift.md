@@ -1,6 +1,6 @@
 ---
 title: "Configuration Drift"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 Configuration Drift는 수동적이고 임시방편적인 변경, 업데이트, 그리고 일반적인 엔트로피로 인해 인프라의 서버들이 시간이 지남에 따라 서로 점점 더 달라지는 현상이다.
 

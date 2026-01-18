@@ -1,6 +1,6 @@
 ---
 title: "nvenc, nvdec"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2025-03-31T21:02:01
 ---
 
 NVIDIA GPU는 Kepler 세대 이후부터 하드웨어 가속 인코딩(NVENC)을, Fermi 세대 이후부터 하드웨어 가속 디코딩(NVDEC)을 지원한다.

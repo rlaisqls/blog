@@ -1,6 +1,6 @@
 ---
 title: "hls, dash와 cmaf"
-lastUpdated: 2026-01-16T15:16:03
+lastUpdated: 2025-04-30T23:31:32
 ---
 ## HLS (HTTP Live Streaming)
 

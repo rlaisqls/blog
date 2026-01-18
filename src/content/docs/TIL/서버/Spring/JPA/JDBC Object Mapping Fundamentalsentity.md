@@ -1,6 +1,6 @@
 ---
 title: "JDBC Object Mapping Fundamentalsentity"
-lastUpdated: 2026-01-16T15:16:03
+lastUpdated: 2024-05-22T08:39:15
 ---
 
 스프링 데이터가 객체를 매핑할 떄 담당하는 핵심 역할은 도메인 객체 인스턴스를 생성하고, 여기에 저장소 네이티브 데이터 구조를 매핑하는 일이다. 여기에는 두 가지의 핵심적인 단계가 있다.

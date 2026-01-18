@@ -1,6 +1,6 @@
 ---
 title: "Stack trace와 kallsyms"
-lastUpdated: 2026-01-16T15:16:02
+lastUpdated: 2024-04-28T23:11:04
 ---
 # Stack Frame
 

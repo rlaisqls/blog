@@ -1,6 +1,6 @@
 ---
 title: "Git action gradle caching"
-lastUpdated: 2026-01-16T15:16:05
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Gradle은 빌드할때 의존성 패키지들을 모두 다운받는다. 이때 Gradle은 빌드 시간과 네트워크 통신을 줄이기 위해 의존성 패키지를 캐싱해서 재사용하는 방법을 사용한다. 

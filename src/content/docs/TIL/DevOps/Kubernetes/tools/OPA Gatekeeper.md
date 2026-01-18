@@ -1,6 +1,6 @@
 ---
 title: "OPA Gatekeeper"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 The [Open Policy Agent Gatekeeper](https://github.com/open-policy-agent/gatekeeper) project can be laveraged to help enforce policies and strengthen governence in your Kubernetes environment. 

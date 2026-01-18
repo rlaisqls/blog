@@ -1,6 +1,6 @@
 ---
 title: "vim 단축키"
-lastUpdated: 2026-01-16T15:16:02
+lastUpdated: 2024-04-28T11:46:58
 ---
 # Vim 이동
 

@@ -1,6 +1,6 @@
 ---
 title: "Labels and Selectors"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 - Labels are key/value pairs that are attached to objects such as Pods. 

@@ -1,6 +1,6 @@
 ---
 title: "ffmpeg 오디오 정규화"
-lastUpdated: 2026-01-16T15:16:03
+lastUpdated: 2026-01-06T14:57:38
 ---
 
 ## Limiter, Compressor

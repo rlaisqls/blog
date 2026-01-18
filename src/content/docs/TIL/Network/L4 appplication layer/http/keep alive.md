@@ -1,6 +1,6 @@
 ---
 title: "keep alive"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 <img width="582" alt="image" src="https://github.com/rlaisqls/TIL/assets/81006587/c523e94f-6131-4eb9-b97d-9d5a14fef346">

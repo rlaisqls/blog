@@ -1,6 +1,6 @@
 ---
 title: "ICMP"
-lastUpdated: 2026-01-16T14:17:03
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 - Internet Control Message Protocol (ICMP) is a network layer protocol used by network devices to diagnose network communication problems.

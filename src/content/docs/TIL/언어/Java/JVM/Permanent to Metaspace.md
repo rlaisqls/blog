@@ -1,6 +1,6 @@
 ---
 title: "Permanent to Metaspace"
-lastUpdated: 2026-01-16T15:16:04
+lastUpdated: 2024-03-23T23:07:01
 ---
 
 JAVA8에서부터, Permanent가 사라지고 Metaspace가 생김으로써 그 역할을 일부 대체하게 되었다.

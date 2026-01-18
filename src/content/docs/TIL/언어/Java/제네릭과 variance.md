@@ -1,6 +1,6 @@
 ---
 title: "제네릭과 variance"
-lastUpdated: 2026-01-16T15:16:04
+lastUpdated: 2024-03-23T23:07:01
 ---
 
 코틀린에서 제네릭과 variance를 다루는 방법에 대해 알아보기 전에, 제네릭과 variance의 정의가 무엇인지 먼저 살펴보자.

@@ -1,6 +1,6 @@
 ---
 title: "SpringBoot 서비스를 위한 Kubernetes 설정"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 출처: https://velog.io/@airoasis/Spring-Boot-서비스를-위한-Kubernetes-설정

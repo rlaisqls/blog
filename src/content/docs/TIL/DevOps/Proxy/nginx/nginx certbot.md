@@ -1,6 +1,6 @@
 ---
 title: "nginx certbot"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 nginx에서 https를 적용하기 위해 certbot과 Let's encrypt를 사용해보자.

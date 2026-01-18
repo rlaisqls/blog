@@ -1,6 +1,6 @@
 ---
 title: "Gorilla Compression"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2025-04-30T23:31:32
 ---
 [Gorilla Compression](https://dl.acm.org/doi/10.14778/2824032.2824078)은 Facebook이 2015년 발표한 시계열 데이터 전용 압축 알고리즘이다. IoT, 모니터링 시스템, 로그 수집 등에서 대규모 시계열 데이터를 효율적으로 저장하고 전송하기 위해 고안되었으며, 시계열 데이터베이스(TSDB: Time Series Database)에서 널리 활용된다.
 

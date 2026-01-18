@@ -1,6 +1,6 @@
 ---
 title: "futex"
-lastUpdated: 2026-01-16T14:17:03
+lastUpdated: 2025-11-30T19:06:53
 ---
 futex(Fast Userspace muTEX)는 리눅스에서 제공하는 저수준 동기화 메커니즘이다. 사용자 공간에서 빠르게 락을 처리하고, 경합이 발생할 때만 커널로 진입하여 효율적인 동기화를 제공한다.
 

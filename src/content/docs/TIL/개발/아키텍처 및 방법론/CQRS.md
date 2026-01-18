@@ -1,6 +1,6 @@
 ---
 title: "CQRS"
-lastUpdated: 2026-01-16T14:17:03
+lastUpdated: 2022-10-09T21:12:59
 ---
 
  CQRS는 Command Query Responsibility Segregation 의 약자로, 단어 그대로 해석하면 "명령 조회 책임 분리"를 뜻한다. 즉, 우리가 보통 이야기하는 CRUD(Create, Read, Update, Delete)에서 CUD(Command)와 R(Query)의 책임을 분리하는 것이다.

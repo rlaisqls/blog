@@ -1,6 +1,6 @@
 ---
 title: "Istio RBAC"
-lastUpdated: 2026-01-16T15:16:00
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 Istio RBAC를 통해 네임스페이스, 서비스, HTTP 메소드 수준의 권한 제어를 실습 해보자.

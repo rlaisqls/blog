@@ -1,6 +1,6 @@
 ---
 title: "XDG Base Directory"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2025-05-15T10:50:41
 ---
 > <https://wiki.archlinux.org/title/XDG_Base_Directory>
 

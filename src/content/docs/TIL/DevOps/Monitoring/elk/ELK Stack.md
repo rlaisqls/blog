@@ -1,6 +1,6 @@
 ---
 title: "ELK Stack"
-lastUpdated: 2026-01-16T15:16:01
+lastUpdated: 2024-03-13T15:17:56
 ---
 
 ELK는 Elasticsearch, Logstash 및 Kibana, 이 오픈 소스 프로젝트 세 개를 뜻하는 약자이다.
