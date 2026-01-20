@@ -1,6 +1,6 @@
 ---
-title: "Index-realated chians"
-lastUpdated: 2025-02-03T20:25:26
+title: "Index realated chains"
+lastUpdated: 2026-01-20T15:22:41
 ---
 ### Stuffing
 
