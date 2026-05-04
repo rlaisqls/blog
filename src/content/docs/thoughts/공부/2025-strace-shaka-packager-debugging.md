@@ -246,7 +246,7 @@ if (!std::filesystem::create_directories(parent_path, ec)) {
 
 strace에서 보았던 현상과 딱 맞는다. `is_directory`와 `create_directories` 사이에 동기화가 없으니 두 스레드가 동시에 들어오면 아래처럼 실행된다.
 
-![두 스레드의 실행흐름도](./strace-shaka-packager-debugging-diagram.png)
+![두 스레드의 실행흐름도](./2025-strace-shaka-packager-debugging-diagram.png)
 
 1. 두 스레드가 `is_directory()`를 체크하는 시점에 디렉토리가 아직 없어서, 둘 다 false를 받는다.
 2. 둘 다 `create_directories()`에 진입한다. 스레드 A(177)가 `mkdirat`으로 먼저 만들어서 true를 반환받고, 8μs 뒤에 도착한 스레드 B(176)는 `EEXIST`를 받아 false를 반환받는다.
