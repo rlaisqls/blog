@@ -1,13 +1,12 @@
 ---
-import type { Props } from '@astrojs/starlight/props';
+const { entry, lastUpdated } = Astro.locals.starlightRoute;
 
-const { lastUpdated } = Astro.props;
-let tags = Astro.props.entry.id.split('/').slice(1, -1)
-if (tags.length > 0 && Astro.props.entry.body.length < 1000) tags = tags.concat("토막글")
-if (Astro.props.entry.data.tags) tags = tags.concat(...Astro.props.entry.data.tags)
+let tags = entry.id.split('/').slice(1, -1)
+if (tags.length > 0 && (entry.body?.length ?? 0) < 1000) tags = tags.concat("토막글")
+if (entry.data.tags) tags = tags.concat(...entry.data.tags)
 ---
 
-<h1 id='_top'>{Astro.props.entry.data.title}</h1>
+<h1 id='_top'>{entry.data.title}</h1>
 <div style="margin-top: 20px" class="flex flex-row gap-2">
     {
         tags.map((t) => 
@@ -46,3 +45,4 @@ if (Astro.props.entry.data.tags) tags = tags.concat(...Astro.props.entry.data.ta
         font-weight: 600;
         color: var(--sl-color-white);
     }
+</style>

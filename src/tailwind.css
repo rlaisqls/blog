@@ -1,23 +1,52 @@
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css');
+@layer base, starlight, theme, components, utilities;
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css');
+@import '@astrojs/starlight-tailwind';
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+@plugin 'tailwind-scrollbar-hide';
+
+@theme {
+	--color-accent-50: #ffffff;
+	--color-accent-100: #ffffff;
+	--color-accent-200: #ffffff;
+	--color-accent-300: #ffffff;
+	--color-accent-400: #ffffff;
+	--color-accent-500: #000000;
+	--color-accent-600: #000000;
+	--color-accent-700: #000000;
+	--color-accent-800: #000000;
+	--color-accent-900: #000000;
+	--color-accent-950: #000000;
+
+	--color-gray-50: var(--color-zinc-50);
+	--color-gray-100: var(--color-zinc-100);
+	--color-gray-200: var(--color-zinc-200);
+	--color-gray-300: var(--color-zinc-300);
+	--color-gray-400: var(--color-zinc-400);
+	--color-gray-500: var(--color-zinc-500);
+	--color-gray-600: var(--color-zinc-600);
+	--color-gray-700: var(--color-zinc-700);
+	--color-gray-800: var(--color-zinc-800);
+	--color-gray-900: var(--color-zinc-900);
+	--color-gray-950: var(--color-zinc-950);
+}
 
 @layer base {
-    html {
-        font-family: 'Pretendard Variable', 'Noto Sans KR', sans-serif;
-        font-size: 15px;
-        color: #1d1d1f;
-        zoom: 100%;
-    }
-    img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    a {
-        overflow-wrap: break-word;
-        word-break: break-word;
-    }
+	html {
+		font-family: 'Pretendard Variable', 'Noto Sans KR', sans-serif;
+		font-size: 15px;
+		color: #1d1d1f;
+		zoom: 100%;
+	}
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	a {
+		overflow-wrap: break-word;
+		word-break: break-word;
+	}
 }

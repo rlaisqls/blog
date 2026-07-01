@@ -46,9 +46,10 @@ const normalizeIndexSlug = (slug: string) => (slug === 'index' ? '' : slug);
 
 /** All entries in the docs content collection. */
 const docs: StarlightDocsEntry[] = ((await getCollection('docs')) ?? []).map(
-	({ slug, ...entry }) => ({
+	(entry) => ({
 		...entry,
-		slug: normalizeIndexSlug(slug),
+		// The Content Layer API (Astro 5+) exposes the slug-like path as `id`.
+		slug: normalizeIndexSlug(entry.id),
 	})
 );
 

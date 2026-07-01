@@ -2,13 +2,14 @@
 import { type CollectionEntry, getCollection } from "astro:content";
 import FormattedDate from "./FormattedDate.astro";
 
-export type StarlightDocsEntry = Omit<CollectionEntry<"docs">, "slug"> & {
-  slug: string;
-};
-const docs: StarlightDocsEntry[] = ((await getCollection("docs")) ?? [])
+const docs: CollectionEntry<"docs">[] = ((await getCollection("docs")) ?? [])
   .filter((d) => d.data.lastUpdated)
-  .filter((d) => d.body.length > 800)
-  .sort((a, b) => b.data.lastUpdated - a.data.lastUpdated)
+  .filter((d) => (d.body?.length ?? 0) > 800)
+  .sort(
+    (a, b) =>
+      new Date(b.data.lastUpdated).valueOf() -
+      new Date(a.data.lastUpdated).valueOf(),
+  )
   .slice(0, 100);
 
 const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
@@ -46,7 +47,7 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
     <div class="flex flex-col gap-3">
       {
         docs.map((post) => {
-          let content = post.body
+          let content = (post.body ?? "")
             .replace(/>\s|#|- |import.*?;|<[^>]*>?/g, "")
             .slice(0, 400)
             .replace(/\[([^\]]+)\]\([^\)]+\)/g, "$1")
@@ -68,7 +69,7 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
           }
           return (
             <div class="hide-element">
-              <a class="no-underline" href={`/${post.slug}/`}>
+              <a class="no-underline" href={`/${post.id}/`}>
 
                 <div class="flex flex-row justify-between">
                 <div class="flex flex-row gap-3">
@@ -78,7 +79,7 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
                     class="w-[1px] h-[20px] my-auto"
                   />
                   <span style="color: var(--sl-color-gray-3)">
-                    {getParentFolder(post.slug)}{" "}
+                    {getParentFolder(post.id)}{" "}
                   </span>
                 </div>
                 <FormattedDate date={post.data.lastUpdated} />

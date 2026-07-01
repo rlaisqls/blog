@@ -1,5 +1,5 @@
 ---
-import type { Props } from '@astrojs/starlight/props';
+const { sidebar, entry } = Astro.locals.starlightRoute;
 
 function flatten(data) {
     return data
@@ -37,9 +37,9 @@ function getSurroundingElements(arr, index) {
     }
     return [...arr.slice(start, index), ...arr.slice(index + 1, end + 1)];
 }
-const allDocuments = flatten(Astro.props.sidebar)
+const allDocuments = flatten(sidebar)
 const currentIndex = allDocuments
-    .findIndex((e) => Astro.props.entry.data.title === e.label)
+    .findIndex((e) => entry.data.title === e.label)
 const documents = getSurroundingElements(allDocuments, currentIndex)
 const getParentFolder = (fullPath) => fullPath.split('/').reverse()[2]
 ---
