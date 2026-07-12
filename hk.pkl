@@ -7,8 +7,8 @@ hooks {
         glob = List("package.json", "bun.lock")
         check = "bun audit"
       }
-      ["build"] {
-        check = "bun run build"
+      ["sync"] {
+        check = "bunx astro sync"
       }
     }
   }
