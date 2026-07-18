@@ -63,25 +63,30 @@ const getParentFolder = (fullPath) => fullPath.split('/').reverse()[2]
                 ))
             }
         </div>
-        <script src="https://giscus.app/client.js"
-                data-repo="rlaisqls/blog-comments"
-                data-repo-id="R_kgDOLbAcAA"
-                data-category="Announcements"
-                data-category-id="DIC_kwDOLbAcAM4Cdrwc"
-                data-mapping="pathname"
-                data-strict="0"
-                data-reactions-enabled="1"
-                data-emit-metadata="0"
-                data-input-position="top"
-                data-theme="noborder_dark"
-                data-lang="ko"
-                crossorigin="anonymous"
-                async>
+        <div id="giscus-container" />
+        <script is:inline>
+            (function () {
+                const script = document.createElement('script');
+                script.src = 'https://giscus.app/client.js';
+                script.setAttribute('data-repo', 'rlaisqls/blog-comments');
+                script.setAttribute('data-repo-id', 'R_kgDOLbAcAA');
+                script.setAttribute('data-category', 'Announcements');
+                script.setAttribute('data-category-id', 'DIC_kwDOLbAcAM4Cdrwc');
+                script.setAttribute('data-mapping', 'pathname');
+                script.setAttribute('data-strict', '0');
+                script.setAttribute('data-reactions-enabled', '1');
+                script.setAttribute('data-emit-metadata', '0');
+                script.setAttribute('data-input-position', 'top');
+                script.setAttribute(
+                    'data-theme',
+                    document.documentElement.dataset.theme === 'light' ? 'noborder_light' : 'noborder_dark'
+                );
+                script.setAttribute('data-lang', 'ko');
+                script.crossOrigin = 'anonymous';
+                script.async = true;
+                document.getElementById('giscus-container').appendChild(script);
+            })();
         </script>
-        <script>
-            document.querySelector('script[data-repo="rlaisqls/blog-comments"]').dataset.theme =
-                document.documentElement.dataset.theme === 'light' ? 'noborder_light' : 'noborder_dark'
-        </script>   
     </>
 }
 
