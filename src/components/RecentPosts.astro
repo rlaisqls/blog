@@ -1,107 +1,53 @@
 ---
-import { type CollectionEntry, getCollection } from "astro:content";
-import FormattedDate from "./FormattedDate.astro";
+import RecentPostList from "./RecentPostList.astro";
+import { pathWithBase } from "../utils/base";
+import { getRecentPosts, recentPageCount, INITIAL_COUNT, PAGE_SIZE } from "../utils/recent-posts";
 
-const docs: CollectionEntry<"docs">[] = ((await getCollection("docs")) ?? [])
-  .filter((d) => d.data.lastUpdated)
-  .filter((d) => (d.body?.length ?? 0) > 800)
-  .sort(
-    (a, b) =>
-      new Date(b.data.lastUpdated).valueOf() -
-      new Date(a.data.lastUpdated).valueOf(),
-  )
-  .slice(0, 100);
-
-const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
+const posts = await getRecentPosts();
+const pages = recentPageCount(posts.length);
 ---
 
-<>
-  <script>
-    const tgt = document.querySelector(".more");
-    window.onload = function() {
-      var elements = document.getElementsByClassName("hide-element");
-      for (var i = 0; i < 2; i++) {
-        elements[i].classList.remove("hide-element");
-        elements[i].classList.add("show-element");
-      }
-    }
-    let count = 5;
-    tgt.addEventListener("click", () => {
-      var elements = document.getElementsByClassName("hide-element");
-      if (elements.length<5) return;
-
-      for (var i = 0; i < count; i++) {
-        elements[i].classList.remove("hide-element");
-        elements[i].classList.add("show-element");
-      }
-
-      if (elements.length<5) {
-        var more = document.getElementsByClassName("more");
-        more[0].classList.add("hide-element");
-      } 
-    });
-  </script>
-  <div class="mt-[75px]">
-    <span>최신글</span>
-    <div class="line"></div>
-    <div class="flex flex-col gap-3">
-      {
-        docs.map((post) => {
-          let content = (post.body ?? "")
-            .replace(/>\s|#|- |import.*?;|<[^>]*>?/g, "")
-            .slice(0, 400)
-            .replace(/\[([^\]]+)\]\([^\)]+\)/g, "$1")
-            .replace(/\`\`\`/g, "")
-            .replace(/\*\*/g, "")
-            .replace(/https:\/\/\S+/g, "");
-
-          function convertToCodeTag(content: string) {
-            const regex = /\`([^\`]+)\`/g;
-            const parts = [];
-            let lastIndex = 0;
-            content.replace(regex, (match, p1, offset) => {
-              parts.push(content.slice(lastIndex, offset));
-              parts.push(<code>{p1}</code>);
-              lastIndex = offset + match.length;
-            });
-            parts.push(content.slice(lastIndex));
-            return parts;
-          }
-          return (
-            <div class="hide-element">
-              <a class="no-underline" href={`/${post.id}/`}>
-
-                <div class="flex flex-row justify-between">
-                <div class="flex flex-row gap-3">
-                  <span class="text-lg title font-bold">{post.data.title}</span>
-                  <div
-                    style="background-color: var(--sl-color-gray-4)"
-                    class="w-[1px] h-[20px] my-auto"
-                  />
-                  <span style="color: var(--sl-color-gray-3)">
-                    {getParentFolder(post.id)}{" "}
-                  </span>
-                </div>
-                <FormattedDate date={post.data.lastUpdated} />
-                </div>
-                <span class="line-clamp-2 overflow-hidden bg-blue m-0 btext-ellipsis">
-                  {convertToCodeTag(content)}
-                </span>
-              </a>
-            </div>
-          );
-        })
-      }
-    </div>
-    <div style="margin-top: 40px; display: flex; align-items: center; justify-content: center;">
-      <div class="more">
-        <div style="display: flex; align-items: center; justify-content: center;">
-          + 더보기
-        </div>
+<div class="mt-[75px]">
+  <span>최신글</span>
+  <div class="line"></div>
+  <div class="flex flex-col gap-3 recent-list">
+    <RecentPostList posts={posts.slice(0, INITIAL_COUNT)} />
+    <div class="recent-skeleton" style={`--skeleton-cards: ${PAGE_SIZE}`} hidden></div>
+  </div>
+  <div
+    style="margin-top: 40px; display: flex; align-items: center; justify-content: center;"
+  >
+    <div class="more" data-recent-base={pathWithBase("recent/")} data-recent-pages={pages}>
+      <div style="display: flex; align-items: center; justify-content: center;">
+        + 더보기
       </div>
     </div>
   </div>
-</>
+</div>
+
+<script>
+  const more = document.querySelector<HTMLElement>(".more");
+  const skeleton = document.querySelector<HTMLElement>(".recent-skeleton");
+  if (more && skeleton) {
+    const total = Number(more.dataset.recentPages);
+    let page = 1;
+    let loading = false;
+    more.addEventListener("click", async () => {
+      if (page > total || loading) return;
+      loading = true;
+      const timer = setTimeout(() => (skeleton.hidden = false), 500);
+      const res = await fetch(`${more.dataset.recentBase}${page}/`);
+      clearTimeout(timer);
+      skeleton.hidden = true;
+      loading = false;
+      if (!res.ok) return;
+      const doc = new DOMParser().parseFromString(await res.text(), "text/html");
+      skeleton.before(...doc.body.children);
+      page++;
+      if (page > total) more.style.display = "none";
+    });
+  }
+</script>
 
 <style>
   .line {
@@ -115,13 +61,31 @@ const getParentFolder = (fullPath) => fullPath.split("/").reverse()[1];
     border-radius: 20px;
     margin: auto 0;
     background: var(--sl-color-gray-6);
+    cursor: pointer;
   }
 
-  .hide-element {
-    display: none;
+  .recent-skeleton {
+    height: calc(var(--skeleton-cards) * 4.9rem);
+    background: repeating-linear-gradient(
+      var(--sl-color-gray-6) 0 1.2rem,
+      transparent 1.2rem 1.7rem,
+      var(--sl-color-gray-6) 1.7rem 2.4rem,
+      transparent 2.4rem 2.9rem,
+      var(--sl-color-gray-6) 2.9rem 3.6rem,
+      transparent 3.6rem 4.9rem
+    );
+    animation: skeleton-pulse 1.2s ease-in-out infinite;
   }
 
-  .show-element {
-    display: block;
+  @keyframes skeleton-pulse {
+    50% {
+      opacity: 0.4;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .recent-skeleton {
+      animation: none;
+    }
   }
 </style>

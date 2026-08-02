@@ -1,14 +1,21 @@
 ---
 import { flattenSidebar, type SidebarEntry } from '../utils/navigation';
+import { pathWithBase } from '../utils/base';
 import Icon from '../user-components/Icon.astro';
 import Badge from './Badge.astro';
 
 interface Props {
 	sublist: SidebarEntry[];
 	nested?: boolean;
+	idPath?: string;
 }
 
-const { sublist, nested } = Astro.props;
+const { sublist, nested, idPath = '' } = Astro.props;
+
+const fragmentUrl = (labelPath: string) =>
+	pathWithBase(`sidebar/${labelPath.split('/').map(encodeURIComponent).join('/')}/`);
+
+const items = [...sublist].sort((a, b) => (a.type === 'group' && b.type === 'link' ? -1 : 0));
 
 function countNestedObjects(objList) {
     function countNested(obj) {
@@ -33,11 +40,12 @@ function countNestedObjects(objList) {
 
 <ul class:list={{ 'top-level': !nested }}>
 	{
-		sublist
-            .sort((a, b) => {
-                return a.type === 'group' && b.type === 'link' ? -1 : 0;
-            })
-            .map((entry) => (
+		items.map((entry) => {
+			const id = idPath ? `${idPath}/${entry.label}` : entry.label;
+			const eager =
+				entry.type === 'group' &&
+				(!entry.collapsed || flattenSidebar(entry.entries).some((i) => i.isCurrent));
+			return (
 			<li>
 				{entry.type === 'link' ? (
 					<a
@@ -58,9 +66,7 @@ function countNestedObjects(objList) {
 						)}
 					</a>
 				) : (
-					<details
-						open={flattenSidebar(entry.entries).some((i) => i.isCurrent) || !entry.collapsed}
-					>
+					<details open={eager} data-sidebar-src={eager ? undefined : fragmentUrl(id)}>
 						<summary>
 							<div class="group-label">
 								<span class="font-medium">{entry.label}</span>
@@ -74,11 +80,12 @@ function countNestedObjects(objList) {
 							</div>
 							<Icon name="right-caret" class="caret" size="1.25rem" />
 						</summary>
-						<Astro.self sublist={entry.entries} nested />
+						{eager && <Astro.self sublist={entry.entries} nested idPath={id} />}
 					</details>
 				)}
 			</li>
-		))
+			);
+		})
 	}
 </ul>
 
@@ -121,6 +128,33 @@ function countNestedObjects(objList) {
 	summary::marker,
 	summary::-webkit-details-marker {
 		display: none;
+	}
+
+	[data-sidebar-loading]::after {
+		content: '';
+		display: block;
+		height: 4.4rem;
+		margin-inline-start: var(--sl-sidebar-item-padding-inline);
+		padding-inline-start: var(--sl-sidebar-item-padding-inline);
+		border-inline-start: 1px solid var(--sl-color-hairline-light);
+		background: repeating-linear-gradient(
+			var(--sl-color-gray-6) 0 0.85rem,
+			transparent 0.85rem 1.5rem
+		);
+		background-clip: content-box;
+		animation: skeleton-pulse 1.2s ease-in-out infinite;
+	}
+
+	@keyframes skeleton-pulse {
+		50% {
+			opacity: 0.4;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		[data-sidebar-loading]::after {
+			animation: none;
+		}
 	}
 
 	.caret {

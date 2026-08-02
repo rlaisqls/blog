@@ -11,3 +11,33 @@ const { sidebar } = Astro.locals.starlightRoute;
         <MobileMenuFooter />
     </div>
 </div>
+
+<script>
+	document.addEventListener(
+		'toggle',
+		async (event) => {
+			const details = event.target;
+			if (!(details instanceof HTMLDetailsElement) || !details.open) return;
+			const src = details.dataset.sidebarSrc;
+			if (!src) return;
+			delete details.dataset.sidebarSrc;
+			const skeleton = setTimeout(() => (details.dataset.sidebarLoading = ''), 500);
+			const res = await fetch(src);
+			clearTimeout(skeleton);
+			delete details.dataset.sidebarLoading;
+			if (!res.ok) return;
+			const html = await res.text();
+			const start = html.indexOf('<ul');
+			if (start < 0) return;
+			details.insertAdjacentHTML('beforeend', html.slice(start));
+			const paths = new Set([location.pathname]);
+			try {
+				paths.add(decodeURIComponent(location.pathname));
+			} catch {}
+			for (const a of details.querySelectorAll('a')) {
+				if (paths.has(a.getAttribute('href') ?? '')) a.setAttribute('aria-current', 'page');
+			}
+		},
+		true
+	);
+</script>

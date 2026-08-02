@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 import remarkDescription from "astro-remark-description";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
@@ -13,6 +14,10 @@ export default defineConfig({
 		remarkPlugins: [[remarkDescription, {}]],
 	},
 	integrations: [
+		sitemap({
+			filter: (url) =>
+				!/^\/(sidebar|recent)\//.test(new URL(url).pathname),
+		}),
 		starlight({
 			title: "Beside the Wheel",
 			favicon: "favicon.png",

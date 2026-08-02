@@ -1,0 +1,16 @@
+---
+import RecentPostList from '../../components/RecentPostList.astro';
+import { getRecentPosts, recentPageCount, INITIAL_COUNT, PAGE_SIZE } from '../../utils/recent-posts';
+
+export async function getStaticPaths() {
+	const posts = await getRecentPosts();
+	return Array.from({ length: recentPageCount(posts.length) }, (_, i) => {
+		const start = INITIAL_COUNT + i * PAGE_SIZE;
+		return { params: { page: String(i + 1) }, props: { posts: posts.slice(start, start + PAGE_SIZE) } };
+	});
+}
+
+const { posts } = Astro.props;
+---
+
+<RecentPostList posts={posts} />

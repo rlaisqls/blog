@@ -6,6 +6,7 @@
       "name": "@example/starlight-tailwind",
       "dependencies": {
         "@astrojs/markdown-remark": "^7.2.0",
+        "@astrojs/sitemap": "^3.7.3",
         "@astrojs/starlight": "^0.41.1",
         "@astrojs/starlight-tailwind": "^5.0.0",
         "@tailwindcss/vite": "^4.3.2",

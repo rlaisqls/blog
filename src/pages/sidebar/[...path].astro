@@ -1,0 +1,23 @@
+---
+import SidebarSublist from '../../components/SidebarSublist.astro';
+import { getSidebar } from '../../../node_modules/@astrojs/starlight/utils/navigation';
+import type { SidebarEntry } from '../../utils/navigation';
+
+export function getStaticPaths() {
+	const paths: { params: { path: string }; props: { entries: SidebarEntry[] } }[] = [];
+	const walk = (entries: SidebarEntry[], prefix: string) => {
+		entries.forEach((entry) => {
+			if (entry.type !== 'group') return;
+			const path = prefix ? `${prefix}/${entry.label}` : entry.label;
+			paths.push({ params: { path }, props: { entries: entry.entries } });
+			walk(entry.entries, path);
+		});
+	};
+	walk(getSidebar('/', undefined), '');
+	return paths;
+}
+
+const { entries } = Astro.props;
+---
+
+<SidebarSublist sublist={entries} nested idPath={Astro.params.path} />
