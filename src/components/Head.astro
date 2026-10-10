@@ -15,6 +15,8 @@ const description = (Astro.props.entry?.body ?? "")
 ---
 
 <Default {...Astro.props}><slot /></Default>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
 <script>
     document.querySelector("[property='og:description']").remove()
     document.querySelector("[name='twitter:description']").remove()

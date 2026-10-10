@@ -76,5 +76,8 @@ export default defineConfig({
 	],
 	vite: {
 		plugins: [tailwindcss()],
+		server: {
+			watch: { ignored: ["**/.conform.*"] },
+		},
 	},
 });
